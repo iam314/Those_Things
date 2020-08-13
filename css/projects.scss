@@ -1,0 +1,119 @@
+.projects {
+	margin: 0 0 0 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+	width: 100%;
+}
+
+.projects li {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	width: 16.6666667%; /* Fallback */
+	width: calc(100% / 4);
+}
+
+.projects li a,
+.projects li a img {
+	display: block;
+	width: 100%;
+	cursor: pointer;
+}
+
+.projects li a img {
+	max-width: 100%;
+}
+
+/* Flexbox is used for centering the heading */
+.projects li a div {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background: #FF1D25;
+	display: flex;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+}
+
+.projects li a:hover div {
+	opacity: 1;
+}
+
+.projects li a div h3 {
+	font-family: 'sinkin_sans300_light', 'sans-serif';
+	font-weight: 300;
+	width: 100%;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.4em;
+	letter-spacing: 2px;
+	padding: 0 10px;
+}
+
+.projects li a div p {
+	width: 100%;
+	color: #fff;
+	font-size: 1.4em;
+	letter-spacing: 2px;
+	padding: 0 10px;
+}
+
+
+/* Example for media query: change number of items per row */
+
+
+@media screen and (min-width: 1190px) {
+	.projects li {
+		width: 20%; /* Fallback */
+		width: calc(100% / 4);
+	}
+}
+
+@media screen and (max-width: 1190px) {
+	.projects li {
+		width: 20%; /* Fallback */
+		width: calc(100% / 4);
+	}
+}
+
+@media screen and (max-width: 945px) {
+	.projects li {
+		width: 25%; /* Fallback */
+		width: calc(100% / 3);
+	}
+	.projects li a:hover div {
+	opacity: 0;
+	}
+}
+
+
+@media screen and (max-width: 660px) {
+	.projects li {
+		width: 33.3333333%; /* Fallback */
+		width: calc(100% / 3);
+	}
+}
+
+@media screen and (max-width: 660px) {
+	.projects li {
+		width: 33.3333333%; /* Fallback */
+		width: calc(100% / 2);
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.projects li {
+		width: 50%; /* Fallback */
+		width: calc(100% / 2);
+	}
+}
+
+@media screen and (max-width: 300px) {
+	.projects li {
+		width: 100%;
+	}
+}

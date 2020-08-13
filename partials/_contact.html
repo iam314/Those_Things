@@ -1,0 +1,56 @@
+<div class="container-fluid bckgoundc">
+	<div class="container">
+		<div class="row">
+				<div class="col col--6-of-12 col col--centered">
+					<div class="cbox">
+						<h1 style="color: white;">Let’s work together.</h1>
+						<p style="color: white;">
+							Start a project, schedule a talk or just say hello.
+						</p>
+					</div>
+				</div>
+			</div>
+
+		<div class="row">
+			<div class="col col--6-of-12 col col--centered">
+				<form id="contactform" method="POST">
+					<!-- <label for="schedule">schedule</label> -->
+					<select type="text" name="why" required>
+						<option value="Start a project">Start a project</option>
+						<option value="Schedule a talk">Schedule a talk</option>
+						<option value="General">General</option>
+					</select>
+					<!-- <label for="contact-name">Name</label> -->
+				  <input type="text" name="name" placeholder="Name*" required class="name">
+					<!-- <label for="contact-company">Company</label> -->
+					<input type="text" name="company" placeholder="Company" class="company">
+					<!-- <label for="contact-email">email</label> -->
+				  <input type="text" name="_replyto" placeholder="Email*" required class="mail">
+					<!-- <label for="contact-phone">Phone</label> -->
+					<input type="text" name="phone" placeholder="Phone" class="phone">
+					<!-- <label for="contact-location">lacation</label> -->
+					<input type="text" name="location" placeholder="Location" class="location">
+					<!-- <label for="schedule">schedule</label> -->
+					<select type="text" name="referrals">
+						<option value="empty">How did you hear about us?</option>
+						<option value="Social Media">Social media</option>
+						<option value="Search Engine">Search engine</option>
+						<option value="Referrals / Recommendations">Referrals / Recommendations</option>
+						<option value="Other">other</option>
+					</select>
+					<input type="hidden" name="_subject" value="Website Form" />
+					<input type="hidden" name="_next" value="thankyou.html" />
+					<!-- <label for="contact-message">message</label> -->
+					<textarea name="message" placeholder="Tell us about your project" rows="9" cols="10"></textarea>
+					<input type="text" name="_gotcha" style="display:none" />
+					<button class="submit" type="submit" value="Send">Send it</button>
+				</form>
+				<script>
+	    	var contactform =  document.getElementById('contactform');
+	    	contactform.setAttribute('action', '//formspree.io/' + 'workwith314' + '@' + 'gmail' + '.' + 'com');
+				</script>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- <a href="mailto:workwith314@gmail.com" target="_top" class="email">workwith314@gmail.com</a> -->
