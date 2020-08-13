@@ -3,50 +3,8 @@
 @import "projects";
 @import "grid";
 
-@font-face {
-    font-family: 'sinkin_sans300_light';
-    src: url('../fonts/sinkinsans_300light_macroman/SinkinSans-300Light-webfont.eot');
-    src: url('../fonts/sinkinsans_300light_macroman/SinkinSans-300Light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/sinkinsans_300light_macroman/SinkinSans-300Light-webfont.woff') format('woff'),
-         url('../fonts/sinkinsans_300light_macroman/SinkinSans-300Light-webfont.ttf') format('truetype'),
-         url('../fonts/sinkinsans_300light_macroman/SinkinSans-300Light-webfont.svg#sinkin_sans300_light') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
 
-@font-face {
-    font-family: 'sinkin_sans400_regular';
-    src: url('../fonts/sinkinsans_400regular_macroman/SinkinSans-400Regular-webfont.eot');
-    src: url('../fonts/sinkinsans_400regular_macroman/SinkinSans-400Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/sinkinsans_400regular_macroman/SinkinSans-400Regular-webfont.woff') format('woff'),
-         url('../fonts/sinkinsans_400regular_macroman/SinkinSans-400Regular-webfont.ttf') format('truetype'),
-         url('../fonts/sinkinsans_400regular_macroman/SinkinSans-400Regular-webfont.svg#sinkin_sans400_regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'sinkin_sans500_medium';
-    src: url('../fonts/sinkinsans_500medium_macroman/SinkinSans-500Medium-webfont.eot');
-    src: url('../fonts/sinkinsans_500medium_macroman/SinkinSans-500Medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/sinkinsans_500medium_macroman/SinkinSans-500Medium-webfont.woff') format('woff'),
-         url('../fonts/sinkinsans_500medium_macroman/SinkinSans-500Medium-webfont.ttf') format('truetype'),
-         url('../fonts/sinkinsans_500medium_macroman/SinkinSans-500Medium-webfont.svg#sinkin_sans500_medium') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-@font-face {
-    font-family: 'sinkin_sans700_bold';
-    src: url('../fonts/sinkinsans_700bold_macroman/SinkinSans-700Bold-webfont.eot');
-    src: url('../fonts/sinkinsans_700bold_macroman/SinkinSans-700Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/sinkinsans_700bold_macroman/SinkinSans-700Bold-webfont.woff') format('woff'),
-         url('../fonts/sinkinsans_700bold_macroman/SinkinSans-700Bold-webfont.ttf') format('truetype'),
-         url('../fonts/sinkinsans_700bold_macroman/SinkinSans-700Bold-webfont.svg#sinkin_sans700_bold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
 
 html {
   font-size: 62.5%;
@@ -59,7 +17,7 @@ body {
 }
 
 ::selection {
-    background: $color-red;
+    background: $color-blue;
     color: white;
     text-shadow: none;
  }
@@ -76,8 +34,8 @@ body {
 }
 
 nav {
-	margin-top: 4.8em;
-	margin-bottom: 3.2em;
+	margin-top: 3.6em;
+	margin-bottom: 4.8em;
 }
 
 .navwrapper {
@@ -85,15 +43,20 @@ nav {
   margin-right: 8%;
 }
 
+.mainnav {
+	float: right !important;
+}
+
 .topnav {
 	float: right !important;
+  padding: 0;
 }
 
 .logo {
 	background-image: url(../img/logo.svg);
 	background-repeat: no-repeat;
-	height: 2.6em;
-	width: 18em;
+	height: 4.9em;
+	width: 12em;
 	float: left;
 	cursor: pointer;
 }
@@ -103,30 +66,47 @@ nav ul li {
 }
 
 nav ul li a {
-	font-family: 'sinkin_sans400_regular', 'sans-serif';
-	font-size: 1.4em;
+	font-family: 'Rubik', 'sans-serif';
+  font-weight: 500;
+	font-size: 1.6em;
 	color: $color-black;
-	text-transform: uppercase;
-	letter-spacing: 0.2em;
+	// text-transform: uppercase;
+	letter-spacing: 0.03em;
   text-decoration: none;
 }
 
 nav ul li a:hover {
 	color: $color-red;
-	padding-top: 0.2em;
-	border-top: 0.5em solid;
+	padding-bottom: 0.9em;
+	border-bottom: 0.3em solid;
 	text-decoration: none;
 }
 
 .current a {
 	color: $color-black;
-	padding-top: 0.2em;
-	border-top: 0.5em solid;
+	padding-bottom: 0.9em;
+	border-bottom: 0.3em solid;
 	text-decoration: none;
 }
 
 nav li {
-	margin-right: 2.5em;
+	margin-left: 5em;
+  &:last-child{
+    margin-right: 0;
+  }
+}
+
+ul.secondary_nav {
+  padding: 0;
+  li a {
+  font-weight: 400;
+	letter-spacing: 0.02em;
+  }
+}
+
+ul.secondary_nav li {
+  margin-left: 0;
+	margin-right: 2.6em;
   &:last-child{
     margin-right: 0;
   }
@@ -144,7 +124,7 @@ nav li {
 
 footer {
 	margin-top: 6.3em;
-	margin-bottom: 2.1em;
+	margin-bottom: 1.8em;
 }
 
 .footer_navigation ul li {
@@ -158,13 +138,13 @@ footer {
 }
 
 .footer_navigation ul li a {
-  font-family: 'sinkin_sans400_regular', 'sans-serif';
-	font-weight: 300;
-	font-size: 1.4em;
+  font-family: 'Rubik', 'sans-serif';
+	font-weight: 400;
+	font-size: 1.6em;
 	color: $color-black;
-	text-transform: uppercase;
-	letter-spacing: 0.3em;
-	text-align:  center;
+	// text-transform: uppercase;
+	letter-spacing: 0.03em;
+	text-align: center;
   text-decoration: none;
 }
 
@@ -190,7 +170,7 @@ footer {
 }
 
 .links, a.links:visited{
-	font-family: 'sinkin_sans300_light', 'sans-serif';
+	font-family: 'Rubik', 'sans-serif';
 	font-weight: 300;
 	font-size: 1em;
 	color: darken( $color-gray, 30% );
@@ -206,11 +186,11 @@ a.links:hover {
   color: $color-red;
 }
 .copyright {
-  font-family: 'sinkin_sans300_light', 'sans-serif';
-    font-weight: 300;
-    font-size: 0.8em;
-    color: gray;
-    letter-spacing: 0.15em;
+  font-family: 'Rubik', 'sans-serif';
+    font-weight: 400;
+    font-size: 1.2em;
+    color: $color-black;
+    letter-spacing: 0.03em;
     text-align: center;
     text-decoration: none;
     display: block;
@@ -230,7 +210,7 @@ form {
 }
 
 input, textarea, select, {
-  font-family: 'sinkin_sans300_light', 'sans-serif';
+  font-family: 'Rubik', 'sans-serif';
   font-weight: 300;
   background-color: $color-white;
   border: none;
@@ -287,7 +267,8 @@ select {
 }
 
 .submit{
-  font-family: 'sinkin_sans500_medium', 'sans-serif';
+  font-family: 'Rubik', 'sans-serif';
+  font-weight: 400;
   background-color: $color-red;
   text-transform: uppercase;
   cursor: pointer;
@@ -315,7 +296,7 @@ select {
 
 //Typographie
 h1 {
-  font-family: 'sinkin_sans500_medium', 'sans-serif';
+  font-family: 'Rubik', 'sans-serif';
   font-weight: 500;
   font-size: 2.8em;
   line-height: 125%;
@@ -327,7 +308,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'sinkin_sans300_light', 'sans-serif';
+  font-family: 'Rubik', 'sans-serif';
   font-weight: 300;
   font-size: 2.2em;
   line-height: 125%;
@@ -339,7 +320,8 @@ h2 {
 }
 
 h4 {
-  font-family: 'sinkin_sans500_Medium', 'sans-serif';
+  font-family: 'Rubik', 'sans-serif';
+  font-weight: 500;
   font-size: 2.2em;
   line-height: 125%;
   margin-bottom: 1em;
@@ -349,7 +331,8 @@ h4 {
 }
 
 p {
-  font-family: 'sinkin_sans300_light', 'sans-serif';
+  font-family: 'Rubik', 'sans-serif';
+  font-weight: 300;
   font-size: 1.6em;
 	line-height: 164%;
 	letter-spacing: 0.03em;
@@ -371,7 +354,7 @@ ul.clientslist {
   column-count: 4;
   list-style: none;
   li {
-    font-family: 'sinkin_sans300_light', 'sans-serif';
+    font-family: 'Rubik', 'sans-serif';
     font-weight: 300;
     font-size: 1.4em;
     line-height: 170%;
@@ -388,7 +371,8 @@ ul.clientslist {
 }
 
 .details {
-  font-family: 'sinkin_sans500_medium', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
   font-size: 1.2em;
 }
 .gray {
@@ -421,7 +405,8 @@ ul.clientslist {
   margin-bottom: 20px;
 }
 .email {
-	font-family: 'sinkin_sans300_light', 'sans-serif';
+	font-family: 'Rubik', 'sans-serif';
+  font-weight: 300;
 	background-color: $color-red;
 	letter-spacing: 0.25em;
 	padding-top: 2.5em;
