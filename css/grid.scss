@@ -73,6 +73,14 @@ $toast-pulls: true !default;
   @media (min-width: 1200px) {
     .container {
       width: 1170px; } }
+  @media (min-width: 1270px) {
+    .container {
+      width: 1250px; } }
+
+.container-pr {
+  margin-left: 5%;
+  margin-right: 5%;
+}
 
 .container-fluid {
   margin-right: auto;
