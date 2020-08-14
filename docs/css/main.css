@@ -607,13 +607,15 @@ body {
 }
 
 nav {
-  margin-top: 3.6em;
-  margin-bottom: 4.8em;
+  margin-top: 6em;
+  margin-bottom: 9em;
 }
 
 .navwrapper {
   margin-left: 5%;
   margin-right: 5%;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .mainnav {
@@ -739,6 +741,30 @@ footer {
   margin-right: 0;
 }
 
+footer ul.secondary_nav {
+  list-style: none;
+  padding: 0;
+}
+footer ul.secondary_nav li {
+  display: inline;
+}
+footer ul.secondary_nav li a {
+  font-family: "Rubik", "sans-serif";
+  font-weight: 400;
+  font-size: 1.6em;
+  color: #161616;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+footer ul.secondary_nav li {
+  margin-left: 0;
+  margin-right: 2.6em;
+}
+footer ul.secondary_nav li:last-child {
+  margin-right: 0;
+}
+
 .links, a.links:visited {
   font-family: "Rubik", "sans-serif";
   font-weight: 300;
@@ -765,7 +791,7 @@ a.links:hover {
   text-align: center;
   text-decoration: none;
   display: block;
-  margin: 3.6em auto 0 auto;
+  margin: 2.1em auto 0 auto;
 }
 
 .cbox {
@@ -911,8 +937,8 @@ h4 {
 p {
   font-family: "Rubik", "sans-serif";
   font-weight: 300;
-  font-size: 1.6em;
-  line-height: 164%;
+  font-size: 1.8em;
+  line-height: 163%;
   letter-spacing: 0.03em;
   color: #232323;
   margin-top: 1.6em;
@@ -935,10 +961,10 @@ ul.clientslist {
 ul.clientslist li {
   font-family: "Rubik", "sans-serif";
   font-weight: 300;
-  font-size: 1.4em;
-  line-height: 170%;
-  letter-spacing: 0.02em;
-  color: #7c7c7c;
+  font-size: 1.6em;
+  line-height: 160%;
+  letter-spacing: 0.01em;
+  color: #848482;
 }
 
 .description {
