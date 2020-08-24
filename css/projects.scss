@@ -11,8 +11,8 @@
 	position: relative;
 	float: left;
 	overflow: hidden;
-	width: 16.6666667%; /* Fallback */
-	width: calc(100% / 4);
+	width: 33.333%; /* Fallback */
+	width: calc(100% / 3);
 	padding: 16px;
 }
 
@@ -34,7 +34,7 @@
 	top: 0;
 	right: 0;
 	bottom: 0;
-	// background: #1f4497;
+	background: #1f4497;
 	display: flex;
     align-items: center;
     text-align: center;
@@ -44,14 +44,12 @@
 .projects li a:hover div {
 	margin: 16px;
 	opacity: 1;
-	border-bottom: 1.6em solid;
-	// border-color: #1f4497;
 }
 
 
 .projects li a div h3 {
 	font-family: 'Rubik', 'sans-serif';
-	font-weight: 300;
+	font-weight: 400;
 	width: 100%;
 	color: #fff;
 	text-transform: uppercase;
@@ -73,48 +71,18 @@ h3 {
 	font-weight: 500;
 	font-size: 1.6em;
 	margin: 1.8em 0 .6em 0;
-
-}
-
-.thing {
-	font-weight: 400;
-	font-size: 0.8em;
-	color: darken($color-gray, 40);
-	text-transform: uppercase;
 }
 
 /* Example for media query: change number of items per row */
 
 
-@media screen and (min-width: 1190px) {
-	.projects li {
-		width: 20%; /* Fallback */
-		width: calc(100% / 4);
-	}
-}
-
-@media screen and (max-width: 1190px) {
-	.projects li {
-		width: 20%; /* Fallback */
-		width: calc(100% / 4);
-	}
-}
-
 @media screen and (max-width: 1010px) {
-	.projects li {
-		width: 25%; /* Fallback */
-		width: calc(100% / 3);
-	}
-	.projects li a:hover div {
-	opacity: 0;
-	}
-}
-
-
-@media screen and (max-width: 750px) {
 	.projects li {
 		width: 50%; /* Fallback */
 		width: calc(100% / 2);
+	}
+	.projects li a:hover div {
+	opacity: 0;
 	}
 }
 
