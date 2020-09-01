@@ -568,7 +568,6 @@ body {
 
 nav {
   margin-top: 6em;
-  margin-bottom: 3.6em;
 }
 
 .navwrapper {
@@ -646,6 +645,12 @@ ul.secondary_nav li:last-child {
   margin-right: 0;
 }
 
+ul.secondary_nav li a:hover {
+  color: #1f4497;
+  border-bottom: 0;
+  text-decoration: none;
+}
+
 .footerlogo {
   background-image: url(../img/logo.svg);
   background-repeat: no-repeat;
@@ -658,7 +663,7 @@ ul.secondary_nav li:last-child {
 }
 
 footer {
-  margin-top: 6.3em;
+  margin-top: 9em;
   margin-bottom: 1.8em;
 }
 
@@ -681,7 +686,7 @@ footer {
 }
 
 .footer_navigation ul li a:hover {
-  color: #FF1D25;
+  color: #1f4497;
   text-decoration: none;
   padding-top: 0.9em;
   border-top: 0.3em solid;
@@ -739,7 +744,7 @@ footer ul.secondary_nav li:last-child {
 
 a.links:hover {
   text-decoration: none;
-  color: #FF1D25;
+  color: #1f4497;
 }
 
 .copyright {
@@ -868,7 +873,7 @@ select {
 h1 {
   font-family: "Yeseva One", "sans-serif";
   font-weight: 500;
-  font-size: 12em;
+  font-size: 7.2em;
   line-height: 125%;
   margin-top: 1.6em;
   margin-bottom: 1em;
@@ -980,7 +985,7 @@ ul.clientslist li {
 .email {
   font-family: "Rubik", "sans-serif";
   font-weight: 300;
-  background-color: #FF1D25;
+  background-color: #1f4497;
   letter-spacing: 0.25em;
   padding-top: 2.5em;
   padding-bottom: 2.5em;
@@ -995,7 +1000,7 @@ ul.clientslist li {
 }
 
 .email:hover {
-  background-color: #d00007;
+  background-color: #122758;
   color: white;
   text-decoration: none;
 }

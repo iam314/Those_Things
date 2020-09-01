@@ -34,7 +34,7 @@ body {
 
 nav {
 	margin-top: 6em;
-	margin-bottom: 3.6em;
+	// margin-bottom: 3.6em;
 }
 
 .navwrapper {
@@ -113,6 +113,12 @@ ul.secondary_nav li {
   }
 }
 
+ul.secondary_nav li a:hover {
+	color: $color-blue;
+	border-bottom: 0;
+	text-decoration: none;
+}
+
 .footerlogo {
 	background-image: url(../img/logo.svg);
 	background-repeat: no-repeat;
@@ -125,7 +131,7 @@ ul.secondary_nav li {
 }
 
 footer {
-	margin-top: 6.3em;
+	margin-top: 9em;
 	margin-bottom: 1.8em;
 }
 
@@ -148,7 +154,7 @@ footer {
 }
 
 .footer_navigation ul li a:hover {
-	color: $color-red;
+	color: $color-blue;
 	text-decoration: none;
 	padding-top: 0.9em;
 	border-top: 0.3em solid;
@@ -207,7 +213,7 @@ footer ul.secondary_nav li {
 
 a.links:hover {
 	text-decoration: none;
-  color: $color-red;
+  color: $color-blue;
 }
 .copyright {
   font-family: 'Rubik', 'sans-serif';
@@ -326,7 +332,7 @@ select {
 h1 {
   font-family: 'Yeseva One', 'sans-serif';
   font-weight: 500;
-  font-size: 12em;
+  font-size: 7.2em;
   line-height: 125%;
   margin-top: 1.6em;
   margin-bottom: 1em;
@@ -437,7 +443,7 @@ ul.clientslist {
 .email {
 	font-family: 'Rubik', 'sans-serif';
   font-weight: 300;
-	background-color: $color-red;
+	background-color: $color-blue;
 	letter-spacing: 0.25em;
 	padding-top: 2.5em;
 	padding-bottom: 2.5em;
@@ -452,7 +458,7 @@ ul.clientslist {
 }
 
 .email:hover {
-	background-color: darken( $color-red, 15% );
+	background-color: darken( $color-blue, 15% );
 	color: white;
 	text-decoration: none;
 }
