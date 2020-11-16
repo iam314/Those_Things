@@ -124,6 +124,19 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/css/slider.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/docs/css/slider.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/dentacoin.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -476,51 +489,11 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/img/logo copy.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/docs/img/logo copy.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
 	"/img/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/docs/img/logo.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/img/logo_hover copy.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/docs/img/logo_hover copy.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/img/logo_hover.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/docs/img/logo_hover.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/img/logo_old.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/docs/img/logo_old.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -3036,6 +3009,72 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/img/slider/1.jpg": {
+		"ft": 16384,
+		"iS": 429673,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/docs/img/slider/1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/slider/1a.jpg": {
+		"ft": 16384,
+		"iS": 17679,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/docs/img/slider/1a.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/slider/2.jpg": {
+		"ft": 16384,
+		"iS": 17700,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/docs/img/slider/2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/slider/3.jpg": {
+		"ft": 16384,
+		"iS": 17671,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/docs/img/slider/3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/slider/4.jpg": {
+		"ft": 16384,
+		"iS": 17679,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/docs/img/slider/4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/slider/5.jpg": {
+		"ft": 16384,
+		"iS": 18013,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/docs/img/slider/5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/index.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -3124,6 +3163,14 @@
 		"oAP": "/docs/partials/_projects.html",
 		"oF": 0
 		},
+	"/partials/_slides.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/docs/partials/_slides.html",
+		"oF": 0
+		},
 	"/partials/_thankyou.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -3155,6 +3202,98 @@
 		"oA": 0,
 		"oAP": "/docs/sitostudio.html",
 		"oF": 0
+		},
+	"/slick/ajax-loader.gif": {
+		"ft": 4194304,
+		"iS": 4178,
+		"oA": 0,
+		"oAP": "/docs/slick/ajax-loader.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"/slick/config.rb": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/docs/slick/config.rb",
+		"oF": 0
+		},
+	"/slick/fonts/slick.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/docs/slick/fonts/slick.eot",
+		"oF": 0
+		},
+	"/slick/fonts/slick.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/docs/slick/fonts/slick.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/slick/fonts/slick.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/docs/slick/fonts/slick.ttf",
+		"oF": 0
+		},
+	"/slick/fonts/slick.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/docs/slick/fonts/slick.woff",
+		"oF": 0
+		},
+	"/slick/slick-theme.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/docs/slick/slick-theme-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/slick/slick.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/docs/slick/slick-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/slick/slick.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/docs/slick/slick-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/slick/slick.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/docs/slick/slick.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/thankyou.kit": {
 		"cB": 0,
@@ -3199,7 +3338,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_brown",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 619041597.83343005
+	"lastBuiltDate": 627226168.277022
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

@@ -541,6 +541,63 @@ h3 {
   vertical-align: middle;
 }
 
+.slider {
+  width: 100%;
+  min-height: 100vh;
+  margin: -63px auto 0 auto;
+}
+
+.slick-slide {
+  margin: 0;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.slick-slide {
+  transition: all ease-in-out 0.3s;
+  opacity: 0.2;
+}
+
+.slick-active {
+  opacity: 0.5;
+}
+
+.slick-current {
+  opacity: 1;
+}
+
+.slide1 {
+  background: url(/img/slider/1.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.slide2 {
+  background: url(/img/slider/2.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.slide3 {
+  background: url(/img/slider/3.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.slide4 {
+  background: url(/img/slider/4.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.slide5 {
+  background: url(/img/slider/5.jpg) no-repeat center;
+  background-size: cover;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -568,14 +625,14 @@ body {
 }
 
 nav {
-  margin-top: 6em;
+  margin-top: 2.8em;
+  position: relative;
+  z-index: 1;
 }
 
 .navwrapper {
   margin-left: 5%;
   margin-right: 5%;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .mainnav, .footer_navigation {
@@ -590,8 +647,9 @@ nav {
 .logo {
   background-image: url(../img/logo.svg);
   background-repeat: no-repeat;
-  height: 4.9em;
-  width: 12em;
+  background-size: contain;
+  height: 3.6em;
+  width: 8.2em;
   float: left;
   cursor: pointer;
 }
@@ -603,14 +661,21 @@ nav ul li {
 nav ul li a {
   font-family: "Rubik", "sans-serif";
   font-weight: 500;
-  font-size: 1.6em;
-  color: #161616;
+  font-size: 1.8em;
+  line-height: 0;
+  color: #3a3a3a;
   letter-spacing: 0.03em;
   text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition: opacity 0.4s cubic-bezier(0.59, 0.01, 0.28, 1);
+  -o-transition: opacity 0.4s cubic-bezier(0.59, 0.01, 0.28, 1);
+  transition: opacity 0.4s cubic-bezier(0.59, 0.01, 0.28, 1);
 }
 
 nav ul li a:hover {
-  color: #1f4497;
+  color: #161616;
+  opacity: 1;
   padding-bottom: 0.9em;
   border-bottom: 0.3em solid;
   text-decoration: none;
@@ -618,6 +683,7 @@ nav ul li a:hover {
 
 .current a {
   color: #161616;
+  opacity: 1;
   padding-bottom: 0.9em;
   border-bottom: 0.3em solid;
   text-decoration: none;
@@ -634,7 +700,9 @@ ul.secondary_nav {
   padding: 0;
 }
 ul.secondary_nav li a {
-  font-weight: 400;
+  font-weight: 300;
+  font-size: 1.6em;
+  line-height: 0;
   letter-spacing: 0.02em;
 }
 
