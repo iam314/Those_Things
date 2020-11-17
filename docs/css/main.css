@@ -654,6 +654,16 @@ nav {
   cursor: pointer;
 }
 
+.logo_w {
+  background-image: url(../img/logo_w.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 3.6em;
+  width: 8.2em;
+  float: left;
+  cursor: pointer;
+}
+
 nav ul li {
   display: inline;
 }
@@ -683,6 +693,14 @@ nav ul li a:hover {
 
 .current a {
   color: #161616;
+  opacity: 1;
+  padding-bottom: 0.9em;
+  border-bottom: 0.3em solid;
+  text-decoration: none;
+}
+
+.current_w a {
+  color: #CCCCCC;
   opacity: 1;
   padding-bottom: 0.9em;
   border-bottom: 0.3em solid;
@@ -723,9 +741,10 @@ ul.secondary_nav li a:hover {
 .footerlogo {
   background-image: url(../img/logo.svg);
   background-repeat: no-repeat;
+  background-size: contain;
   float: left;
-  height: 4.9em;
-  width: 12em;
+  height: 3.6em;
+  width: 8.2em;
   cursor: pointer;
 }
 
@@ -747,6 +766,7 @@ footer {
   font-weight: 500;
   font-size: 1.6em;
   color: #161616;
+  line-height: 0;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
@@ -781,7 +801,7 @@ footer ul.secondary_nav li {
 }
 footer ul.secondary_nav li a {
   font-family: "Rubik", "sans-serif";
-  font-weight: 400;
+  font-weight: 300;
   font-size: 1.6em;
   color: #161616;
   text-decoration: none;
@@ -815,7 +835,7 @@ a.links:hover {
 
 .copyright {
   font-family: "Rubik", "sans-serif";
-  font-weight: 400;
+  font-weight: 300;
   font-size: 1.2em;
   color: #161616;
   letter-spacing: 0.03em;
@@ -1054,29 +1074,6 @@ ul.clientslist li {
 
 .logos {
   margin-bottom: 20px;
-}
-
-.email {
-  font-family: "Rubik", "sans-serif";
-  font-weight: 300;
-  background-color: #1f4497;
-  letter-spacing: 0.25em;
-  padding-top: 2.5em;
-  padding-bottom: 2.5em;
-  color: white;
-  text-decoration: none;
-  cursor: pointer;
-  margin-top: 2em;
-  margin-bottom: 2em;
-  text-align: center;
-  display: block;
-  width: 26em;
-}
-
-.email:hover {
-  background-color: #122758;
-  color: white;
-  text-decoration: none;
 }
 
 .bckgound {
