@@ -246,6 +246,10 @@ a.links:hover {
   padding: 0 15px 0 15px;
 }
 
+.negative_margin {
+  margin-top: -63px;
+}
+
 //CONTACT FORM
 .cbox {
   margin-bottom: 1.4em;
@@ -430,6 +434,10 @@ ul.clientslist {
 .gray {
   color: darken( $color-gray, 30% );
   text-transform: lowercase;
+}
+
+.color-white {
+  color: $color-gray;
 }
 
 .img-responsive {

@@ -3147,9 +3147,9 @@
 		"oAP": "/docs/partials/_nav.html",
 		"oF": 0
 		},
-	"/partials/_nav_2.html": {
+	"/partials/_nav_2.kit": {
 		"cB": 0,
-		"ft": 8192,
+		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/docs/partials/_nav_2.html",

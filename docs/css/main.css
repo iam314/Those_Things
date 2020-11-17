@@ -829,6 +829,10 @@ a.links:hover {
   padding: 0 15px 0 15px;
 }
 
+.negative_margin {
+  margin-top: -63px;
+}
+
 .cbox {
   margin-bottom: 1.4em;
   max-width: 470px;
@@ -1020,6 +1024,10 @@ ul.clientslist li {
 .gray {
   color: gray;
   text-transform: lowercase;
+}
+
+.color-white {
+  color: #CCCCCC;
 }
 
 .img-responsive {
