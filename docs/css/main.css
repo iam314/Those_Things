@@ -574,27 +574,27 @@ h3 {
 }
 
 .slide1 {
-  background: url(/img/slider/1.jpg) no-repeat center;
+  background: url(../slider/1.jpg) no-repeat center;
   background-size: cover;
 }
 
 .slide2 {
-  background: url(/img/slider/2.jpg) no-repeat center;
+  background: url(../img/slider/2.jpg) no-repeat center;
   background-size: cover;
 }
 
 .slide3 {
-  background: url(/img/slider/3.jpg) no-repeat center;
+  background: url(../img/slider/3.jpg) no-repeat center;
   background-size: cover;
 }
 
 .slide4 {
-  background: url(/img/slider/4.jpg) no-repeat center;
+  background: url(../img/slider/4.jpg) no-repeat center;
   background-size: cover;
 }
 
 .slide5 {
-  background: url(/img/slider/5.jpg) no-repeat center;
+  background: url(../img/slider/5.jpg) no-repeat center;
   background-size: cover;
 }
 
