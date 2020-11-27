@@ -3,9 +3,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@700&display=swap");
 .projects {
   margin: 0 0 0 0;
-  padding: 0;
+  padding: 10px;
   list-style: none;
-  position: relative;
   width: 100%;
 }
 
@@ -14,10 +13,7 @@
   position: relative;
   float: left;
   overflow: hidden;
-  width: 33.333%;
-  /* Fallback */
   width: calc(100% / 3);
-  padding: 16px;
 }
 
 .projects li a,
@@ -25,10 +21,6 @@
   display: block;
   width: 100%;
   cursor: pointer;
-}
-
-.projects li a img {
-  max-width: 100%;
 }
 
 /* Flexbox is used for centering the heading */
@@ -46,7 +38,6 @@
 }
 
 .projects li a:hover div {
-  margin: 16px;
   opacity: 1;
 }
 
@@ -574,7 +565,7 @@ h3 {
 }
 
 .slide1 {
-  background: url(../img/slider/1.jpg) no-repeat center;
+  background: url(../img/slider/11.gif) no-repeat center;
   background-size: cover;
 }
 
@@ -671,7 +662,7 @@ nav ul li {
 nav ul li a {
   font-family: "Rubik", "sans-serif";
   font-weight: 500;
-  font-size: 1.8em;
+  font-size: 1.6em;
   line-height: 0;
   color: #3a3a3a;
   letter-spacing: 0.03em;
@@ -694,8 +685,8 @@ nav ul li a:hover {
 .current a {
   color: #161616;
   opacity: 1;
-  padding-bottom: 0.9em;
-  border-bottom: 0.3em solid;
+  padding-bottom: 0.36em;
+  border-bottom: 0.2em solid;
   text-decoration: none;
 }
 
@@ -750,7 +741,7 @@ ul.secondary_nav li a:hover {
 
 footer {
   margin-top: 9em;
-  margin-bottom: 1.8em;
+  margin-bottom: 0.8em;
 }
 
 .footer_navigation ul li {

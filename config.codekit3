@@ -3544,6 +3544,16 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/img/slider/11.gif": {
+		"ft": 4194304,
+		"iS": 683093,
+		"oA": 0,
+		"oAP": "/docs/img/slider/11.gif",
+		"oF": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"rq": 75
+		},
 	"/img/slider/1a.jpg": {
 		"ft": 16384,
 		"iS": 17679,

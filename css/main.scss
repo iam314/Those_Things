@@ -85,7 +85,7 @@ nav ul li {
 nav ul li a {
 	font-family: 'Rubik', 'sans-serif';
   font-weight: 500;
-	font-size: 1.8em;
+	font-size: 1.6em;
   line-height: 0;
 	color: lighten($color-black, 14);
   // opacity: .75;
@@ -110,8 +110,8 @@ nav ul li a:hover {
 .current a {
 	color: $color-black;
   opacity: 1;
-	padding-bottom: 0.9em;
-	border-bottom: 0.3em solid;
+	padding-bottom: 0.36em;
+	border-bottom: 0.2em solid;
 	text-decoration: none;
 }
 
@@ -167,7 +167,7 @@ ul.secondary_nav li a:hover {
 
 footer {
 	margin-top: 9em;
-	margin-bottom: 1.8em;
+	margin-bottom: .8em;
 }
 
 .footer_navigation ul li {
