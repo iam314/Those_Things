@@ -153,12 +153,6 @@
 		"oAP": "/docs/devcon.html",
 		"oF": 0
 		},
-	"/docs": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/docs/docs",
-		"oF": 0
-		},
 	"/favicon.ico/android-icon-144x144.png": {
 		"ft": 32768,
 		"iS": 3367,
@@ -3580,6 +3574,16 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/img/slider/22.gif": {
+		"ft": 4194304,
+		"iS": 3430102,
+		"oA": 0,
+		"oAP": "/docs/img/slider/22.gif",
+		"oF": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"rq": 75
+		},
 	"/img/slider/3.jpg": {
 		"ft": 16384,
 		"iS": 17671,
@@ -3884,7 +3888,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_brown",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 627323024.94561899
+	"lastBuiltDate": 628243329.51208103
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
