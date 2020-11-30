@@ -525,6 +525,169 @@ ul.clientslist {
     100% {background: #e0282a;}
 }
 
+
+.hamburger {
+  cursor: pointer;
+  font-size: 2.8em;
+  font-weight: bold;
+  color: $color-white;
+  float: right;
+  margin-top: 32px;
+}
+.hamburgerblck {
+    cursor: pointer;
+    font-size: 2.8em;
+    color: $color-black;
+    float: right;
+    margin-top: 32px;
+}
+
+.sidenav {
+  height: 100%;
+  /* 100% Full-height */
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  right: 0;
+  background-color: $color-black;
+  /* Black*/
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 60px;
+  /* Place content 60px from the top */
+  transition: 0.05s;
+  /* 0.5 second transition effect to slide in the sidenav */
+  // -webkit-box-shadow: -5px 0px 10px 0px rgba(63, 63, 63, 0.2);
+  // -moz-box-shadow: -5px 0px 10px 0px rgba(63, 63, 63, 0.2);
+  // box-shadow: -5px 0px 10px 0px rgba(63, 63, 63, 0.2);
+}
+
+
+  /* The side navigation menu */
+.hidedesktop  {
+  display: none;
+}
+.hidesmall {
+  display: block;
+}
+
+.hamburger {
+  cursor: pointer;
+  font-size: 2.8em;
+  font-weight: bold;
+  color: $color-white;
+  float: right;
+  margin-top: 32px;
+}
+.hamburgerblck {
+    cursor: pointer;
+    font-size: 2.8em;
+    color: $color-black;
+    float: right;
+    margin-top: 32px;
+}
+
+.sidenav {
+  height: 100%;
+  /* 100% Full-height */
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  right: 0;
+  background-color: $color-black;
+  /* Black*/
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 60px;
+  /* Place content 60px from the top */
+  transition: 0.05s;
+  /* 0.5 second transition effect to slide in the sidenav */
+  // -webkit-box-shadow: -5px 0px 10px 0px rgba(63, 63, 63, 0.2);
+  // -moz-box-shadow: -5px 0px 10px 0px rgba(63, 63, 63, 0.2);
+  // box-shadow: -5px 0px 10px 0px rgba(63, 63, 63, 0.2);
+}
+
+/* The navigation menu links */
+.sidenav a {
+  font-family: 'HKGrotesk-Medium', 'sans-serif';
+  font-weight: 500;
+  font-size: 2.4em;
+  // line-height: 250%;
+  padding: 8px 8px 10px 32px;
+  text-decoration: none;
+  color: $color-white;
+  display: block;
+  text-align: center;
+  padding-bottom: 30px;
+  transition: 0.5s; }
+
+.recolorblack {
+  color: $color-black;
+}
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: $color-white }
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 29px;
+  right: 8.5%;;
+  font-size: 36px; }
+
+  .hero{
+    position: relative;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    &:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      margin: auto;
+      background-image: url(../img/branding_top.png);
+      background-repeat:no-repeat;
+      background-position: center;
+      background-size: cover;
+      opacity: 1;
+      transform: scale(1);
+      transition: all .2s ease-in-out;
+      // transition-delay: .1s;
+      opacity: 1;
+    }
+    &:hover {
+      // animation: shake .48s cubic-bezier(.36,.07,.97,.97) both;
+      // transform: translate3d(0, 0, 0);
+      // backface-visibility: hidden;
+      transform: scale(1.15);
+
+      &:before{
+        // transform: scale(-0.2);
+        // animation: shake .48s cubic-bezier(.36,.07,.97,.97) both;
+        // transform: translate3d(0, 0, 0);
+        // backface-visibility: hidden;
+        // perspective: 1000px;
+        transform: scale(0.8);
+        opacity: 0;
+      }
+      //transform: scale(0, 0.5); /* Equal to scaleX(2) scaleY(0.5) */
+    }
+  }
+
+
+
 //RESPONSIVE
 @media screen and (max-width: 1010px) {
   .secondary_nav {
@@ -539,6 +702,9 @@ ul.clientslist {
 		text-align: center;
 		margin-top: 3em;
 	}
+  .hidedesktop {
+  display: block;
+  }
 
   nav {
     margin-top: 3.6em;

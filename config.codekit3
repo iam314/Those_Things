@@ -153,12 +153,6 @@
 		"oAP": "/docs/devcon.html",
 		"oF": 0
 		},
-	"/docs": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/docs/docs",
-		"oF": 0
-		},
 	"/favicon.ico/android-icon-144x144.png": {
 		"ft": 32768,
 		"iS": 3367,
@@ -3637,6 +3631,17 @@
 		"oAP": "/docs/index.html",
 		"oF": 0
 		},
+	"/js/main.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/docs/js/main-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/jwax.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -3882,6 +3887,14 @@
 		"oA": 0,
 		"oAP": "/docs/water.html",
 		"oF": 0
+		},
+	"/work.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/docs/work.html",
+		"oF": 0
 		}
 	},
 "hooks": [
@@ -3894,7 +3907,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_brown",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 628243329.51208103
+	"lastBuiltDate": 628454588.81531
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
