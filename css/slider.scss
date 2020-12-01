@@ -31,6 +31,11 @@
   opacity: 1;
 }
 
+.slidesinner {
+  display: flex !important;
+  align-items: flex-end;
+}
+
 .slide1 {background:url(../img/slider/11.gif) no-repeat center;
 background-size: cover;}
 .slide2 {background:url(../img/slider/22.gif) no-repeat center;

@@ -373,7 +373,7 @@ h1 {
   font-family: 'Inknut Antiqua', serif;
   // font-family: 'Yeseva One', 'sans-serif';
   font-weight: 500;
-  font-size: 5.5em;
+  font-size: 4.8em;
   line-height: 125%;
   margin-top: 1.6em;
   margin-bottom: 1em;
@@ -525,7 +525,34 @@ ul.clientslist {
     100% {background: #e0282a;}
 }
 
+// FILTERS
+.filterDiv {
+  display: none;
+}
 
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+// MOBILE MENU
 .hamburger {
   cursor: pointer;
   font-size: 2.8em;
