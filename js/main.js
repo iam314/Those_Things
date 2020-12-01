@@ -26,14 +26,14 @@ window.addEventListener("DOMContentLoaded", function() {
    // get the form elements defined in your form HTML above
 
    var form = document.getElementById("contactform");
-   // var button = document.getElementById("my-form-button");
-   var status = document.getElementById("my-form-status");
+   var button = document.getElementById("button");
+   var status = document.getElementById("status");
 
    // Success and Error functions for after the form is submitted
 
    function success() {
      form.reset();
-     // button.style = "display: none ";
+     button.style = "display: none ";
      status.innerHTML = "Thanks!";
    }
 
