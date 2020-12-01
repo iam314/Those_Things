@@ -1178,7 +1178,7 @@ ul.clientslist li {
 
 .hamburger {
   cursor: pointer;
-  font-size: 2.8em;
+  font-size: 3.8em;
   font-weight: bold;
   color: #ffffff;
   float: right;
@@ -1187,7 +1187,7 @@ ul.clientslist li {
 
 .hamburgerblck {
   cursor: pointer;
-  font-size: 2.8em;
+  font-size: 3.8em;
   color: #161616;
   float: right;
   margin-top: 32px;
@@ -1281,6 +1281,10 @@ ul.clientslist li {
   .secondary_nav {
     display: none;
   }
+
+  .hidedesktop {
+    display: block;
+  }
 }
 @media screen and (max-width: 760px) {
   .topnav {
@@ -1288,10 +1292,6 @@ ul.clientslist li {
     padding-left: 0;
     text-align: center;
     margin-top: 3em;
-  }
-
-  .hidedesktop {
-    display: block;
   }
 
   nav {

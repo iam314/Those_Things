@@ -3704,6 +3704,14 @@
 		"oAP": "/docs/partials/_header.html",
 		"oF": 0
 		},
+	"/partials/_home.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/docs/partials/_home.html",
+		"oF": 0
+		},
 	"/partials/_nav.kit": {
 		"cB": 0,
 		"ft": 2048,
