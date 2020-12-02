@@ -11,10 +11,10 @@
 	position: relative;
 	float: left;
 	overflow: hidden;
-	// width: 33.333%; /* Fallback */
-	width: calc(100% / 3);
+	width: 25%; /* Fallback */
+	width: calc(100% / 4);
 	// padding-left: 18px;
-	// padding: 16px;
+	padding: 16px;
 }
 
 .projects li a,
@@ -43,7 +43,7 @@
 }
 
 .projects li a:hover div {
-	// margin: 16px;
+	margin: 16px;
 	opacity: 1;
 }
 
@@ -79,16 +79,22 @@ h3 {
 	margin-top:-63px;
 }
 
-
 /* Example for media query: change number of items per row */
 
 @media screen and (max-width: 1010px) {
 	.projects li {
-		width: 50%; /* Fallback */
-		width: calc(100% / 2);
+		width: 33.333%; /* Fallback */
+		width: calc(100% / 3);
 	}
 	.projects li a:hover div {
 	opacity: 0;
+	}
+}
+
+@media screen and (max-width: 880px) {
+	.projects li {
+		width: 50%; /* Fallback */
+		width: calc(100% / 2);
 	}
 }
 
