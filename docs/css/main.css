@@ -67,6 +67,11 @@ h3 {
   margin: 1.8em 0 0.6em 0;
 }
 
+.cover {
+  position: relative;
+  margin-top: -63px;
+}
+
 /* Example for media query: change number of items per row */
 @media screen and (max-width: 1010px) {
   .projects li {
