@@ -1085,6 +1085,10 @@ ul.clientslist li {
   background-color: #161616;
 }
 
+.infplscntposition {
+  margin-top: 190px;
+}
+
 .sectionbacground {
   animation: colorchange 25s infinite;
   /* animation-name followed by duration in seconds*/
