@@ -696,10 +696,9 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #161616;
   opacity: 1;
-  padding-bottom: 0.9em;
-  border-bottom: 0.3em solid;
+  padding-bottom: 0.36em;
+  border-bottom: 0.2em solid;
   text-decoration: none;
 }
 
@@ -714,8 +713,8 @@ nav ul li a:hover {
 .current_w a {
   color: #CCCCCC;
   opacity: 1;
-  padding-bottom: 0.9em;
-  border-bottom: 0.3em solid;
+  padding-bottom: 0.36em;
+  border-bottom: 0.2em solid;
   text-decoration: none;
 }
 
@@ -784,16 +783,15 @@ footer {
 }
 
 .footer_navigation ul li a:hover {
-  color: #1f4497;
   text-decoration: none;
-  padding-top: 0.9em;
-  border-top: 0.3em solid;
+  padding-top: 0.36em;
+  border-top: 0.2em solid;
 }
 
 .current_footer a {
   color: #161616;
-  padding-top: 0.9em;
-  border-top: 0.3em solid;
+  padding-top: 0.36em;
+  border-top: 0.2em solid;
   text-decoration: none;
 }
 
@@ -863,6 +861,10 @@ a.links:hover {
 
 .negative_margin {
   margin-top: -63px;
+}
+
+.cph {
+  height: 100vh;
 }
 
 .cbox {
@@ -975,11 +977,12 @@ select {
 h1 {
   font-family: "Inknut Antiqua", serif;
   font-weight: 500;
-  font-size: 4.8em;
-  line-height: 125%;
+  font-size: 4.6em;
+  line-height: 110%;
   margin-top: 1.6em;
-  margin-bottom: 1em;
+  margin-bottom: 1.2em;
   color: #161616;
+  text-transform: uppercase;
 }
 
 .smallerttitle {
@@ -1000,7 +1003,7 @@ h2 {
 h4 {
   font-family: "Rubik", "sans-serif";
   font-weight: 500;
-  font-size: 2.2em;
+  font-size: 2.6em;
   line-height: 125%;
   margin-bottom: 1em;
   color: #3c3c3c;
@@ -1012,11 +1015,11 @@ p {
   font-family: "Rubik", "sans-serif";
   font-weight: 300;
   font-size: 1.8em;
-  line-height: 163%;
+  line-height: 156%;
   letter-spacing: 0.03em;
   color: #232323;
   margin-top: 1.6em;
-  margin-bottom: 2.1em;
+  margin-bottom: 1.8em;
 }
 
 .lastparagraph {
