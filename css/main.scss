@@ -6,7 +6,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&family=Yeseva+One&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@700&display=swap');
 
 html {
   font-size: 62.5%;
@@ -373,7 +373,8 @@ select {
 
 //Typographie
 h1 {
-  font-family: 'Inknut Antiqua', serif;
+  // font-family: 'Inknut Antiqua', serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 500;
   font-size: 4.6em;
   line-height: 110%;
