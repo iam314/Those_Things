@@ -36,18 +36,34 @@
   align-items: flex-end;
 }
 
-.slider_link {
+.slider_link, .slider_text {
   font-family: 'Rubik', sans-serif;
-  font-weight: 500;
-  font-size: 3.6em;
+  font-weight: 700;
+  font-size: 2.8em;
   line-height: 120%;
   color: $color-black;
   text-decoration: none;
+  display: block;
+  // border-bottom: 3px solid;
+  // margin-bottom: 1em;
+}
+
+.slider_text {
+  margin-bottom: 1em;
 }
 
 a.slider_link:hover {
   // text-decoration: underline;
   border-bottom: 3px solid;
+}
+
+.slidercouter {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 2.2em;
+  position: absolute;
+  right: 5%;
+  bottom: 2.2%;
 }
 
 
