@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&family=Yeseva+One&display=swap");
 .projects {
   margin: 0 0 0 0;
-  padding: 10px;
+  padding: 0;
   list-style: none;
   width: 100%;
 }
@@ -15,7 +15,6 @@
   width: 25%;
   /* Fallback */
   width: calc(100% / 4);
-  padding: 16px;
 }
 
 .projects li a,
@@ -584,13 +583,26 @@ h3 {
   align-items: flex-end;
 }
 
+.slider_link {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 3.6em;
+  line-height: 120%;
+  color: #161616;
+  text-decoration: none;
+}
+
+a.slider_link:hover {
+  border-bottom: 3px solid;
+}
+
 .slide1 {
-  background: url(../img/slider/11.gif) no-repeat center;
+  background: url(../img/slider/22.gif) no-repeat center;
   background-size: cover;
 }
 
 .slide2 {
-  background: url(../img/slider/22.gif) no-repeat center;
+  background: url(../img/slider/11.gif) no-repeat center;
   background-size: cover;
 }
 
@@ -946,7 +958,7 @@ select {
 }
 
 .submit {
-  font-family: "Rubik", "sans-serif";
+  font-family: "Rubik", sans-serif;
   font-weight: 400;
   background-color: #1f4497;
   cursor: pointer;
@@ -971,6 +983,20 @@ select {
   text-decoration: none;
   text-align: center;
   margin: 0 auto;
+}
+
+#status.success {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 2.1em;
+  color: #ffffff;
+}
+
+#status.error {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 2.1em;
+  color: #ffffff;
 }
 
 h1 {
@@ -1156,6 +1182,13 @@ ul.clientslist li {
     background: #e0282a;
   }
 }
+.filterlabel {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 1.6em;
+  text-transform: uppercase;
+}
+
 .filterDiv {
   display: none;
 }
@@ -1166,7 +1199,7 @@ ul.clientslist li {
 
 /* Style the buttons */
 .btn {
-  font-family: "Rubik" "sans-serif";
+  font-family: "Rubik", sans-serif;
   font-weight: 400;
   font-size: 1.6em;
   border: none;

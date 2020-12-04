@@ -36,9 +36,24 @@
   align-items: flex-end;
 }
 
-.slide1 {background:url(../img/slider/11.gif) no-repeat center;
+.slider_link {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 3.6em;
+  line-height: 120%;
+  color: $color-black;
+  text-decoration: none;
+}
+
+a.slider_link:hover {
+  // text-decoration: underline;
+  border-bottom: 3px solid;
+}
+
+
+.slide1 {background:url(../img/slider/22.gif) no-repeat center;
 background-size: cover;}
-.slide2 {background:url(../img/slider/22.gif) no-repeat center;
+.slide2 {background:url(../img/slider/11.gif) no-repeat center;
 background-size: cover;}
 .slide3 {background:url(../img/slider/3.jpg) no-repeat center;
 background-size: cover;}
