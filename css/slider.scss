@@ -43,16 +43,19 @@
   line-height: 120%;
   color: $color-black;
   text-decoration: none;
-  display: block;
+  display: inline-block;
   // border-bottom: 3px solid;
   // margin-bottom: 1em;
+  padding-bottom: 3px;
 }
 
 .slider_text {
-  margin-bottom: 1em;
+  margin-bottom: .4em;
+  display: block;
 }
 
 a.slider_link:hover {
+  padding-bottom: 0;
   // text-decoration: underline;
   border-bottom: 3px solid;
 }

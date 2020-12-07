@@ -19,8 +19,8 @@ body {
 }
 
 ::selection {
-    background: $color-blue;
-    color: white;
+    background: gold;
+    color: $color-black;
     text-shadow: none;
  }
 
@@ -272,18 +272,22 @@ a.links:hover {
 
 //CONTACT FORM
 .cph {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .cbox {
   margin-bottom: 1.4em;
-  max-width: 470px;
+}
+
+.contacttxt {
+  margin-top: 2em;
+  margin-bottom: 3.4em;
 }
 
 form {
   box-sizing: border-box;
-  margin: 0 0 96px 0;
-  max-width: 510px;
+  margin: 0 auto 96px auto;
+  max-width: 599px;
 }
 
 input, textarea, select, {
@@ -362,7 +366,6 @@ select {
 }
 .submit:hover {
   background-color: lighten($color-blue, 20%);
-  // background-color: $color-black;
 }
 .btnfix {
   width: 146px;
@@ -392,13 +395,14 @@ select {
 h1 {
   // font-family: 'Inknut Antiqua', serif;
   font-family: 'Rubik', sans-serif;
-  font-weight: 500;
-  font-size: 4.6em;
-  line-height: 110%;
-  margin-top: 1.6em;
-  margin-bottom: 1.2em;
+  font-weight: 700;
+  font-size: 4.2em;
+  line-height: 105%;
+  margin-top: 0;
+  margin-bottom: 0;
   color: $color-black;
   text-transform: uppercase;
+  display: inline-block;
 }
 .smallerttitle {
     font-size: 6rem;
@@ -406,12 +410,13 @@ h1 {
 h2 {
   font-family: 'Rubik', 'sans-serif';
   font-weight: 500;
-  font-size: 2.2em;
+  font-size: 2.6em;
   line-height: 125%;
 	margin-top: 3.6em;
 	color: lighten( $color-black, 15%);
 	letter-spacing:  0.03em;
 	text-align: center;
+  display: inline-block;
 	// text-transform: uppercase;
 }
 
@@ -424,17 +429,19 @@ h4 {
 	color: lighten( $color-black, 15%);
 	letter-spacing:  0.03em;
 	text-transform: uppercase;
+  display: inline-block;
 }
 
 p {
   font-family: 'Rubik', 'sans-serif';
   font-weight: 300;
-  font-size: 1.8em;
+  font-size: 2.1em;
 	line-height: 156%;
 	letter-spacing: 0.03em;
-	color: lighten( $color-black, 5%);
-  margin-top: 1.6em;
-  margin-bottom: 1.8em;
+  color: $color-black;
+  margin-top: 3.6em;
+  margin-bottom: 3.6em;
+  display: inline-block;
 }
 
 .lastparagraph {
@@ -517,7 +524,8 @@ ul.clientslist {
 }
 
 .infplscntposition {
-  margin-top: 190px;
+  margin: 190px auto 0 auto;
+  max-width: 599px;
 }
 
 ////Huichol background
@@ -758,8 +766,6 @@ ul.clientslist {
     }
   }
 
-
-
 //RESPONSIVE
 @media screen and (max-width: 1010px) {
   .secondary_nav {
@@ -834,10 +840,10 @@ ul.clientslist {
 }
 
 @media screen and (max-width: 660px) {
-	.logo {
-    height: 2.6em;
-    width: 18em;
-	}
+	// .logo {
+  //   height: 2.6em;
+  //   width: 18em;
+	// }
 
 	.photo {
 		margin-bottom: 0;
@@ -845,17 +851,14 @@ ul.clientslist {
 
 	.footerlogo {
 		background-image: url(../img/logo.svg);
-		height: 1.9em;
-		width: 13em;
+		// height: 1.9em;
+		// width: 13em;
     display: flex;
     justify-content: center;
 	}
 	.footer_navigation ul li a {
-		font-size: 1.2em;
-		letter-spacing: 0.12em;
-	}
-	.footer_navigation li.current a {
-		border-bottom: none;
+		// font-size: 1.2em;
+		// letter-spacing: 0.12em;
 	}
 }
 
