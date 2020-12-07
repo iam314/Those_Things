@@ -82,6 +82,11 @@ $toast-pulls: true !default;
   margin-right: 5%;
 }
 
+.container-w {
+  margin-left: calc(5% - 12px);
+  margin-right: calc(5% - 12px);
+}
+
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
