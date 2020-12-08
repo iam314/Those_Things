@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&family=Yeseva+One&display=swap");
 .projects {
-  margin: 0 0 0 0;
+  margin: 21px 0 0 0;
   padding: 0;
   list-style: none;
   width: 100%;
@@ -9,13 +9,12 @@
 
 .projects li {
   box-sizing: border-box;
-  position: relative;
   float: left;
   overflow: hidden;
   width: 25%;
   /* Fallback */
   width: calc(100% / 4);
-  padding: 0 12px 18px 12px;
+  padding: 0 12px 14px 12px;
 }
 
 .projects li a,
@@ -34,10 +33,15 @@
   text-decoration: none;
   border-bottom: 2px solid rgba(200, 200, 200, 0);
   display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition: opacity 0.4s cubic-bezier(0.59, 0.01, 0.28, 1);
+  -o-transition: opacity 0.4s cubic-bezier(0.59, 0.01, 0.28, 1);
+  transition: opacity 0.4s cubic-bezier(0.59, 0.01, 0.28, 1);
 }
 
 .projects li a:hover {
-  border-bottom: 2px solid;
+  color: #1f4497;
 }
 
 .cover {
@@ -590,12 +594,12 @@ a.slider_link:hover {
 }
 
 .slide1 {
-  background: url(../img/slider/22.gif) no-repeat center;
+  background: url(../img/slider/BSB.png) no-repeat center;
   background-size: cover;
 }
 
 .slide2 {
-  background: url(../img/slider/11.gif) no-repeat center;
+  background: url(../img/slider/3.jpg) no-repeat center;
   background-size: cover;
 }
 
@@ -616,6 +620,7 @@ a.slider_link:hover {
 
 html {
   font-size: 62.5%;
+  -webkit-font-smoothing: antialiased;
 }
 
 body {
@@ -689,7 +694,7 @@ nav ul li a {
   font-weight: 500;
   font-size: 1.6em;
   line-height: 0;
-  color: #3a3a3a;
+  color: #161616;
   letter-spacing: 0.03em;
   text-decoration: none;
   -webkit-font-smoothing: antialiased;
@@ -859,10 +864,6 @@ a.links:hover {
   margin: 2.1em auto 0 auto;
 }
 
-.textwrapper {
-  padding: 0 15px 0 15px;
-}
-
 .negative_margin {
   margin-top: -63px;
 }
@@ -888,17 +889,17 @@ form {
 
 input, textarea, select {
   font-family: "Rubik", "sans-serif";
-  font-weight: 300;
+  font-weight: 400;
   background-color: #ffffff;
   border: none;
-  border-radius: 0;
+  border-radius: 2px;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  height: 42px;
+  height: 46px;
   width: 99%;
-  padding: 4px 8px;
-  margin-bottom: 8px;
-  font-size: 16px;
+  padding: 8px 12px;
+  margin-bottom: 12px;
+  font-size: 18px;
   line-height: 150%;
   letter-spacing: 0.03em;
   color: #161616;
@@ -912,7 +913,7 @@ textarea {
 
 textarea:focus, input:focus, select:focus {
   outline: none;
-  box-shadow: none;
+  background-color: #fff;
 }
 
 select {
@@ -945,30 +946,30 @@ select {
 }
 
 .name, .mail {
-  width: 48.3%;
+  width: 50%;
   float: left;
-  margin-right: 8px;
+  margin-right: 12px;
 }
 
 .company, .phone {
-  width: 49%;
+  width: 47.1%;
 }
 
 .submit {
   font-family: "Rubik", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   background-color: #1f4497;
   cursor: pointer;
   display: block;
-  font-size: 16px;
+  font-size: 18px;
   color: #ffffff;
   border: 0;
   border-radius: 2px !important;
-  padding: 16px 0;
+  padding: 18px 0;
   margin: 0;
   text-rendering: optimizeLegibility;
   transition: all 100ms ease-in-out;
-  width: 146px;
+  width: 136px;
 }
 
 .submit:hover {
@@ -979,7 +980,6 @@ select {
   width: 146px;
   text-decoration: none;
   text-align: center;
-  margin: 0 auto;
 }
 
 #status {
@@ -1147,6 +1147,16 @@ ul.clientslist li {
   max-width: 599px;
 }
 
+.projectsposition {
+  margin-top: 127px;
+  max-width: 599px;
+}
+
+.resetparagrap {
+  margin-top: 0;
+  margin-bottom: 3.6em;
+}
+
 .sectionbacground {
   animation: colorchange 25s infinite;
   /* animation-name followed by duration in seconds*/
@@ -1201,10 +1211,16 @@ ul.clientslist li {
     background: #e0282a;
   }
 }
+#myBtnContainer {
+  display: inline-block;
+  float: right;
+  margin-top: 15px;
+}
+
 .filterlabel {
   font-family: "Rubik", sans-serif;
-  font-weight: 400;
-  font-size: 1.6em;
+  font-weight: 500;
+  font-size: 1.4em;
   text-transform: uppercase;
 }
 
@@ -1220,7 +1236,7 @@ ul.clientslist li {
 .btn {
   font-family: "Rubik", sans-serif;
   font-weight: 400;
-  font-size: 1.6em;
+  font-size: 1.8em;
   border: none;
   outline: none;
   background-color: #ffffff;
@@ -1228,13 +1244,11 @@ ul.clientslist li {
 }
 
 .btn:hover {
-  background-color: #ddd;
-  border-bottom: 2px solid #161616;
+  color: #1f4497;
 }
 
 .btn.active {
-  color: #161616;
-  border-bottom: 2px solid #161616;
+  color: #1f4497;
 }
 
 .hamburger {
