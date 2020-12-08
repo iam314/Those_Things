@@ -166,7 +166,7 @@ ul.secondary_nav li a:hover {
 
 
 footer {
-	margin-top: 9em;
+	margin-top: 16em;
 	margin-bottom: .8em;
 }
 
@@ -202,7 +202,6 @@ footer {
 	text-decoration: none;
 }
 
-
 .footer_navigation li {
 	margin-left: 5em;
   &:last-child{
@@ -216,7 +215,6 @@ footer ul.secondary_nav {
   li {
     display: inline;
   }
-
   li a {
   font-family: 'Rubik', 'sans-serif';
   font-weight: 300;
@@ -318,6 +316,7 @@ textarea:focus, input:focus, select:focus {
     // box-shadow: 4px solid gold;
     background-color: #fff;
 }
+
 select {
   background: url(../img/arrows.svg) no-repeat 99% 50%;
   -moz-appearance: none;
@@ -368,10 +367,8 @@ select {
   background-color: lighten($color-blue, 20%);
 }
 .btnfix {
-  width: 146px;
   text-decoration: none;
   text-align: center;
-  // margin: 0 auto;
 }
 
 #status {
@@ -419,11 +416,9 @@ h2 {
   font-size: 2.6em;
   line-height: 125%;
 	margin-top: 3.6em;
-	color: lighten( $color-black, 15%);
-	letter-spacing:  0.03em;
+  color: $color-black;
 	text-align: center;
   display: inline-block;
-	// text-transform: uppercase;
 }
 
 h3 {
@@ -479,7 +474,6 @@ ul.clientslist {
     color: $color-battlegray;
   }
 }
-
 
 .description {
   margin-top: 8.2em;
@@ -632,14 +626,12 @@ ul.clientslist {
   font-weight: bold;
   color: $color-white;
   float: right;
-  margin-top: 32px;
 }
 .hamburgerblck {
     cursor: pointer;
     font-size: 2.8em;
     color: $color-black;
     float: right;
-    margin-top: 32px;
 }
 
 .sidenav {
@@ -679,9 +671,8 @@ ul.clientslist {
     cursor: pointer;
     font-size: 3.8em;
     color: $color-black;
-    margin-top: 32px;
     position: absolute;
-    top: -36px;
+    top: -7px;
     right: 0;
 }
 
@@ -745,7 +736,7 @@ ul.clientslist {
 .sidenav .closebtn {
   position: absolute;
   top: 18px;
-  right: 5%;
+  right: 5.6%;
   font-size: 36px;
 }
 
@@ -758,87 +749,19 @@ ul.clientslist {
     display: none;
   }
   .hidedesktop {
-  display: block;
+    display: block;
   }
-}
-
-@media screen and (max-width: 760px) {
-	.topnav {
-		float: none !important;
-		padding-left: 0;
-		text-align: center;
-		margin-top: 3em;
-	}
-
-  nav {
-    margin-top: 3.6em;
-		margin-bottom: 0.3em;
-	}
-
-  nav ul li a {
-		font-size: 1.4em;
-		letter-spacing: 0.3em;
-	}
-
-	nav ul li a:hover {
-		padding-bottom: 0.5em;
-		border-bottom: 0.5em solid;
-		padding-top: 0;
-		border-top: 0;
-	}
-
-  .current a {
-		padding-bottom: 0.5em;
-		border-bottom: 0.5em solid;
-		padding-top: 0m;
-		border-top: 0;
-	}
-	.logo {
-		display: block;
-		float: none;
-		margin-left: auto;
-		margin-right: auto;
-	}
-  h1 {
-    font-size: 2.1em;
+  .negative_margin {
+    margin-top: -64px;
   }
-  h2, h4 {
-    font-size: 1.8em;
-  }
-  .clientslist {
-    font-size: .8em;
-  }
-  p {
-    font-size: 1.4em;
-  }
-  .details, .gray {
-    font-size: 1em;
-  }
-}
-
-@media screen and (max-width: 699px) {
-  nav {
-		margin-bottom: 0.3em;
-	}
 }
 
 @media screen and (max-width: 660px) {
-	// .logo {
-  //   height: 2.6em;
-  //   width: 18em;
-	// }
 
 	.photo {
 		margin-bottom: 0;
 	}
 
-	.footerlogo {
-		background-image: url(../img/logo.svg);
-		// height: 1.9em;
-		// width: 13em;
-    display: flex;
-    justify-content: center;
-	}
 	.footer_navigation ul li a {
 		// font-size: 1.2em;
 		// letter-spacing: 0.12em;
@@ -865,31 +788,6 @@ ul.clientslist {
   }
 }
 @media screen and (max-width: 400px) {
-	.topnav {
-		float: none !important;
-		padding-left: 0;
-		margin-top: 3em;
-	}
-  nav {
-    margin-bottom: 0.5em;
-  }
-	nav ul li a {
-		letter-spacing: 0.1em;
-	}
-
-	nav ul li a:hover {
-		padding-bottom: 0.6em;
-		border-bottom: 0.5em solid;
-		padding-top: 0m;
-		border-top: 0;
-	}
-
-	nav li.current a {
-		padding-bottom: 0.6em;
-		border-bottom: 0.5em solid $color-black;
-		padding-top: 0m;
-		border-top: 0;
-	}
   form {
     margin: 0 0 36px 0;
   }
@@ -902,12 +800,5 @@ ul.clientslist {
   }
   .company, .phone {
     width: 48%;
-  }
-  h1 {
-    font-size: 2.1em;
-    margin-top: 1.2em;
-  }
-  p {
-    font-size: 1.4em;
   }
 }

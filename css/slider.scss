@@ -80,3 +80,9 @@ background-size: cover;}
 background-size: cover;}
 .slide5 {background:url(../img/slider/5.jpg) no-repeat center;
 background-size: cover;}
+
+@media screen and (max-width: 1010px) {
+  .slider {
+    margin: -64px auto 0 auto;
+  }
+}
