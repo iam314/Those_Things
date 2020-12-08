@@ -15,7 +15,7 @@
   width: 25%;
   /* Fallback */
   width: calc(100% / 4);
-  padding: 12px;
+  padding: 0 12px 18px 12px;
 }
 
 .projects li a,
@@ -23,20 +23,7 @@
   display: block;
   width: 100%;
   cursor: pointer;
-}
-
-/* Flexbox is used for centering the heading */
-.projects li a div {
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  background: #1f4497;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  opacity: 0;
+  padding-bottom: 8px;
 }
 
 .projects li a {
@@ -45,39 +32,12 @@
   font-size: 1.8em;
   color: #161616;
   text-decoration: none;
-  padding-bottom: 4px;
   border-bottom: 2px solid rgba(200, 200, 200, 0);
   display: inline-block;
 }
 
 .projects li a:hover {
   border-bottom: 2px solid;
-}
-
-.projects li a div h3 {
-  font-family: "Rubik", "sans-serif";
-  font-weight: 400;
-  width: 100%;
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 1.4em;
-  letter-spacing: 2px;
-  padding: 0 10px;
-}
-
-.projects li a div p {
-  width: 100%;
-  color: #fff;
-  font-size: 1.4em;
-  letter-spacing: 2px;
-  padding: 0 10px;
-}
-
-h3 {
-  font-family: "Rubik", "sans-serif";
-  font-weight: 500;
-  font-size: 1.6em;
-  margin: 1.8em 0 0.6em 0;
 }
 
 .cover {
@@ -602,7 +562,7 @@ h3 {
 .slider_link, .slider_text {
   font-family: "Rubik", sans-serif;
   font-weight: 700;
-  font-size: 2.8em;
+  font-size: 2.6em;
   line-height: 120%;
   color: #161616;
   text-decoration: none;
@@ -623,10 +583,10 @@ a.slider_link:hover {
 .slidercouter {
   font-family: "Rubik", sans-serif;
   font-weight: 500;
-  font-size: 2.2em;
+  font-size: 2.1em;
   position: absolute;
   right: 5%;
-  bottom: 2.2%;
+  bottom: 1.4%;
 }
 
 .slide1 {
@@ -922,7 +882,7 @@ a.links:hover {
 
 form {
   box-sizing: border-box;
-  margin: 0 auto 96px auto;
+  margin: 0 auto 28px auto;
   max-width: 599px;
 }
 
@@ -1022,18 +982,28 @@ select {
   margin: 0 auto;
 }
 
+#status {
+  max-width: 599px;
+  margin: 0 auto;
+}
+
 #status.success {
   font-family: "Rubik", sans-serif;
-  font-weight: 500;
-  font-size: 2.1em;
-  color: #ffffff;
+  font-weight: 300;
+  font-size: 3.6em;
+  line-height: 105%;
+  color: #848482;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #status.error {
   font-family: "Rubik", sans-serif;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 2.1em;
-  color: #ffffff;
+  color: #848482;
 }
 
 h1 {
@@ -1062,6 +1032,13 @@ h2 {
   letter-spacing: 0.03em;
   text-align: center;
   display: inline-block;
+}
+
+h3 {
+  font-family: "Rubik", "sans-serif";
+  font-weight: 500;
+  font-size: 1.6em;
+  margin: 1.8em 0 0.6em 0;
 }
 
 h4 {
@@ -1376,38 +1353,6 @@ ul.clientslist li {
   top: 18px;
   right: 5%;
   font-size: 36px;
-}
-
-.hero {
-  position: relative;
-  transition: all 0.2s ease-in-out;
-  cursor: pointer;
-}
-.hero:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  margin: auto;
-  background-image: url(../img/branding_top.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  opacity: 1;
-  transform: scale(1);
-  transition: all 0.2s ease-in-out;
-  opacity: 1;
-}
-.hero:hover {
-  transform: scale(1.15);
-}
-.hero:hover:before {
-  transform: scale(0.8);
-  opacity: 0;
 }
 
 @media screen and (max-width: 1010px) {

@@ -32,12 +32,14 @@ window.addEventListener("DOMContentLoaded", function() {
    // Success and Error functions for after the form is submitted
 
    function success() {
+     status.classList.add('success')
      form.reset();
-     button.style = "display: none ";
+     formsucces.style = "display: none ";
      status.innerHTML = "Thanks, we got the Thing!";
    }
 
    function error() {
+     status.classList.add('error')
      status.innerHTML = "Oops! A Thing went wrong.";
    }
 
