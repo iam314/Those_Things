@@ -283,6 +283,31 @@ a.links:hover {
   margin-top: -63px;
 }
 
+.contactbtn {
+  font-family: 'Rubik', 'sans-serif';
+  font-weight: 700;
+  font-size: 2.1em;
+  line-height: 100%;
+  text-transform: uppercase;
+  text-align: left;
+  margin: 190px auto;
+  text-decoration: none;
+  color: black;
+  // /* background-color: gold; */
+  padding: 36px 36px 38px 36px;
+  border: 16px solid gold;
+  border-radius: 2px;
+  cursor: pointer;
+  display: block;
+  text-rendering: optimizeLegibility;
+  transition: all 100ms ease-in-out;
+  width: 136px;
+}
+
+.contactbtn:hover {
+  background-color: gold;
+}
+
 //CONTACT FORM
 .cph {
   min-height: 100vh;
@@ -299,7 +324,7 @@ a.links:hover {
 
 form {
   box-sizing: border-box;
-  margin: 0 auto 28px auto;
+  margin: 0 auto 120px auto;
   max-width: 599px;
 }
 
@@ -384,10 +409,7 @@ select {
 .submit:hover {
   background-color: lighten($color-blue, 20%);
 }
-.btnfix {
-  text-decoration: none;
-  text-align: center;
-}
+
 
 #status {
   max-width: 599px;
@@ -435,7 +457,7 @@ h2 {
   line-height: 125%;
 	margin-top: 3.6em;
   color: $color-black;
-	text-align: center;
+	// text-align: center;
   display: inline-block;
 }
 
@@ -475,8 +497,6 @@ p {
 }
 
 ul.clientslist {
-  margin-left: auto;
-  margin-right: auto;
   padding: 0;
   webkit-column-count: 4;
   -moz-column-count: 4;
@@ -488,7 +508,6 @@ ul.clientslist {
     font-size: 1.6em;
     line-height: 160%;
     letter-spacing: 0.01em;
-    // color: lighten( $color-black, 40%);
     color: $color-battlegray;
   }
 }
@@ -771,6 +790,13 @@ ul.clientslist {
   }
   .negative_margin {
     margin-top: -64px;
+  }
+
+  ul.clientslist {
+    webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    list-style: none;
   }
 }
 

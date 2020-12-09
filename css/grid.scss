@@ -57,25 +57,28 @@ $toast-pulls: true !default;
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px; }
+  padding-left: 5%;
+  padding-right: 5%; }
   .container:before, .container:after {
     content: " ";
     display: table; }
   .container:after {
     clear: both; }
-  @media (min-width: 768px) {
+  @media (min-width: 767px) {
     .container {
-      width: 750px; } }
-  @media (min-width: 992px) {
+      width: 670px; } }
+  @media (min-width: 990px) {
     .container {
-      width: 970px; } }
-  @media (min-width: 1200px) {
+      width: 870px; } }
+  @media (min-width: 1040px) {
     .container {
-      width: 1170px; } }
-  @media (min-width: 1270px) {
+      width: 920px; } }
+  @media (min-width: 1219px) {
     .container {
-      width: 1250px; } }
+      width: 1080px; } }
+  @media (min-width: 1269px) {
+    .container {
+      width: 1130px; } }
 
 .container-pr {
   margin-left: 5%;

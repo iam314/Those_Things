@@ -112,8 +112,8 @@
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .container:before, .container:after {
@@ -125,24 +125,29 @@
   clear: both;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   .container {
-    width: 750px;
+    width: 670px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 990px) {
   .container {
-    width: 970px;
+    width: 870px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1040px) {
   .container {
-    width: 1170px;
+    width: 920px;
   }
 }
-@media (min-width: 1270px) {
+@media (min-width: 1219px) {
   .container {
-    width: 1250px;
+    width: 1080px;
+  }
+}
+@media (min-width: 1269px) {
+  .container {
+    width: 1130px;
   }
 }
 .container-pr {
@@ -890,6 +895,30 @@ a.links:hover {
   margin-top: -63px;
 }
 
+.contactbtn {
+  font-family: "Rubik", "sans-serif";
+  font-weight: 700;
+  font-size: 2.1em;
+  line-height: 100%;
+  text-transform: uppercase;
+  text-align: left;
+  margin: 190px auto;
+  text-decoration: none;
+  color: black;
+  padding: 36px 36px 38px 36px;
+  border: 16px solid gold;
+  border-radius: 2px;
+  cursor: pointer;
+  display: block;
+  text-rendering: optimizeLegibility;
+  transition: all 100ms ease-in-out;
+  width: 136px;
+}
+
+.contactbtn:hover {
+  background-color: gold;
+}
+
 .cph {
   min-height: 100vh;
 }
@@ -905,7 +934,7 @@ a.links:hover {
 
 form {
   box-sizing: border-box;
-  margin: 0 auto 28px auto;
+  margin: 0 auto 120px auto;
   max-width: 599px;
 }
 
@@ -999,11 +1028,6 @@ select {
   background-color: #4371d9;
 }
 
-.btnfix {
-  text-decoration: none;
-  text-align: center;
-}
-
 #status {
   max-width: 599px;
   margin: 0 auto;
@@ -1050,7 +1074,6 @@ h2 {
   line-height: 125%;
   margin-top: 3.6em;
   color: #161616;
-  text-align: center;
   display: inline-block;
 }
 
@@ -1090,8 +1113,6 @@ p {
 }
 
 ul.clientslist {
-  margin-left: auto;
-  margin-right: auto;
   padding: 0;
   webkit-column-count: 4;
   -moz-column-count: 4;
@@ -1401,6 +1422,13 @@ ul.clientslist li {
 
   .negative_margin {
     margin-top: -64px;
+  }
+
+  ul.clientslist {
+    webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    list-style: none;
   }
 }
 @media screen and (max-width: 660px) {
