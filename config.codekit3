@@ -153,12 +153,6 @@
 		"oAP": "/docs/devcon.html",
 		"oF": 0
 		},
-	"/docs": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/docs/docs",
-		"oF": 0
-		},
 	"/favicon.ico/android-icon-144x144.png": {
 		"ft": 32768,
 		"iS": 3367,
@@ -4014,7 +4008,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_brown",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 628454588.81531
+	"lastBuiltDate": 629391922.39800501
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
