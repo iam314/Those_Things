@@ -89,6 +89,11 @@ $toast-pulls: true !default;
   margin-left: calc(5% - 12px);
   margin-right: calc(5% - 12px);
 }
+  .container-pr:before, .container-pr:after, .container-w:before, .container-w:after {
+    content: " ";
+    display: table; }
+  .container-pr:after, .container-w:after {
+    clear: both; }
 
 .container-fluid {
   margin-right: auto;

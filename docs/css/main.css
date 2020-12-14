@@ -160,6 +160,15 @@
   margin-right: calc(5% - 12px);
 }
 
+.container-pr:before, .container-pr:after, .container-w:before, .container-w:after {
+  content: " ";
+  display: table;
+}
+
+.container-pr:after, .container-w:after {
+  clear: both;
+}
+
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
@@ -947,7 +956,7 @@ input, textarea, select {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   height: 46px;
-  width: 99%;
+  width: 100%;
   padding: 8px 12px;
   margin-bottom: 12px;
   font-size: 18px;
@@ -998,13 +1007,14 @@ select {
 }
 
 .name, .mail {
-  width: 50%;
+  width: calc(50% - 6px);
   float: left;
-  margin-right: 12px;
+  margin-right: 6px;
 }
 
 .company, .phone {
-  width: 47.1%;
+  width: calc(50% - 6px);
+  margin-left: 6px;
 }
 
 .submit {
@@ -1087,10 +1097,10 @@ h3 {
 h4 {
   font-family: "Rubik", "sans-serif";
   font-weight: 500;
-  font-size: 2.6em;
+  font-size: 2.8em;
   line-height: 125%;
   margin-bottom: 1em;
-  color: #3c3c3c;
+  color: #161616;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   display: inline-block;
@@ -1110,6 +1120,11 @@ p {
 
 .lastparagraph {
   margin-bottom: 4.8em;
+}
+
+.resetparagrap {
+  margin-top: 0;
+  margin-bottom: 3.6em;
 }
 
 ul.clientslist {
@@ -1190,11 +1205,6 @@ ul.clientslist li {
 
 .projectsposition {
   margin-top: 127px;
-}
-
-.resetparagrap {
-  margin-top: 0;
-  margin-bottom: 3.6em;
 }
 
 .sectionbacground {
@@ -1434,6 +1444,30 @@ ul.clientslist li {
   .photo {
     margin-bottom: 0;
   }
+
+  h1 {
+    font-size: 3.6em;
+  }
+
+  h2 {
+    font-size: 2.1em;
+  }
+
+  h4 {
+    font-size: 2.6em;
+  }
+
+  p {
+    font-size: 1.8em;
+  }
+
+  ul.clientslist li {
+    font-size: 1.4em;
+  }
+
+  .projects li a {
+    font-size: 1.6em;
+  }
 }
 @media screen and (max-width: 480px) {
   h1 {
@@ -1441,13 +1475,7 @@ ul.clientslist li {
     margin-bottom: 0.6em;
   }
 
-  form {
-    margin: 0 0 48px 0;
-  }
-
   ul.clientslist {
-    margin-left: auto;
-    margin-right: auto;
     padding: 0;
     margin-top: 2.4em;
     webkit-column-count: 3;
@@ -1456,19 +1484,65 @@ ul.clientslist li {
     list-style: none;
   }
 }
+@media screen and (max-width: 445px) {
+  .footer_navigation li {
+    margin-left: 3.5em;
+  }
+  .footer_navigation li:last-child {
+    margin-right: 0;
+  }
+
+  .footerlogo {
+    float: left;
+    height: 3em;
+    width: 6.9em;
+  }
+}
 @media screen and (max-width: 400px) {
   form {
     margin: 0 0 36px 0;
   }
 }
-@media screen and (max-width: 340px) {
-  .name, .mail {
-    width: 48%;
+@media screen and (max-width: 375px) {
+  .footer_navigation ul li a {
+    font-size: 1.4em;
+  }
+
+  .footer_navigation li {
+    margin-left: 2.6em;
+  }
+  .footer_navigation li:last-child {
+    margin-right: 0;
+  }
+
+  .footerlogo {
     float: left;
-    margin-right: 8px;
+    height: 2.8em;
+    width: 5.6em;
+  }
+
+  .name, .mail {
+    width: 100%;
+    float: none;
+    margin-right: 0;
   }
 
   .company, .phone {
-    width: 48%;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  ul.clientslist {
+    padding: 0;
+    margin-top: 1.8em;
+    webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    list-style: none;
+  }
+}
+@media screen and (max-width: 314px) {
+  .footerlogo {
+    display: none;
   }
 }

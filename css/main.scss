@@ -6,7 +6,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&family=Yeseva+One&display=swap');
 
-// @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@700&display=swap');
 
 html {
   font-size: 62.5%;
@@ -337,7 +336,7 @@ input, textarea, select, {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   height: 46px;
-  width: 99%;
+  width: 100%;
   padding: 8px 12px;
   margin-bottom: 12px;
   font-size: 18px;
@@ -381,12 +380,13 @@ select {
   color: $color-black;
 }
 .name, .mail {
-  width: 50%;
+  width: calc(50% - 6px);
   float: left;
-  margin-right: 12px;
+  margin-right: 6px;
 }
 .company, .phone {
-  width: 47.1%;
+  width: calc(50% - 6px);
+  margin-left: 6px;
 }
 
 .submit{
@@ -434,9 +434,8 @@ select {
   color: $color-battlegray;
 }
 
-//Typographie
+//Type
 h1 {
-  // font-family: 'Inknut Antiqua', serif;
   font-family: 'Rubik', sans-serif;
   font-weight: 700;
   font-size: 4.2em;
@@ -444,7 +443,6 @@ h1 {
   margin-top: 0;
   margin-bottom: 0;
   color: $color-black;
-  // text-transform: uppercase;
   display: inline-block;
 }
 .smallerttitle {
@@ -471,10 +469,10 @@ h3 {
 h4 {
   font-family: 'Rubik', 'sans-serif';
   font-weight: 500;
-  font-size: 2.6em;
+  font-size: 2.8em;
   line-height: 125%;
   margin-bottom: 1em;
-	color: lighten( $color-black, 15%);
+  color: $color-black;
 	letter-spacing:  0.03em;
 	text-transform: uppercase;
   display: inline-block;
@@ -495,6 +493,12 @@ p {
 .lastparagraph {
   margin-bottom: 4.8em;
 }
+
+.resetparagrap {
+  margin-top: 0;
+  margin-bottom: 3.6em;
+}
+
 
 ul.clientslist {
   padding: 0;
@@ -574,11 +578,6 @@ ul.clientslist {
 .projectsposition {
   margin-top: 127px;
   // max-width: 599px;
-}
-
-.resetparagrap {
-  margin-top: 0;
-  margin-bottom: 3.6em;
 }
 
 ////Huichol background
@@ -696,7 +695,6 @@ ul.clientslist {
   // box-shadow: -5px 0px 10px 0px rgba(63, 63, 63, 0.2);
 }
 
-
   /* The side navigation menu */
 .hidedesktop  {
   display: none;
@@ -792,7 +790,6 @@ ul.clientslist {
   .negative_margin {
     margin-top: -64px;
   }
-
   ul.clientslist {
     webkit-column-count: 3;
     -moz-column-count: 3;
@@ -802,15 +799,27 @@ ul.clientslist {
 }
 
 @media screen and (max-width: 660px) {
-
 	.photo {
 		margin-bottom: 0;
 	}
-
-	.footer_navigation ul li a {
-		// font-size: 1.2em;
-		// letter-spacing: 0.12em;
-	}
+  h1 {
+    font-size: 3.6em;
+  }
+  h2 {
+    font-size: 2.1em;
+  }
+  h4 {
+    font-size: 2.6em;
+  }
+  p {
+    font-size: 1.8em;
+  }
+  ul.clientslist li {
+    font-size: 1.4em;
+  }
+  .projects li a {
+    font-size: 1.6em;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -818,12 +827,7 @@ ul.clientslist {
     margin-top: 1.8em;
     margin-bottom: 0.6em;
   }
-  form {
-    margin: 0 0 48px 0;
-  }
   ul.clientslist {
-    margin-left: auto;
-    margin-right: auto;
     padding: 0;
     margin-top: 2.4em;
     webkit-column-count: 3;
@@ -832,18 +836,63 @@ ul.clientslist {
     list-style: none;
   }
 }
+
+@media screen and (max-width: 445px) {
+  .footer_navigation li {
+  	margin-left: 3.5em;
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+  .footerlogo {
+  	float: left;
+    height: 3em;
+    width: 6.9em;
+  }
+}
+
 @media screen and (max-width: 400px) {
   form {
     margin: 0 0 36px 0;
   }
 }
-@media screen and (max-width: 340px) {
-  .name, .mail {
-    width: 48%;
+
+@media screen and (max-width: 375px) {
+  .footer_navigation ul li a {
+    font-size: 1.4em;
+  }
+  .footer_navigation li {
+    margin-left: 2.6em;
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+  .footerlogo {
     float: left;
-    margin-right: 8px;
+    height: 2.8em;
+    width: 5.6em;
+  }
+  .name, .mail {
+    width: 100%;
+    float: none;
+    margin-right: 0;
   }
   .company, .phone {
-    width: 48%;
+    width: 100%;
+    margin-left: 0;
+  }
+  ul.clientslist {
+    padding: 0;
+    margin-top: 1.8em;
+    webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    list-style: none;
+  }
+}
+
+@media screen and (max-width: 314px) {
+  .footerlogo {
+    display: none;
   }
 }

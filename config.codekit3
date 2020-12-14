@@ -591,16 +591,6 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/img/logos/novatv_logo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/docs/img/logos/novatv_logo.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
 	"/img/logos/nuboyana_logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -4008,7 +3998,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_brown",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 629397509.980317
+	"lastBuiltDate": 629651916.53587604
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
