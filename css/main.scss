@@ -410,7 +410,6 @@ select {
   background-color: lighten($color-blue, 20%);
 }
 
-
 #status {
   max-width: 599px;
   margin: 0 auto;
@@ -819,13 +818,18 @@ ul.clientslist {
   .projects li a {
     font-size: 1.6em;
   }
+  .contactbtn {
+    font-size: 1.8em;
+    padding: 28px 28px 30px 28px;
+    border: 14px solid gold;
+  }
 }
 
 @media screen and (max-width: 480px) {
-  h1 {
-    margin-top: 1.8em;
-    margin-bottom: 0.6em;
-  }
+  // h1 {
+  //   margin-top: 1.8em;
+  //   margin-bottom: 0.6em;
+  // }
   ul.clientslist {
     padding: 0;
     margin-top: 2.4em;

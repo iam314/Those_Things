@@ -153,6 +153,12 @@
 		"oAP": "/docs/devcon.html",
 		"oF": 0
 		},
+	"/docs": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/docs/docs",
+		"oF": 0
+		},
 	"/favicon.ico/android-icon-144x144.png": {
 		"ft": 32768,
 		"iS": 3367,
@@ -591,11 +597,51 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/img/logos/loreal_logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/docs/img/logos/loreal_logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/img/logos/novatv_logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/docs/img/logos/novatv_logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/img/logos/nuboyana_logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/docs/img/logos/nuboyana_logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/img/logos/pm_logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/docs/img/logos/pm_logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/img/logos/serdika_logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/docs/img/logos/serdika_logo.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -616,6 +662,26 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/docs/img/logos/velingrad_logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/img/logos/velingrad_logo_11.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/docs/img/logos/velingrad_logo_11.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/img/logos/wjc_logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/docs/img/logos/wjc_logo.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -3998,7 +4064,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_brown",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 629657556.74353504
+	"lastBuiltDate": 629663262.41002703
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
