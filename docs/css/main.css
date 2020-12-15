@@ -1429,7 +1429,7 @@ ul.clientslist li {
     display: block;
   }
 
-  .negative_margin {
+  .negative_margin, .cover {
     margin-top: -64px;
   }
 
