@@ -33,14 +33,6 @@
 		"oAP": "/docs/artone.html",
 		"oF": 0
 		},
-	"/characters.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/docs/characters.html",
-		"oF": 0
-		},
 	"/contact.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -3799,14 +3791,6 @@
 		"oAP": "/docs/jwax.html",
 		"oF": 0
 		},
-	"/livecasts.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/docs/livecasts.html",
-		"oF": 0
-		},
 	"/logos.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -3885,14 +3869,6 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/docs/partials/_slides.html",
-		"oF": 0
-		},
-	"/partials/_thankyou.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/docs/partials/_thankyou.html",
 		"oF": 0
 		},
 	"/phwebsite.kit": {
@@ -4012,14 +3988,6 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
-		},
-	"/thankyou.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/docs/thankyou.html",
-		"oF": 0
 		},
 	"/tihomir_portfolio.kit": {
 		"cB": 0,

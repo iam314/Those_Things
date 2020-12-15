@@ -180,7 +180,6 @@ ul.secondary_nav li a:hover {
 	cursor: pointer;
 }
 
-
 footer {
 	margin-top: 16em;
 	margin-bottom: .8em;
@@ -289,10 +288,9 @@ a.links:hover {
   line-height: 100%;
   text-transform: uppercase;
   text-align: left;
-  margin: 190px auto;
+  margin: 190px auto 210px auto;
   text-decoration: none;
   color: black;
-  // /* background-color: gold; */
   padding: 36px 36px 38px 36px;
   border: 16px solid gold;
   border-radius: 2px;
@@ -497,7 +495,6 @@ p {
 .resetparagrap {
   margin-top: 0;
 }
-
 
 ul.clientslist {
   padding: 0;
@@ -794,6 +791,12 @@ ul.clientslist {
     column-count: 3;
     list-style: none;
   }
+  .infplscntposition {
+    margin: 140px auto 0 auto;
+  }
+  .contactbtn {
+    margin: 160px auto 190px auto;
+  }
 }
 
 @media screen and (max-width: 660px) {
@@ -822,6 +825,7 @@ ul.clientslist {
     font-size: 1.8em;
     padding: 28px 28px 30px 28px;
     border: 14px solid gold;
+    margin: 120px auto 150px auto;
   }
   .slider_link, .slider_text {
     font-size: 2.1em;
@@ -829,6 +833,7 @@ ul.clientslist {
   .slidercouter {
     font-size: 1.8em;
   }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -898,6 +903,9 @@ ul.clientslist {
     column-count: 2;
     list-style: none;
   }
+  .contactbtn {
+    margin: 100px auto 130px auto;
+  }
 }
 
 @media screen and (max-width: 314px) {
@@ -911,5 +919,6 @@ ul.clientslist {
     font-size: 1.6em;
     padding: 18px 18px 20px 18px;
     border: 8px solid gold;
+    margin: 80px auto 110px auto;
   }
 }

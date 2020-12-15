@@ -57,8 +57,8 @@
     width: calc(100% / 3);
   }
 
-  .projects li a:hover div {
-    opacity: 0;
+  .projects li {
+    padding: 0 10px 12px 10px;
   }
 }
 @media screen and (max-width: 880px) {
@@ -66,6 +66,10 @@
     width: 50%;
     /* Fallback */
     width: calc(100% / 2);
+  }
+
+  .projects li {
+    padding: 0 6px 8px 6px;
   }
 }
 @media screen and (max-width: 350px) {
@@ -914,7 +918,7 @@ a.links:hover {
   line-height: 100%;
   text-transform: uppercase;
   text-align: left;
-  margin: 190px auto;
+  margin: 190px auto 210px auto;
   text-decoration: none;
   color: black;
   padding: 36px 36px 38px 36px;
@@ -1443,6 +1447,14 @@ ul.clientslist li {
     column-count: 3;
     list-style: none;
   }
+
+  .infplscntposition {
+    margin: 140px auto 0 auto;
+  }
+
+  .contactbtn {
+    margin: 160px auto 190px auto;
+  }
 }
 @media screen and (max-width: 660px) {
   .photo {
@@ -1477,6 +1489,7 @@ ul.clientslist li {
     font-size: 1.8em;
     padding: 28px 28px 30px 28px;
     border: 14px solid gold;
+    margin: 120px auto 150px auto;
   }
 
   .slider_link, .slider_text {
@@ -1553,6 +1566,10 @@ ul.clientslist li {
     column-count: 2;
     list-style: none;
   }
+
+  .contactbtn {
+    margin: 100px auto 130px auto;
+  }
 }
 @media screen and (max-width: 314px) {
   .footerlogo {
@@ -1564,5 +1581,6 @@ ul.clientslist li {
     font-size: 1.6em;
     padding: 18px 18px 20px 18px;
     border: 8px solid gold;
+    margin: 80px auto 110px auto;
   }
 }
