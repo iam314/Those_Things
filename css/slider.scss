@@ -51,7 +51,6 @@
 
 .slider_text {
   margin-bottom: .4em;
-  display: block;
 }
 
 a.slider_link:hover {
@@ -84,5 +83,8 @@ background-size: cover;}
 @media screen and (max-width: 1010px) {
   .slider {
     margin: -64px auto 0 auto;
+  }
+  .slider_text {
+    display: block;
   }
 }
