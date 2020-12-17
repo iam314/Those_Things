@@ -1455,6 +1455,10 @@ ul.clientslist li {
   .contactbtn {
     margin: 160px auto 190px auto;
   }
+
+  .projectsposition {
+    margin-top: 76px;
+  }
 }
 @media screen and (max-width: 660px) {
   .photo {

@@ -19,7 +19,6 @@ function closeNav() {
     });
   });
 
-
 // THIS FOR THE FORM REDIRECT
 window.addEventListener("DOMContentLoaded", function() {
 
