@@ -593,6 +593,8 @@
 }
 
 .slider_text {
+  font-weight: 500;
+  font-size: 2.1em;
   margin-bottom: 0.4em;
 }
 
@@ -604,29 +606,29 @@ a.slider_link:hover {
 .slidercouter {
   font-family: "Rubik", sans-serif;
   font-weight: 500;
-  font-size: 2.1em;
+  font-size: 1.8em;
   position: absolute;
   right: 5%;
-  bottom: 1.4%;
+  bottom: 1%;
 }
 
 .slide1 {
-  background: url(../img/slider/BSB.png) no-repeat center;
+  background: url(../img/slider/314_typeface_slider.png) no-repeat center;
   background-size: cover;
 }
 
 .slide2 {
-  background: url(../img/slider/3.jpg) no-repeat center;
+  background: url(../img/slider/sito_studio_website.png) no-repeat center;
   background-size: cover;
 }
 
 .slide3 {
-  background: url(../img/slider/3.jpg) no-repeat center;
+  background: url(../img/slider/gallerysytle_website.png) no-repeat center;
   background-size: cover;
 }
 
 .slide4 {
-  background: url(../img/slider/4.jpg) no-repeat center;
+  background: url(../img/slider/ph_cover.jpg) no-repeat center;
   background-size: cover;
 }
 
@@ -1133,6 +1135,10 @@ p {
 
 .resetparagrap {
   margin-top: 0;
+}
+
+.linkblock {
+  display: block;
 }
 
 ul.clientslist {
