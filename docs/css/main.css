@@ -646,6 +646,32 @@ a.slider_link:hover {
     display: block;
   }
 }
+@media screen and (max-width: 768px) {
+  .slide1 {
+    background: url(../img/slider/314_typeface_slider_sm.png) no-repeat center;
+    background-size: cover;
+  }
+
+  .slide2 {
+    background: url(../img/slider/sito_studio_website_sm.png) no-repeat center;
+    background-size: cover;
+  }
+
+  .slide3 {
+    background: url(../img/slider/gallerysytle_website_sm.png) no-repeat center;
+    background-size: cover;
+  }
+
+  .slide4 {
+    background: url(../img/slider/ph_cover.jpg) no-repeat center;
+    background-size: cover;
+  }
+
+  .slide5 {
+    background: url(../img/slider/5.jpg) no-repeat center;
+    background-size: cover;
+  }
+}
 html {
   font-size: 62.5%;
   -webkit-font-smoothing: antialiased;
