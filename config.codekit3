@@ -145,12 +145,6 @@
 		"oAP": "/docs/devcon.html",
 		"oF": 0
 		},
-	"/docs": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/docs/docs",
-		"oF": 0
-		},
 	"/favicon.ico/android-icon-144x144.png": {
 		"ft": 32768,
 		"iS": 3367,
@@ -1968,7 +1962,7 @@
 		"oAP": "/docs/img/projects/gabrovo/gabrovo-dvd-01.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -1981,7 +1975,7 @@
 		"oAP": "/docs/img/projects/gabrovo/gabrovo-dvd-02.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -1994,7 +1988,7 @@
 		"oAP": "/docs/img/projects/gabrovo/gabrovo-dvd-03.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -3674,7 +3668,7 @@
 		"oAP": "/docs/img/projects/water/water-detail-01.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -3687,7 +3681,7 @@
 		"oAP": "/docs/img/projects/water/water-detail-02.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -4155,7 +4149,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_brown",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 637768984.060763
+	"lastBuiltDate": 645853389.65994406
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
