@@ -73,7 +73,19 @@ a[href^="tel"]{
   <div class="section bgclr_1">
     <div class="_100">
       <div class="image_wrapper">
-        <div data-w-id="b9ead638-6cd1-234f-343c-51b572bce2d8" data-animation-type="lottie" data-src="documents/Kristin_Kay_Logo_Animation.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="5" data-duration="0" class="lottie-animation-2"></div>
+        <div data-w-id="b9ead638-6cd1-234f-343c-51b572bce2d8" data-animation-type="lottie" data-src="documents/Kristin_Kay_Logo_Animation.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="5" data-duration="0" class="lottie-animation-2"></div><div id="container"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js">
+<script>
+   var animation = bodymovin.loadAnimation({
+      // animationData: { /* ... */ },
+      container: document.getElementById('container'), // required
+      path: 'data.json', // required
+      renderer: 'svg', // required
+      loop: true, // optional
+      autoplay: true, // optional
+      name: "Demo Animation", // optional
+   });
+</script>
       </div>
       <div class="date_wrapper">
         <div class="txt-wrapper">
