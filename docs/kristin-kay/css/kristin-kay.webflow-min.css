@@ -145,6 +145,12 @@
   margin-left: 11%;
 }
 
+.lottie-animation-2 {
+  max-width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 @media screen and (max-width: 991px) {
   .paragraph {
     font-size: 2vw;
@@ -215,6 +221,10 @@
   }
 
   .image {
+    max-width: 80%;
+  }
+
+  .lottie-animation-2 {
     max-width: 80%;
   }
 }
