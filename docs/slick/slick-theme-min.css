@@ -14,12 +14,12 @@
 
     position: absolute;
     top: 50%;
-    z-index: 2;
+    z-index: 1;
 
     display: block;
 
-    width: 25vw;
-    height: 50vh;
+    width: 20vw;
+    height: 35vh;
     padding: 0;
     -webkit-transform: translate(0, -50%);
     transform: translate(0, -50%);
@@ -63,7 +63,7 @@
     line-height: 1;
 
     opacity: 0;
-    color: white;
+    color: black;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -73,11 +73,11 @@
 .slick-prev
 {
     text-align: start;
-    left: 5%;
+    left: 6%;
 }
 [dir='rtl'] .slick-prev
 {
-    right: 5%;
+    right: 6%;
     left: auto;
 }
 .slick-prev:before
@@ -94,12 +94,12 @@
 .slick-next
 {
     text-align: end;
-    right: 5%;
+    right: 6%;
 }
 [dir='rtl'] .slick-next
 {
     right: auto;
-    left: 5%;
+    left: 6%;
 }
 .slick-next:before
 {
@@ -200,4 +200,19 @@
 {
     opacity: .75;
     color: black;
+}
+
+@media screen and (max-width: 1010px) {
+  .slick-prev,
+  .slick-next
+  {
+    display: none !important;
+  }
+  .slick-prev:hover,
+  .slick-prev:focus,
+  .slick-next:hover,
+  .slick-next:focus
+  {
+display: none !important;
+  }
 }

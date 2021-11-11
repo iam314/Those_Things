@@ -1,7 +1,7 @@
 .slider {
     width: 100%;
     min-height:100vh;
-    margin: -63px auto 0 auto;
+    margin: -73px auto 0 auto;
 }
 
 .slick-slide {
@@ -44,15 +44,13 @@
   color: $color-black;
   text-decoration: none;
   display: inline-block;
-  // border-bottom: 3px solid;
-  // margin-bottom: 1em;
-  padding-bottom: 3px;
+  padding-bottom: 9px;
 }
 
 .slider_text {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 2.1em;
-  margin-bottom: .9em;
+  margin-bottom: 18px;
 }
 
 a.slider_link:hover {
@@ -63,11 +61,12 @@ a.slider_link:hover {
 
 .slidercouter {
   font-family: 'Rubik', sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 1.8em;
   position: absolute;
-  right: 5%;
-  bottom: 1.6%;
+  right: 6%;
+  bottom: 0;
+  margin-bottom: 29px;
 }
 
 
@@ -84,7 +83,7 @@ background-size: cover;}
 
 @media screen and (max-width: 1010px) {
   .slider {
-    margin: -64px auto 0 auto;
+    margin: -74px auto 0 auto;
   }
   .slider_text {
     display: block;

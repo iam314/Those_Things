@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&family=Yeseva+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap");
 .projects {
   margin: 21px 0 0 0;
   padding: 0;
@@ -14,7 +14,7 @@
   width: 25%;
   /* Fallback */
   width: 25%;
-  padding: 0 12px 14px 12px;
+  padding: 0 12px 26px 12px;
 }
 
 .projects li a,
@@ -22,7 +22,7 @@
   display: block;
   width: 100%;
   cursor: pointer;
-  padding-bottom: 8px;
+  padding-bottom: 12px;
 }
 
 .projects li a {
@@ -31,7 +31,6 @@
   font-size: 1.8em;
   color: #161616;
   text-decoration: none;
-  border-bottom: 2px solid rgba(200, 200, 200, 0);
   display: inline-block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -44,21 +43,21 @@
   color: #1f4497;
 }
 
-.cover {
-  position: relative;
-  margin-top: -63px;
-}
-
 /* Example for media query: change number of items per row */
-@media screen and (max-width: 1010px) {
+@media screen and (max-width: 1147px) {
   .projects li {
-    width: 33.333%;
+    width: 33.3333%;
     /* Fallback */
     width: 33.3333333333%;
   }
 
   .projects li {
-    padding: 0 10px 12px 10px;
+    padding: 0 12px 16px 12px;
+  }
+}
+@media screen and (max-width: 1010px) {
+  .projects li {
+    padding: 0 8px 12px 8px;
   }
 }
 @media screen and (max-width: 880px) {
@@ -69,7 +68,20 @@
   }
 
   .projects li {
-    padding: 0 6px 8px 6px;
+    padding: 0 8px 10px 8px;
+  }
+
+  .projects li a {
+    font-size: 1.6em;
+  }
+}
+@media screen and (max-width: 709px) {
+  .projects li {
+    padding: 0 6px 4px 6px;
+  }
+
+  .projects li a {
+    font-size: 1.4em;
   }
 }
 @media screen and (max-width: 350px) {
@@ -116,8 +128,8 @@
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 6%;
+  padding-right: 6%;
 }
 
 .container:before, .container:after {
@@ -129,21 +141,6 @@
   clear: both;
 }
 
-@media (min-width: 767px) {
-  .container {
-    width: 670px;
-  }
-}
-@media (min-width: 990px) {
-  .container {
-    width: 870px;
-  }
-}
-@media (min-width: 1040px) {
-  .container {
-    width: 920px;
-  }
-}
 @media (min-width: 1219px) {
   .container {
     width: 1080px;
@@ -151,17 +148,17 @@
 }
 @media (min-width: 1269px) {
   .container {
-    width: 1130px;
+    width: 1100px;
   }
 }
 .container-pr {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 6%;
+  margin-right: 6%;
 }
 
 .container-w {
-  margin-left: calc(5% - 12px);
-  margin-right: calc(5% - 12px);
+  margin-left: calc(6% - 12px);
+  margin-right: calc(6% - 12px);
 }
 
 .container-pr:before, .container-pr:after, .container-w:before, .container-w:after {
@@ -547,7 +544,7 @@
 .slider {
   width: 100%;
   min-height: 100vh;
-  margin: -63px auto 0 auto;
+  margin: -73px auto 0 auto;
 }
 
 .slick-slide {
@@ -589,13 +586,13 @@
   color: #161616;
   text-decoration: none;
   display: inline-block;
-  padding-bottom: 3px;
+  padding-bottom: 9px;
 }
 
 .slider_text {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 2.1em;
-  margin-bottom: 0.9em;
+  margin-bottom: 18px;
 }
 
 a.slider_link:hover {
@@ -605,11 +602,12 @@ a.slider_link:hover {
 
 .slidercouter {
   font-family: "Rubik", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 1.8em;
   position: absolute;
-  right: 5%;
-  bottom: 1.6%;
+  right: 6%;
+  bottom: 0;
+  margin-bottom: 29px;
 }
 
 .slide1 {
@@ -639,7 +637,7 @@ a.slider_link:hover {
 
 @media screen and (max-width: 1010px) {
   .slider {
-    margin: -64px auto 0 auto;
+    margin: -74px auto 0 auto;
   }
 
   .slider_text {
@@ -683,6 +681,11 @@ body {
   margin: 0;
 }
 
+a[href^=tel], button {
+  color: inherit;
+  text-decoration: none;
+}
+
 ::selection {
   background: gold;
   color: #161616;
@@ -717,14 +720,14 @@ body {
 }
 
 nav {
-  margin-top: 2.8em;
+  margin-top: 3.8em;
   position: relative;
   z-index: 1;
 }
 
 .navwrapper {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 6%;
+  margin-right: 6%;
 }
 
 .mainnav, .footer_navigation {
@@ -776,24 +779,19 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  opacity: 1;
-  padding-bottom: 0.36em;
+  padding-bottom: 0.7em;
   border-bottom: 0.2em solid;
   text-decoration: none;
 }
 
 .current a {
-  color: #161616;
-  opacity: 1;
-  padding-bottom: 0.36em;
+  padding-bottom: 0.7em;
   border-bottom: 0.2em solid;
   text-decoration: none;
 }
 
 .current_w a {
-  color: #CCCCCC;
-  opacity: 1;
-  padding-bottom: 0.36em;
+  padding-bottom: 0.7em;
   border-bottom: 0.2em solid;
   text-decoration: none;
 }
@@ -840,7 +838,7 @@ ul.secondary_nav li a:hover {
 }
 
 footer {
-  margin-top: 16em;
+  margin-top: 28em;
   margin-bottom: 0.8em;
 }
 
@@ -936,7 +934,7 @@ a.links:hover {
 }
 
 .negative_margin {
-  margin-top: -63px;
+  margin-top: -73px;
 }
 
 .contactbtn {
@@ -946,7 +944,7 @@ a.links:hover {
   line-height: 100%;
   text-transform: uppercase;
   text-align: left;
-  margin: 190px auto 210px auto;
+  margin: 190px auto 0 0;
   text-decoration: none;
   color: black;
   padding: 36px 36px 38px 36px;
@@ -1100,7 +1098,7 @@ select {
 h1 {
   font-family: "Rubik", sans-serif;
   font-weight: 700;
-  font-size: 4.2em;
+  font-size: 6em;
   line-height: 105%;
   margin-top: 0;
   margin-bottom: 0;
@@ -1115,7 +1113,7 @@ h1 {
 h2 {
   font-family: "Rubik", "sans-serif";
   font-weight: 500;
-  font-size: 2.6em;
+  font-size: 3.2em;
   line-height: 125%;
   margin-top: 3.6em;
   margin-bottom: 0;
@@ -1183,12 +1181,6 @@ ul.clientslist li {
   color: #848482;
 }
 
-.description {
-  margin-top: 8.2em;
-  margin-bottom: 9em;
-  max-width: 599px;
-}
-
 .details {
   font-family: "Rubik", sans-serif;
   font-weight: 500;
@@ -1239,8 +1231,12 @@ ul.clientslist li {
 }
 
 .infplscntposition {
-  margin: 190px auto 0 auto;
+  margin: 190px auto 0 0;
   max-width: 599px;
+}
+
+.infplscntposition2nd {
+  margin-top: 3em;
 }
 
 .projectsposition {
@@ -1302,9 +1298,7 @@ ul.clientslist li {
   }
 }
 #myBtnContainer {
-  display: inline-block;
-  float: right;
-  margin-top: 15px;
+  margin-top: 18px;
 }
 
 .filterlabel {
@@ -1341,6 +1335,44 @@ ul.clientslist li {
   color: #1f4497;
 }
 
+._100 {
+  min-height: 96vh;
+}
+
+.description {
+  padding-bottom: 6.8em;
+  max-width: 599px;
+}
+
+.lottie-animation {
+  max-width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 991px) {
+  ._100 {
+    min-height: 65vh;
+  }
+
+  .lottie-animation {
+    max-width: 70%;
+  }
+}
+@media screen and (max-width: 767px) {
+  ._100 {
+    max-height: none;
+  }
+}
+@media screen and (max-width: 479px) {
+  ._100 {
+    min-height: 45vh;
+  }
+
+  .lottie-animation {
+    max-width: 80%;
+  }
+}
 .hamburger {
   cursor: pointer;
   font-size: 2.8em;
@@ -1414,9 +1446,9 @@ ul.clientslist li {
   /* Black*/
   overflow-x: hidden;
   /* Disable horizontal scroll */
-  padding-top: 90px;
+  padding-top: 25%;
   /* Place content 60px from the top */
-  transition: 0.05s;
+  transition: 0.1s;
   /* 0.5 second transition effect to slide in the sidenav */
 }
 
@@ -1428,7 +1460,7 @@ ul.clientslist li {
   padding: 8px 0 0 5%;
   text-decoration: none;
   color: #ffffff;
-  display: block;
+  display: inline-block;
   padding-bottom: 21px;
   transition: 0.5s;
 }
@@ -1457,6 +1489,10 @@ ul.clientslist li {
 }
 
 @media screen and (max-width: 1010px) {
+  nav {
+    margin-top: 2.1em;
+  }
+
   .secondary_nav {
     display: none;
   }
@@ -1469,8 +1505,8 @@ ul.clientslist li {
     display: block;
   }
 
-  .negative_margin, .cover {
-    margin-top: -64px;
+  .negative_margin {
+    margin-top: -74px;
   }
 
   ul.clientslist {
@@ -1480,60 +1516,106 @@ ul.clientslist li {
     list-style: none;
   }
 
+  .m-overright {
+    margin: 140px auto 0 0;
+  }
+
+  .infplscntposition2nd {
+    margin-top: 2.6em;
+  }
+
   .infplscntposition {
-    margin: 140px auto 0 auto;
+    margin: 150px auto 0 0;
   }
 
   .contactbtn {
-    margin: 160px auto 190px auto;
+    margin: 160px auto 0 0;
   }
 
   .projectsposition {
     margin-top: 76px;
+    margin-left: 0;
+  }
+
+  .txt-wrapper {
+    margin-left: 5%;
   }
 }
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 765px) {
+  .slider, .slick-slide {
+    min-height: 90vh !important;
+  }
+}
+@media screen and (max-width: 709px) {
   .photo {
     margin-bottom: 0;
   }
 
   h1 {
-    font-size: 3.6em;
+    font-size: 3.1em;
   }
 
   h2 {
-    font-size: 2.1em;
+    font-size: 2.3em;
   }
 
   h4 {
-    font-size: 2.6em;
+    font-size: 2.1em;
   }
 
   p {
     font-size: 1.8em;
+    margin-top: 3.2em;
+    margin-bottom: 2.1em;
   }
 
   ul.clientslist li {
     font-size: 1.4em;
   }
 
-  .projects li a {
-    font-size: 1.6em;
-  }
-
   .contactbtn {
     font-size: 1.8em;
     padding: 28px 28px 30px 28px;
     border: 14px solid gold;
-    margin: 120px auto 150px auto;
+    margin: 120px auto 0 0;
   }
 
   .slider_link, .slider_text {
     font-size: 2.1em;
   }
 
-  .slidercouter {
+  .slider_text {
     font-size: 1.8em;
+  }
+
+  .slidercouter {
+    font-size: 1.4em;
+  }
+
+  .filterlabel {
+    font-size: 1.1em;
+    display: block;
+    margin-bottom: 0.5em;
+  }
+
+  button.btn {
+    font-size: 1.4em;
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+  }
+
+  footer {
+    margin-top: 12em;
+  }
+
+  .m-overright {
+    margin: 60px auto 0 0;
+  }
+
+  .infplscntposition2nd {
+    margin-top: -0.5em;
   }
 }
 @media screen and (max-width: 480px) {
@@ -1544,6 +1626,10 @@ ul.clientslist li {
     -moz-column-count: 3;
     column-count: 3;
     list-style: none;
+  }
+
+  #myBtnContainer {
+    display: none;
   }
 }
 @media screen and (max-width: 445px) {
@@ -1604,7 +1690,7 @@ ul.clientslist li {
   }
 
   .contactbtn {
-    margin: 100px auto 130px auto;
+    margin: 100px auto 0 0;
   }
 }
 @media screen and (max-width: 314px) {
@@ -1617,6 +1703,6 @@ ul.clientslist li {
     font-size: 1.6em;
     padding: 18px 18px 20px 18px;
     border: 8px solid gold;
-    margin: 80px auto 110px auto;
+    margin: 80px auto 110px 0;
   }
 }

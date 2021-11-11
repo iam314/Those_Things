@@ -13,7 +13,7 @@
 	overflow: hidden;
 	width: 25%; /* Fallback */
 	width: calc(100% / 4);
-	padding: 0 12px 14px 12px;
+	padding: 0 12px 26px 12px;
 }
 
 .projects li a,
@@ -21,7 +21,7 @@
 	display: block;
 	width: 100%;
 	cursor: pointer;
-	padding-bottom: 8px;
+	padding-bottom: 12px;
 }
 
 .projects li a {
@@ -30,7 +30,7 @@
 	font-size: 1.8em;
 	color: $color-black;
 	text-decoration: none;
-	border-bottom: 2px solid rgba(200, 200, 200, 0);
+	// border-bottom: 2px solid rgba(200, 200, 200, 0);
 	display: inline-block;
 	-webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -42,21 +42,22 @@
 .projects li a:hover {
 		color: $color-blue;
 }
-
-.cover {
-	position: relative;
-	margin-top:-63px;
-}
-
+// 1010px 765, 709, 480
 /* Example for media query: change number of items per row */
 
-@media screen and (max-width: 1010px) {
+@media screen and (max-width: 1147px) {
 	.projects li {
-		width: 33.333%; /* Fallback */
+		width: 33.3333%; /* Fallback */
 		width: calc(100% / 3);
 	}
 	.projects li {
-		padding: 0 10px 12px 10px;
+		padding: 0 12px 16px 12px;
+	}
+}
+
+@media screen and (max-width: 1010px) {
+	.projects li {
+		padding: 0 8px 12px 8px;
 	}
 }
 
@@ -66,7 +67,19 @@
 		width: calc(100% / 2);
 	}
 	.projects li {
-		padding: 0 6px 8px 6px;
+		padding: 0 8px 10px 8px;
+	}
+	.projects li a {
+		font-size: 1.6em;
+	}
+}
+
+@media screen and (max-width: 709px) {
+	.projects li {
+		padding: 0 6px 4px 6px;
+	}
+	.projects li a {
+		font-size: 1.4em;
 	}
 }
 
