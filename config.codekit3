@@ -167,12 +167,6 @@
       "oAP" : "\/docs\/devcon.html",
       "oF" : 0
     },
-    "\/docs" : {
-      "ft" : 65536,
-      "oA" : 1,
-      "oAP" : "\/docs\/docs",
-      "oF" : 0
-    },
     "\/favicon.ico\/favicon.png" : {
       "ft" : 32768,
       "iS" : 958,
@@ -917,16 +911,16 @@
     },
     "\/img\/projects\/btc_bd\/btcbillboard_old.json" : {
       "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/docs\/img\/projects\/btc_bd\/btcbillboard_old-min.json",
+      "oA" : 2,
+      "oAP" : "\/docs\/img\/projects\/btc_bd\/btcbillboard_old.json",
       "oF" : 0,
       "oO" : 0,
       "oS" : 1
     },
     "\/img\/projects\/btc_bd\/btcbillboard.json" : {
       "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/docs\/img\/projects\/btc_bd\/btcbillboard-min.json",
+      "oA" : 2,
+      "oAP" : "\/docs\/img\/projects\/btc_bd\/btcbillboard.json",
       "oF" : 0,
       "oO" : 0,
       "oS" : 1
@@ -3743,14 +3737,6 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/kristin-kay\/documents\/Kristin_Kay_Logo_Animation.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/docs\/kristin-kay\/documents\/Kristin_Kay_Logo_Animation-min.json",
-      "oF" : 0,
-      "oO" : 0,
-      "oS" : 1
-    },
     "\/kristin-kay\/images\/BrowserPreview_tmp-1-p-800.jpeg" : {
       "ft" : 16384,
       "iS" : 17026,
@@ -4055,6 +4041,14 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/kristin-kay\/lottie\/Kristin_Kay_Logo_Animation.json" : {
+      "ft" : 524288,
+      "oA" : 2,
+      "oAP" : "\/docs\/kristin-kay\/lottie\/Kristin_Kay_Logo_Animation.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
     },
     "\/logos.kit" : {
       "cB" : 0,
@@ -5724,7 +5718,7 @@
     },
     "esLintSourceType" : 0,
     "externalServerAddress" : "http:\/\/localhost:8888",
-    "gitIgnoreBuildFolder" : 1,
+    "gitIgnoreBuildFolder" : 0,
     "hideConfigFile" : 0,
     "jsCheckerReservedNamesString" : "",
     "languageDefaultsCOFFEE" : {
@@ -5806,12 +5800,12 @@
       "transpilerStyle" : 0
     },
     "languageDefaultsJSON" : {
-      "autoOutputAction" : 1,
-      "autoOutputPathFilenamePattern" : "*-min.json",
+      "autoOutputAction" : 2,
+      "autoOutputPathFilenamePattern" : "*.json",
       "autoOutputPathRelativePath" : "",
       "autoOutputPathReplace1" : "",
       "autoOutputPathReplace2" : "",
-      "autoOutputPathStyle" : 0,
+      "autoOutputPathStyle" : 2,
       "orderOutput" : 0,
       "outputStyle" : 1
     },
