@@ -41,6 +41,14 @@
       "oAP" : "\/docs\/btc_bd.html",
       "oF" : 0
     },
+    "\/CNAME" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/CNAME",
+      "oF" : 0
+    },
     "\/contact.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -165,6 +173,12 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/docs\/devcon.html",
+      "oF" : 0
+    },
+    "\/docs" : {
+      "ft" : 65536,
+      "oA" : 1,
+      "oAP" : "\/docs\/docs",
       "oF" : 0
     },
     "\/favicon.ico\/favicon.png" : {
