@@ -175,6 +175,12 @@
       "oAP" : "\/docs\/devcon.html",
       "oF" : 0
     },
+    "\/docs" : {
+      "ft" : 65536,
+      "oA" : 1,
+      "oAP" : "\/docs\/docs",
+      "oF" : 0
+    },
     "\/favicon.ico\/favicon.png" : {
       "ft" : 32768,
       "iS" : 958,
@@ -877,6 +883,32 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/btc_bd_thumb copy.png" : {
+      "ft" : 32768,
+      "iS" : 18714,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/btc_bd_thumb copy.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/btc_bd_thumb.png" : {
+      "ft" : 32768,
+      "iS" : 18714,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/btc_bd_thumb.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3952,6 +3984,29 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/kristin-kay\/images\/favicon.png" : {
+      "ft" : 32768,
+      "iS" : 958,
+      "oA" : 0,
+      "oAP" : "\/docs\/kristin-kay\/images\/favicon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/kristin-kay\/images\/favicon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/docs\/kristin-kay\/images\/favicon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/kristin-kay\/images\/KK_Book_Mockup-p-500.jpeg" : {
       "ft" : 16384,
