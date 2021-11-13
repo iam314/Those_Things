@@ -175,12 +175,6 @@
       "oAP" : "\/docs\/devcon.html",
       "oF" : 0
     },
-    "\/docs" : {
-      "ft" : 65536,
-      "oA" : 1,
-      "oAP" : "\/docs\/docs",
-      "oF" : 0
-    },
     "\/favicon.ico\/favicon.png" : {
       "ft" : 32768,
       "iS" : 958,
@@ -887,19 +881,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/img\/projects\/btc_bd_thumb.png" : {
-      "ft" : 32768,
-      "iS" : 23646,
-      "oA" : 0,
-      "oAP" : "\/docs\/img\/projects\/btc_bd_thumb.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/img\/projects\/btc_bd\/bitcoin_bilboard_1.jpg" : {
       "ft" : 16384,
       "iS" : 272022,
@@ -908,7 +889,7 @@
       "oAP" : "\/docs\/img\/projects\/btc_bd\/bitcoin_bilboard_1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -921,7 +902,7 @@
       "oAP" : "\/docs\/img\/projects\/btc_bd\/bitcoin_bilboard_2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -934,7 +915,7 @@
       "oAP" : "\/docs\/img\/projects\/btc_bd\/bitcoin_bilboard_3.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
