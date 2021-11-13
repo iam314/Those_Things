@@ -900,6 +900,58 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/projects\/btc_bd\/bitcoin_bilboard_1.jpg" : {
+      "ft" : 16384,
+      "iS" : 272022,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/btc_bd\/bitcoin_bilboard_1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/btc_bd\/bitcoin_bilboard_2.jpg" : {
+      "ft" : 16384,
+      "iS" : 268351,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/btc_bd\/bitcoin_bilboard_2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/btc_bd\/bitcoin_bilboard_3.jpg" : {
+      "ft" : 16384,
+      "iS" : 247856,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/btc_bd\/bitcoin_bilboard_3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/btc_bd\/bitcoin_bilboard_graphic.jpg" : {
+      "ft" : 16384,
+      "iS" : 479453,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/btc_bd\/bitcoin_bilboard_graphic.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/projects\/btc_bd\/btc_bd_cover.png" : {
       "ft" : 32768,
       "iS" : 2534084,
@@ -921,6 +973,19 @@
       "oF" : 0,
       "opt" : 1,
       "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/img\/projects\/btc_bd\/btc_billboard_cover.jpg" : {
+      "ft" : 16384,
+      "iS" : 344784,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/btc_bd\/btc_billboard_cover.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
       "rq" : 75
     },
     "\/img\/projects\/btc_bd\/btcbillboard_old.json" : {

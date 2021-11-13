@@ -1213,8 +1213,7 @@ ul.clientslist li {
 }
 
 .photo {
-  margin-top: 5em;
-  margin-bottom: 7em;
+  margin-top: 2.1em;
 }
 
 .logos {
@@ -1343,19 +1342,9 @@ ul.clientslist li {
   max-width: 599px;
 }
 
-.lottie-animation {
-  max-width: 50%;
-  margin-right: auto;
-  margin-left: auto;
-}
-
 @media screen and (max-width: 991px) {
   ._100 {
     min-height: 65vh;
-  }
-
-  .lottie-animation {
-    max-width: 70%;
   }
 }
 @media screen and (max-width: 767px) {
@@ -1366,10 +1355,6 @@ ul.clientslist li {
 @media screen and (max-width: 479px) {
   ._100 {
     min-height: 45vh;
-  }
-
-  .lottie-animation {
-    max-width: 80%;
   }
 }
 .hamburger {
@@ -1547,7 +1532,7 @@ ul.clientslist li {
 }
 @media screen and (max-width: 709px) {
   .photo {
-    margin-bottom: 0;
+    margin-top: 1.4em;
   }
 
   h1 {
