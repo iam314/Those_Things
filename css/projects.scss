@@ -83,6 +83,12 @@
 	}
 }
 
+@media screen and (max-width: 396px) {
+	.projects li {
+		padding: 0 5px 4px 5px;
+	}
+}
+
 @media screen and (max-width: 350px) {
 	.projects li {
 		width: 100%; /* Fallback */
