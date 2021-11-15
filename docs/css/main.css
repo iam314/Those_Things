@@ -86,7 +86,11 @@
 }
 @media screen and (max-width: 396px) {
   .projects li {
-    padding: 0 5px 4px 5px;
+    padding: 0 4px 4px 4px;
+  }
+
+  .projects li a {
+    font-size: 1.2em;
   }
 }
 @media screen and (max-width: 350px) {
