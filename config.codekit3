@@ -3716,6 +3716,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/projects\/water\/save-water-poster-intro.png" : {
+      "ft" : 32768,
+      "iS" : 27039,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/water\/save-water-poster-intro.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/projects\/water\/save-water-poster.jpg" : {
       "ft" : 16384,
       "iS" : 204959,
