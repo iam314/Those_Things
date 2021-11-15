@@ -705,6 +705,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/projects\/artone\/artone-covers.jpg" : {
+      "ft" : 16384,
+      "iS" : 185855,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/artone\/artone-covers.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/projects\/artone\/artone-logo-morph.json" : {
       "ft" : 524288,
       "oA" : 0,
@@ -3683,6 +3696,32 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/water_thumb.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/water_thumb.png" : {
+      "ft" : 32768,
+      "iS" : 4479,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/water_thumb.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/water\/save-water-poster.jpg" : {
+      "ft" : 16384,
+      "iS" : 204959,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/water\/save-water-poster.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
