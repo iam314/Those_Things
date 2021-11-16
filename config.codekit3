@@ -204,6 +204,14 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/foxybot.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/foxybot.html",
+      "oF" : 0
+    },
     "\/gabrovo.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -594,7 +602,7 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/artone_thumb.jpg",
-      "oF" : 0,
+      "oF" : 1,
       "oIPL" : 0,
       "opt" : 1,
       "ou" : "lpckwebp-none",
@@ -1902,6 +1910,32 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/foxybot_thumb.png" : {
+      "ft" : 32768,
+      "iS" : 6680,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/foxybot_thumb.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/foxybot\/foxybot_cover.png" : {
+      "ft" : 32768,
+      "iS" : 47454,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/foxybot\/foxybot_cover.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
