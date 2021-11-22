@@ -717,6 +717,21 @@ a[href^=tel], button {
   background: #f5ce00;
 }
 
+::-webkit-scrollbar:horizontal {
+  height: 8px;
+  background-color: red;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  background: #000;
+  border-radius: 10px;
+}
+
+#myBtnContainer {
+  overflow: auto;
+  white-space: nowrap;
+}
+
 .Site {
   display: flex;
   min-height: 100vh;
@@ -1619,10 +1634,6 @@ ul.clientslist li {
     -moz-column-count: 3;
     column-count: 3;
     list-style: none;
-  }
-
-  #myBtnContainer {
-    display: none;
   }
 }
 @media screen and (max-width: 445px) {

@@ -46,6 +46,21 @@ a[href^="tel"], button{
    background: darken(gold, 2%);
  }
 
+ ::-webkit-scrollbar:horizontal{
+  height: 8px;
+  background-color: red;
+}
+::-webkit-scrollbar-thumb:horizontal{
+        background: #000;
+        border-radius: 10px;
+
+    }
+
+  #myBtnContainer {
+  overflow: auto;
+  white-space: nowrap;
+  }
+
  // STICKY footer
 .Site {
   display: flex;
@@ -921,9 +936,6 @@ ul.clientslist {
     -moz-column-count: 3;
     column-count: 3;
     list-style: none;
-  }
-  #myBtnContainer {
-    display: none;
   }
 }
 
