@@ -1103,14 +1103,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/img\/projects\/bsb\/bsb-logo-motion.json" : {
-      "ft" : 524288,
-      "oA" : 2,
-      "oAP" : "\/docs\/img\/projects\/bsb\/bsb-logo-motion.json",
-      "oF" : 0,
-      "oO" : 0,
-      "oS" : 1
-    },
     "\/img\/projects\/bsb\/bsb-logo-w.png" : {
       "ft" : 32768,
       "iS" : 18704,
@@ -1145,6 +1137,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/bsb\/bsb-pattern-a.png" : {
+      "ft" : 32768,
+      "iS" : 81032,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/bsb\/bsb-pattern-a.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
