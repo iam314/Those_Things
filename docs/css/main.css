@@ -39,6 +39,24 @@
   transition: opacity 0.4s cubic-bezier(0.59, 0.01, 0.28, 1);
 }
 
+.video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.video iframe,
+.video object,
+.video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .projects li a:hover {
   color: #1f4497;
 }
