@@ -614,22 +614,9 @@
     },
     "\/img\/projects\/airquality_thumb.png" : {
       "ft" : 32768,
-      "iS" : 11307,
+      "iS" : 21724,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/airquality_thumb.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/img\/projects\/airquality_thumb1.png" : {
-      "ft" : 32768,
-      "iS" : 87872,
-      "oA" : 0,
-      "oAP" : "\/docs\/img\/projects\/airquality_thumb1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
