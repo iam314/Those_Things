@@ -1249,7 +1249,7 @@
       "oAP" : "\/docs\/img\/projects\/bsb\/bsb-logo-w.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -1262,7 +1262,7 @@
       "oAP" : "\/docs\/img\/projects\/bsb\/bsb-logo.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -1288,7 +1288,7 @@
       "oAP" : "\/docs\/img\/projects\/bsb\/bsb-pattern-a.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -2802,7 +2802,7 @@
       "oAP" : "\/docs\/img\/projects\/klett-kv\/klett-calendar-02.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2854,7 +2854,7 @@
       "oAP" : "\/docs\/img\/projects\/klett-kv\/klett-notebook-01.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2867,7 +2867,7 @@
       "oAP" : "\/docs\/img\/projects\/klett-kv\/klett-notebook-02.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2906,7 +2906,7 @@
       "oAP" : "\/docs\/img\/projects\/klett-kv\/klett-paper-bag.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2919,7 +2919,7 @@
       "oAP" : "\/docs\/img\/projects\/klett-kv\/Klett-paperbag.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2945,7 +2945,7 @@
       "oAP" : "\/docs\/img\/projects\/klett-kv\/klett-van-01.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2958,7 +2958,7 @@
       "oAP" : "\/docs\/img\/projects\/klett-kv\/klett-van-02.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3849,9 +3849,19 @@
       "ou" : "lpckwebp-none",
       "rq" : 75
     },
-    "\/img\/projects\/lubo-kirov\/lubovta.gif" : {
+    "\/img\/projects\/lubo-kirov\/lubovta_old.gif" : {
       "ft" : 4194304,
       "iS" : 2274380,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/lubo-kirov\/lubovta_old.gif",
+      "oF" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/img\/projects\/lubo-kirov\/lubovta.gif" : {
+      "ft" : 4194304,
+      "iS" : 3104846,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/lubo-kirov\/lubovta.gif",
       "oF" : 0,
@@ -3859,9 +3869,19 @@
       "ou" : "lpckwebp-none",
       "rq" : 75
     },
-    "\/img\/projects\/lubo-kirov\/sueta.gif" : {
+    "\/img\/projects\/lubo-kirov\/sueta_old.gif" : {
       "ft" : 4194304,
       "iS" : 930519,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/lubo-kirov\/sueta_old.gif",
+      "oF" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/img\/projects\/lubo-kirov\/sueta.gif" : {
+      "ft" : 4194304,
+      "iS" : 332373,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/lubo-kirov\/sueta.gif",
       "oF" : 0,
@@ -3869,9 +3889,19 @@
       "ou" : "lpckwebp-none",
       "rq" : 75
     },
-    "\/img\/projects\/lubo-kirov\/ti.gif" : {
+    "\/img\/projects\/lubo-kirov\/ti_old.gif" : {
       "ft" : 4194304,
       "iS" : 1136755,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/lubo-kirov\/ti_old.gif",
+      "oF" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/img\/projects\/lubo-kirov\/ti.gif" : {
+      "ft" : 4194304,
+      "iS" : 1363488,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/lubo-kirov\/ti.gif",
       "oF" : 0,
@@ -3879,9 +3909,19 @@
       "ou" : "lpckwebp-none",
       "rq" : 75
     },
-    "\/img\/projects\/lubo-kirov\/tichash.gif" : {
+    "\/img\/projects\/lubo-kirov\/tichash_old.gif" : {
       "ft" : 4194304,
       "iS" : 139295,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/lubo-kirov\/tichash_old.gif",
+      "oF" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/img\/projects\/lubo-kirov\/tichash.gif" : {
+      "ft" : 4194304,
+      "iS" : 120927,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/lubo-kirov\/tichash.gif",
       "oF" : 0,
@@ -5284,7 +5324,7 @@
       "oAP" : "\/docs\/metawise\/images\/favicon.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,

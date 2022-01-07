@@ -996,6 +996,7 @@
   }
 
   .scroll-prompt {
+    -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
     font-size: 3rem;
     line-height: 4rem;

@@ -136,6 +136,7 @@ html[data-w-dynpage] [data-w-cloak] {
   background-color: transparent;
   box-shadow: none;
   opacity: 1.0;
+  -webkit-transform: none;
   transform: none;
   transition: none;
   direction: ltr;
@@ -179,6 +180,7 @@ html[data-w-dynpage] [data-w-cloak] {
   opacity: 1.0 !important;
   line-height: 14px !important;
   text-decoration: none !important;
+  -webkit-transform: none !important;
   transform: none !important;
   margin: 0 !important;
   width: auto !important;
@@ -1366,11 +1368,13 @@ textarea.w-select {
 .w-lightbox-thumbnail .w-lightbox-tall {
   top: 50%;
   width: 100%;
+  -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
 }
 .w-lightbox-thumbnail .w-lightbox-wide {
   left: 50%;
   height: 100%;
+  -webkit-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
 }
 /*
@@ -1785,17 +1789,21 @@ textarea.w-select {
 }
 @-webkit-keyframes spin {
   0% {
+    -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
   100% {
+    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
 @keyframes spin {
   0% {
+    -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
   100% {
+    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
