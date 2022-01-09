@@ -928,21 +928,31 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/img\/projects\/bbc-maestro\/login_animation.gif" : {
+    "\/img\/projects\/bbc-maestro\/bbc-maesto-first-flow.gif" : {
       "ft" : 4194304,
-      "iS" : 111159,
+      "iS" : 127369,
       "oA" : 0,
-      "oAP" : "\/docs\/img\/projects\/bbc-maestro\/login_animation.gif",
+      "oAP" : "\/docs\/img\/projects\/bbc-maestro\/bbc-maesto-first-flow.gif",
       "oF" : 0,
       "opt" : 1,
       "ou" : "lpckwebp-none",
       "rq" : 75
     },
-    "\/img\/projects\/bbc-maestro\/login_animation11.gif" : {
+    "\/img\/projects\/bbc-maestro\/bbc-maesto-scnd-flow.gif" : {
       "ft" : 4194304,
-      "iS" : 171420,
+      "iS" : 170773,
       "oA" : 0,
-      "oAP" : "\/docs\/img\/projects\/bbc-maestro\/login_animation11.gif",
+      "oAP" : "\/docs\/img\/projects\/bbc-maestro\/bbc-maesto-scnd-flow.gif",
+      "oF" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/img\/projects\/bbc-maestro\/bbc-maestrologin_animation.gif" : {
+      "ft" : 4194304,
+      "iS" : 92414,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/bbc-maestro\/bbc-maestrologin_animation.gif",
       "oF" : 0,
       "opt" : 1,
       "ou" : "lpckwebp-none",
