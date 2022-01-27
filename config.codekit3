@@ -4433,6 +4433,114 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/projects\/tr-cm-thumb.png" : {
+      "ft" : 32768,
+      "iS" : 237413,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/tr-cm-thumb.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/tr-cm\/tr-cm-cover-01.jpg" : {
+      "ft" : 16384,
+      "iS" : 1333619,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/tr-cm\/tr-cm-cover-01.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/tr-cm\/tr-cm-cover-02.jpg" : {
+      "ft" : 16384,
+      "iS" : 841110,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/tr-cm\/tr-cm-cover-02.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/tr-cm\/tr-cm-cover-steps_a.gif" : {
+      "ft" : 4194304,
+      "iS" : 13551646,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/tr-cm\/tr-cm-cover-steps_a.gif",
+      "oF" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/img\/projects\/tr-cm\/tr-cm-cover-steps_b.gif" : {
+      "ft" : 4194304,
+      "iS" : 11053142,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/tr-cm\/tr-cm-cover-steps_b.gif",
+      "oF" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/img\/projects\/tr-cm\/tr-cm-cover-steps.gif" : {
+      "ft" : 4194304,
+      "iS" : 8033161,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/tr-cm\/tr-cm-cover-steps.gif",
+      "oF" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/img\/projects\/tr-cm\/tr-cm-poster-photo.jpg" : {
+      "ft" : 16384,
+      "iS" : 198917,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/tr-cm\/tr-cm-poster-photo.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/tr-cm\/tr-cm-poster.jpg" : {
+      "ft" : 16384,
+      "iS" : 239749,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/tr-cm\/tr-cm-poster.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/tr-cm\/tr-cm-vinyl.jpg" : {
+      "ft" : 16384,
+      "iS" : 377776,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/tr-cm\/tr-cm-vinyl.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/projects\/vertigo_thumb copy.jpg" : {
       "ft" : 16384,
       "iS" : 16529,
@@ -5028,6 +5136,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/docs\/tihomir_portfolio.html",
+      "oF" : 0
+    },
+    "\/tr-cm.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/tr-cm.html",
       "oF" : 0
     },
     "\/vertigo.kit" : {
