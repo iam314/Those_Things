@@ -480,9 +480,22 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/img\/projects\/314bits_thumb.png" : {
+    "\/img\/projects\/314bits_thumb_1.png" : {
       "ft" : 32768,
       "iS" : 34014,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/314bits_thumb_1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/314bits_thumb.png" : {
+      "ft" : 32768,
+      "iS" : 96903,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/314bits_thumb.png",
       "oF" : 0,
@@ -622,12 +635,12 @@
     },
     "\/img\/projects\/airquality_thumb.png" : {
       "ft" : 32768,
-      "iS" : 21724,
+      "iS" : 62782,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/airquality_thumb.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -714,11 +727,11 @@
     },
     "\/img\/projects\/artone_thumb.jpg" : {
       "ft" : 16384,
-      "iS" : 55536,
+      "iS" : 153497,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/artone_thumb.jpg",
-      "oF" : 1,
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
       "ou" : "lpckwebp-none",
@@ -917,7 +930,7 @@
     },
     "\/img\/projects\/bbc-maestro-thumb.png" : {
       "ft" : 32768,
-      "iS" : 9292,
+      "iS" : 18613,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/bbc-maestro-thumb.png",
       "oF" : 0,
@@ -1025,7 +1038,7 @@
     },
     "\/img\/projects\/bhp_thumb.png" : {
       "ft" : 32768,
-      "iS" : 201708,
+      "iS" : 302748,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/bhp_thumb.png",
       "oF" : 0,
@@ -1168,7 +1181,7 @@
     },
     "\/img\/projects\/BSB-thumb.png" : {
       "ft" : 32768,
-      "iS" : 4039,
+      "iS" : 7782,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/BSB-thumb.png",
       "oF" : 0,
@@ -1368,12 +1381,12 @@
     },
     "\/img\/projects\/btc_bd_thumb.png" : {
       "ft" : 32768,
-      "iS" : 18714,
+      "iS" : 100458,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/btc_bd_thumb.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -1563,7 +1576,7 @@
     },
     "\/img\/projects\/dentacoin_thumb.png" : {
       "ft" : 32768,
-      "iS" : 33240,
+      "iS" : 19836,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/dentacoin_thumb.png",
       "oF" : 0,
@@ -1638,7 +1651,7 @@
     },
     "\/img\/projects\/devcon_thumb.jpg" : {
       "ft" : 16384,
-      "iS" : 152514,
+      "iS" : 108059,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/devcon_thumb.jpg",
@@ -2275,7 +2288,7 @@
     },
     "\/img\/projects\/foxybot_thumb.png" : {
       "ft" : 32768,
-      "iS" : 6680,
+      "iS" : 5270,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/foxybot_thumb.png",
       "oF" : 0,
@@ -2353,7 +2366,7 @@
     },
     "\/img\/projects\/gabrovo_thumb.jpg" : {
       "ft" : 16384,
-      "iS" : 16997,
+      "iS" : 42138,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/gabrovo_thumb.jpg",
@@ -2561,7 +2574,7 @@
     },
     "\/img\/projects\/gallerysyle_thumb.png" : {
       "ft" : 32768,
-      "iS" : 2622,
+      "iS" : 5835,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/gallerysyle_thumb.png",
       "oF" : 0,
@@ -2574,7 +2587,7 @@
     },
     "\/img\/projects\/herrdonald_thumb.jpg" : {
       "ft" : 16384,
-      "iS" : 35300,
+      "iS" : 34307,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/herrdonald_thumb.jpg",
@@ -2613,7 +2626,7 @@
     },
     "\/img\/projects\/huichol_thumb.png" : {
       "ft" : 32768,
-      "iS" : 59145,
+      "iS" : 19402,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/huichol_thumb.png",
       "oF" : 0,
@@ -2790,12 +2803,12 @@
     },
     "\/img\/projects\/klett-kv-thumb.png" : {
       "ft" : 32768,
-      "iS" : 3402,
+      "iS" : 8189,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/klett-kv-thumb.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -2985,7 +2998,7 @@
     },
     "\/img\/projects\/kristin-kay_thumb.png" : {
       "ft" : 32768,
-      "iS" : 6683,
+      "iS" : 11613,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/kristin-kay_thumb.png",
       "oF" : 0,
@@ -3110,7 +3123,7 @@
     },
     "\/img\/projects\/logo_thumb.jpg" : {
       "ft" : 16384,
-      "iS" : 41099,
+      "iS" : 12753,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/logo_thumb.jpg",
@@ -3851,7 +3864,7 @@
     },
     "\/img\/projects\/lubo-kirov-lyric-video-thumb.gif" : {
       "ft" : 4194304,
-      "iS" : 208398,
+      "iS" : 967667,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/lubo-kirov-lyric-video-thumb.gif",
       "oF" : 0,
@@ -4066,9 +4079,22 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/img\/projects\/phwebsite_thumb.jpg" : {
+    "\/img\/projects\/phwebsite_thumb_1.jpg" : {
       "ft" : 16384,
       "iS" : 60022,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/phwebsite_thumb_1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/phwebsite_thumb.jpg" : {
+      "ft" : 16384,
+      "iS" : 85482,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/phwebsite_thumb.jpg",
@@ -4107,7 +4133,7 @@
     },
     "\/img\/projects\/ruth_thumb.jpg" : {
       "ft" : 16384,
-      "iS" : 15826,
+      "iS" : 31826,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/ruth_thumb.jpg",
@@ -4237,7 +4263,7 @@
     },
     "\/img\/projects\/sitostudio_thumb.png" : {
       "ft" : 32768,
-      "iS" : 32639,
+      "iS" : 9679,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/sitostudio_thumb.png",
       "oF" : 0,
@@ -4556,7 +4582,7 @@
     },
     "\/img\/projects\/vertigo_thumb.jpg" : {
       "ft" : 16384,
-      "iS" : 68198,
+      "iS" : 44047,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/vertigo_thumb.jpg",
@@ -4621,7 +4647,7 @@
     },
     "\/img\/projects\/water_thumb.png" : {
       "ft" : 32768,
-      "iS" : 4479,
+      "iS" : 9145,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/water_thumb.png",
       "oF" : 0,
