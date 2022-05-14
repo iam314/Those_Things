@@ -228,6 +228,14 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/fotofabrika.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/fotofabrika.html",
+      "oF" : 0
+    },
     "\/foxybot.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -2282,6 +2290,72 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/fotofabrika_thumb.gif" : {
+      "ft" : 4194304,
+      "iS" : 15906,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/fotofabrika_thumb.gif",
+      "oF" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/img\/projects\/fotofabrika\/fotofabrika_homep_page.gif" : {
+      "ft" : 4194304,
+      "iS" : 12840680,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/fotofabrika\/fotofabrika_homep_page.gif",
+      "oF" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/img\/projects\/fotofabrika\/fotofabrika_pages_mobile-dark.gif" : {
+      "ft" : 4194304,
+      "iS" : 1940670,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/fotofabrika\/fotofabrika_pages_mobile-dark.gif",
+      "oF" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/img\/projects\/fotofabrika\/fotofabrika_pages_mobile-light.gif" : {
+      "ft" : 4194304,
+      "iS" : 1985887,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/fotofabrika\/fotofabrika_pages_mobile-light.gif",
+      "oF" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/img\/projects\/fotofabrika\/Fotofabrika-website-pages-dark.png" : {
+      "ft" : 32768,
+      "iS" : 907243,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/fotofabrika\/Fotofabrika-website-pages-dark.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/fotofabrika\/Fotofabrika-website-pages-light.png" : {
+      "ft" : 32768,
+      "iS" : 897765,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/fotofabrika\/Fotofabrika-website-pages-light.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
