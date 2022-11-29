@@ -4036,6 +4036,42 @@
       "ou" : "lpckwebp-none",
       "rq" : 75
     },
+    "\/img\/projects\/minavi_thumb.png" : {
+      "ft" : 32768,
+      "iS" : 29645,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/minavi_thumb.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/minavi\/minavi-hero-gif.gif" : {
+      "ft" : 4194304,
+      "iS" : 4800396,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/minavi\/minavi-hero-gif.gif",
+      "oF" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/img\/projects\/minavi\/minavi-parint-invites.png" : {
+      "ft" : 32768,
+      "iS" : 2787212,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/minavi\/minavi-parint-invites.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/projects\/phweb\/ph_about_responsive.png" : {
       "ft" : 32768,
       "iS" : 39144,
@@ -5034,6 +5070,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/docs\/lubo-kirov-lyric-video.html",
+      "oF" : 0
+    },
+    "\/minavi.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/minavi.html",
       "oF" : 0
     },
     "\/partials\/_about.html" : {
