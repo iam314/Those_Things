@@ -81,6 +81,14 @@
       "oAP" : "\/docs\/contact.html",
       "oF" : 0
     },
+    "\/crazyfrog.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/crazyfrog.html",
+      "oF" : 0
+    },
     "\/css\/_variables.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1574,6 +1582,19 @@
       "iS" : 195589,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/characters\/cups.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/crazyfrog_thumb.png" : {
+      "ft" : 32768,
+      "iS" : 11401,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/crazyfrog_thumb.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
