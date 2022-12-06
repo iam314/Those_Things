@@ -56,10 +56,7 @@ a[href^="tel"], button{
 
     }
 
-  #myBtnContainer {
-  overflow: auto;
-  white-space: nowrap;
-  }
+
 
  // STICKY footer
 .Site {
@@ -616,14 +613,19 @@ ul.clientslist {
 }
 
 // FILTERS
+.filterbuttons-wrapper {
+  overflow: auto;
+  white-space: nowrap;
+}
+
 #myBtnContainer {
   margin-top: 18px;
 }
 
 .filterlabel {
   font-family: 'Rubik', sans-serif;
-  font-weight: 500;
-  font-size: 1.4em;
+  font-weight: 700;
+  font-size: 1.3em;
   text-transform: uppercase;
 }
 
@@ -638,8 +640,8 @@ ul.clientslist {
 /* Style the buttons */
 .btn {
   font-family: 'Rubik', sans-serif;
-  font-weight: 400;
-  font-size: 1.8em;
+  font-weight: 300;
+  font-size: 1.6em;
   border: none;
   outline: none;
   background-color: $color-white;

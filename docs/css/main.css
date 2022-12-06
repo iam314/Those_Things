@@ -11,8 +11,7 @@
   box-sizing: border-box;
   float: left;
   overflow: hidden;
-  width: 25%;
-  /* Fallback */
+  width: 25%; /* Fallback */
   width: 25%;
   padding: 0 12px 26px 12px;
 }
@@ -64,11 +63,9 @@
 /* Example for media query: change number of items per row */
 @media screen and (max-width: 1147px) {
   .projects li {
-    width: 33.3333%;
-    /* Fallback */
+    width: 33.3333%; /* Fallback */
     width: 33.3333333333%;
   }
-
   .projects li {
     padding: 0 12px 16px 12px;
   }
@@ -80,15 +77,12 @@
 }
 @media screen and (max-width: 880px) {
   .projects li {
-    width: 50%;
-    /* Fallback */
+    width: 50%; /* Fallback */
     width: 50%;
   }
-
   .projects li {
     padding: 0 8px 10px 8px;
   }
-
   .projects li a {
     font-size: 1.6em;
   }
@@ -97,7 +91,6 @@
   .projects li {
     padding: 0 6px 4px 6px;
   }
-
   .projects li a {
     font-size: 1.4em;
   }
@@ -106,15 +99,13 @@
   .projects li {
     padding: 0 4px 4px 4px;
   }
-
   .projects li a {
     font-size: 1.2em;
   }
 }
 @media screen and (max-width: 350px) {
   .projects li {
-    width: 100%;
-    /* Fallback */
+    width: 100%; /* Fallback */
     width: 100%;
   }
 }
@@ -665,7 +656,6 @@ a.slider_link:hover {
   .slider {
     margin: -74px auto 0 auto;
   }
-
   .slider_text {
     display: block;
   }
@@ -675,22 +665,18 @@ a.slider_link:hover {
     background: url(../img/slider/314_typeface_slider_sm.png) no-repeat center;
     background-size: cover;
   }
-
   .slide2 {
     background: url(../img/slider/sito_studio_website_sm.png) no-repeat center;
     background-size: cover;
   }
-
   .slide3 {
     background: url(../img/slider/gallerysytle_website_sm.png) no-repeat center;
     background-size: cover;
   }
-
   .slide4 {
     background: url(../img/slider/ph_cover.jpg) no-repeat center;
     background-size: cover;
   }
-
   .slide5 {
     background: url(../img/slider/logo_folio_sm.png) no-repeat center;
     background-size: cover;
@@ -743,11 +729,6 @@ a[href^=tel], button {
 ::-webkit-scrollbar-thumb:horizontal {
   background: #000;
   border-radius: 10px;
-}
-
-#myBtnContainer {
-  overflow: auto;
-  white-space: nowrap;
 }
 
 .Site {
@@ -1060,23 +1041,19 @@ select {
   color: #161616;
 }
 
-::-webkit-input-placeholder {
-  /* Chrome/Opera/Safari */
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: #161616;
 }
 
-::-moz-placeholder {
-  /* Firefox 19+ */
+::-moz-placeholder { /* Firefox 19+ */
   color: #161616;
 }
 
-:-ms-input-placeholder {
-  /* IE 10+ */
+:-ms-input-placeholder { /* IE 10+ */
   color: #161616;
 }
 
-:-moz-placeholder {
-  /* Firefox 18- */
+:-moz-placeholder { /* Firefox 18- */
   color: #161616;
 }
 
@@ -1284,11 +1261,9 @@ ul.clientslist li {
 }
 
 .sectionbacground {
-  animation: colorchange 25s infinite;
-  /* animation-name followed by duration in seconds*/
+  animation: colorchange 25s infinite; /* animation-name followed by duration in seconds*/
   /* you could also use milliseconds (ms) or something like 2.5s */
-  -webkit-animation: colorchange 25s infinite;
-  /* Chrome and Safari */
+  -webkit-animation: colorchange 25s infinite; /* Chrome and Safari */
 }
 
 @keyframes colorchange {
@@ -1337,14 +1312,19 @@ ul.clientslist li {
     background: #e0282a;
   }
 }
+.filterbuttons-wrapper {
+  overflow: auto;
+  white-space: nowrap;
+}
+
 #myBtnContainer {
   margin-top: 18px;
 }
 
 .filterlabel {
   font-family: "Rubik", sans-serif;
-  font-weight: 500;
-  font-size: 1.4em;
+  font-weight: 700;
+  font-size: 1.3em;
   text-transform: uppercase;
 }
 
@@ -1359,8 +1339,8 @@ ul.clientslist li {
 /* Style the buttons */
 .btn {
   font-family: "Rubik", sans-serif;
-  font-weight: 400;
-  font-size: 1.8em;
+  font-weight: 300;
+  font-size: 1.6em;
   border: none;
   outline: none;
   background-color: #ffffff;
@@ -1518,51 +1498,40 @@ ul.clientslist li {
   nav {
     margin-top: 2.1em;
   }
-
   .secondary_nav {
     display: none;
   }
-
   .topnav {
     display: none;
   }
-
   .hidedesktop {
     display: block;
   }
-
   .negative_margin {
     margin-top: -74px;
   }
-
   ul.clientslist {
     webkit-column-count: 3;
     -moz-column-count: 3;
     column-count: 3;
     list-style: none;
   }
-
   .m-overright {
     margin: 140px auto 0 0;
   }
-
   .infplscntposition2nd {
     margin-top: 2.6em;
   }
-
   .infplscntposition {
     margin: 150px auto 0 0;
   }
-
   .contactbtn {
     margin: 160px auto 0 0;
   }
-
   .projectsposition {
     margin-top: 76px;
     margin-left: 0;
   }
-
   .txt-wrapper {
     margin-left: 5%;
   }
@@ -1576,54 +1545,43 @@ ul.clientslist li {
   .photo {
     margin-top: 1.4em;
   }
-
   h1 {
     font-size: 3.1em;
   }
-
   h2 {
     font-size: 2.3em;
   }
-
   h4 {
     font-size: 2.1em;
   }
-
   p {
     font-size: 1.8em;
     margin-top: 3.2em;
     margin-bottom: 2.1em;
   }
-
   ul.clientslist li {
     font-size: 1.4em;
   }
-
   .contactbtn {
     font-size: 1.8em;
     padding: 28px 28px 30px 28px;
     border: 14px solid gold;
     margin: 120px auto 0 0;
   }
-
   .slider_link, .slider_text {
     font-size: 2.1em;
   }
-
   .slider_text {
     font-size: 1.8em;
   }
-
   .slidercouter {
     font-size: 1.4em;
   }
-
   .filterlabel {
     font-size: 1.1em;
     display: block;
     margin-bottom: 0.5em;
   }
-
   button.btn {
     font-size: 1.4em;
     padding-top: 1px;
@@ -1631,15 +1589,12 @@ ul.clientslist li {
     padding-bottom: 1px;
     padding-left: 1px;
   }
-
   footer {
     margin-top: 12em;
   }
-
   .m-overright {
     margin: 60px auto 0 0;
   }
-
   .infplscntposition2nd {
     margin-top: -0.5em;
   }
@@ -1661,7 +1616,6 @@ ul.clientslist li {
   .footer_navigation li:last-child {
     margin-right: 0;
   }
-
   .footerlogo {
     float: left;
     height: 3em;
@@ -1677,31 +1631,26 @@ ul.clientslist li {
   .footer_navigation ul li a {
     font-size: 1.4em;
   }
-
   .footer_navigation li {
     margin-left: 2.6em;
   }
   .footer_navigation li:last-child {
     margin-right: 0;
   }
-
   .footerlogo {
     float: left;
     height: 2.8em;
     width: 5.6em;
   }
-
   .name, .mail {
     width: 100%;
     float: none;
     margin-right: 0;
   }
-
   .company, .phone {
     width: 100%;
     margin-left: 0;
   }
-
   ul.clientslist {
     padding: 0;
     margin-top: 1.8em;
@@ -1710,7 +1659,6 @@ ul.clientslist li {
     column-count: 2;
     list-style: none;
   }
-
   .contactbtn {
     margin: 100px auto 0 0;
   }
