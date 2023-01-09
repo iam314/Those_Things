@@ -1,7 +1,7 @@
 .slider {
-    width: 100%;
-    min-height:100vh;
-    margin: -73px auto 0 auto;
+  width: 100%;
+  min-height:100vh;
+  margin: -4rem auto 0 auto;
 }
 
 .slick-slide {
@@ -14,9 +14,8 @@
 
 .slick-prev:before,
 .slick-next:before {
-  color: black;
+  color: #161616;
 }
-
 
 .slick-slide {
   transition: all ease-in-out .3s;
@@ -37,48 +36,37 @@
 }
 
 .slider_link, .slider_text {
-  font-family: 'Rubik', sans-serif;
   font-weight: 700;
-  font-size: 2.6em;
-  line-height: 120%;
+  font-size: 1.75rem;
+  line-height: 1.2;
   color: $color-black;
   text-decoration: none;
-  display: inline-block;
-  padding-bottom: 9px;
+  display: block;
+  padding-bottom: 8px;
 }
 
 .slider_text {
   font-weight: 300;
-  font-size: 2.1em;
-  margin-bottom: 18px;
-}
-
-a.slider_link:hover {
-  padding-bottom: 9px;
-  // text-decoration: underline;
-  // border-bottom: 3px solid;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
 }
 
 .slidercouter {
-  font-family: 'Rubik', sans-serif;
   font-weight: 400;
-  font-size: 1.8em;
+  font-size: 1.25rem;
   position: absolute;
   right: 6%;
   bottom: 0;
-  margin-bottom: 29px;
+  margin-bottom: 1.625rem;
 }
-
 
 .slide1 {background:url(../img/slider/314_typeface_slider.png) no-repeat center;
 background-size: cover;}
 .slide2 {background:url(../img/slider/sito_studio_website.png) no-repeat center;
 background-size: cover;}
-.slide3 {background:url(../img/slider/gallerysytle_website.png) no-repeat center;
+.slide3 {background:url(../img/slider/ph_cover.jpg) no-repeat center;
 background-size: cover;}
-.slide4 {background:url(../img/slider/ph_cover.jpg) no-repeat center;
-background-size: cover;}
-.slide5 {background:url(../img/slider/logo_folio.png) no-repeat center;
+.slide4 {background:url(../img/slider/logo_folio.png) no-repeat center;
 background-size: cover;}
 
 @media screen and (max-width: 1010px) {
@@ -90,15 +78,23 @@ background-size: cover;}
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .slide1 {background:url(../img/slider/314_typeface_slider_sm.png) no-repeat center;
   background-size: cover;}
   .slide2 {background:url(../img/slider/sito_studio_website_sm.png) no-repeat center;
   background-size: cover;}
-  .slide3 {background:url(../img/slider/gallerysytle_website_sm.png) no-repeat center;
+  .slide3 {background:url(../img/slider/ph_cover.jpg) no-repeat center;
   background-size: cover;}
-  .slide4 {background:url(../img/slider/ph_cover.jpg) no-repeat center;
+  .slide4 {background:url(../img/slider/logo_folio_sm.png) no-repeat center;
   background-size: cover;}
-  .slide5 {background:url(../img/slider/logo_folio_sm.png) no-repeat center;
-  background-size: cover;}
+
+  .slider_link, .slider_text {
+    font-size: 1.25rem;
+  }
+  .slider_text {
+    font-size: 1rem;
+  }
+  .slidercouter {
+    font-size: 0.75rem;
+  }
 }
