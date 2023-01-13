@@ -279,7 +279,7 @@ form {
   box-sizing: border-box;
   margin: 0 auto;
   max-width: 599px;
-  padding-bottom: 120px;
+  padding-bottom: 7.5rem;
 }
 
 input, textarea, select, {
@@ -476,6 +476,13 @@ ul.clientslist {
 
 .backgound-black {
 	background-color: $color-black;
+}
+.backgound-blacker {
+  background-color: #000000;
+}
+
+.padding-bottom-l {
+  padding-bottom: 7.5rem;
 }
 
 .text-box-wrapper {
@@ -782,6 +789,9 @@ ul.clientslist {
     margin: 2rem 0 0 0;
   }
   form {
+    padding-bottom: 2.25rem;
+  }
+  .padding-bottom-l {
     padding-bottom: 2.25rem;
   }
   .name, .mail {
