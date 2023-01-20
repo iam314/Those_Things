@@ -177,6 +177,12 @@
       "oAP" : "\/docs\/devcon.html",
       "oF" : 0
     },
+    "\/docs" : {
+      "ft" : 65536,
+      "oA" : 1,
+      "oAP" : "\/docs\/docs",
+      "oF" : 0
+    },
     "\/favicon.ico\/favicon.png" : {
       "ft" : 32768,
       "iS" : 958,
@@ -690,6 +696,19 @@
       "oIPL" : 0,
       "opt" : 1,
       "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/og-images\/og-image-retail_display.jpg" : {
+      "ft" : 16384,
+      "iS" : 232044,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/og-images\/og-image-retail_display.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4065,6 +4084,92 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/projects\/oraestete_thumb.png" : {
+      "ft" : 32768,
+      "iS" : 779138,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/oraestete_thumb.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/oraestete\/oraestete-logo-on-dark.png" : {
+      "ft" : 32768,
+      "iS" : 14226,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/oraestete\/oraestete-logo-on-dark.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/oraestete\/oraestete-logo-on-light.png" : {
+      "ft" : 32768,
+      "iS" : 13939,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/oraestete\/oraestete-logo-on-light.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/oraestete\/oraestete-logo-varients.png" : {
+      "ft" : 32768,
+      "iS" : 14337,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/oraestete\/oraestete-logo-varients.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/oraestete\/oraestete-pages-desktop.png" : {
+      "ft" : 32768,
+      "iS" : 2282470,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/oraestete\/oraestete-pages-desktop.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/oraestete\/oraestete-pages-mobile.png" : {
+      "ft" : 32768,
+      "iS" : 1451706,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/oraestete\/oraestete-pages-mobile.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/oraestete\/oraestete.json" : {
+      "ft" : 524288,
+      "oA" : 2,
+      "oAP" : "\/docs\/img\/projects\/oraestete\/oraestete.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
     "\/img\/projects\/phweb\/ph_about_responsive.png" : {
       "ft" : 32768,
       "iS" : 39144,
@@ -4191,6 +4296,123 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/retail_display_thumb.jpg" : {
+      "ft" : 16384,
+      "iS" : 173315,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/retail_display_thumb.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/retail-display-blade\/box-3d.jpg" : {
+      "ft" : 16384,
+      "iS" : 337120,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/retail-display-blade\/box-3d.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/retail-display-blade\/box-diecut.jpg" : {
+      "ft" : 16384,
+      "iS" : 589962,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/retail-display-blade\/box-diecut.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/retail-display-blade\/box-real.jpg" : {
+      "ft" : 16384,
+      "iS" : 695565,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/retail-display-blade\/box-real.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/retail-display-blade\/retail-display-01.jpg" : {
+      "ft" : 16384,
+      "iS" : 786491,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/retail-display-blade\/retail-display-01.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/retail-display-blade\/retail-display-02.jpg" : {
+      "ft" : 16384,
+      "iS" : 758096,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/retail-display-blade\/retail-display-02.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/retail-display-blade\/retail-display-03.jpg" : {
+      "ft" : 16384,
+      "iS" : 775358,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/retail-display-blade\/retail-display-03.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/retail-display-blade\/retail-display-3d.jpg" : {
+      "ft" : 16384,
+      "iS" : 627209,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/retail-display-blade\/retail-display-3d.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/retail-display-blade\/retail-display-04.jpg" : {
+      "ft" : 16384,
+      "iS" : 704475,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/retail-display-blade\/retail-display-04.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4863,6 +5085,14 @@
       "oAP" : "\/docs\/minavi.html",
       "oF" : 0
     },
+    "\/oraestete.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/oraestete.html",
+      "oF" : 0
+    },
     "\/partials\/_about.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -4957,6 +5187,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/docs\/phwebsite.html",
+      "oF" : 0
+    },
+    "\/retail-display-blade.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/retail-display-blade.html",
       "oF" : 0
     },
     "\/ruth.kit" : {
@@ -5079,14 +5317,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/docs\/tihomir_portfolio.html",
-      "oF" : 0
-    },
-    "\/tr-cm.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/docs\/tr-cm.html",
       "oF" : 0
     },
     "\/vertigo.kit" : {
