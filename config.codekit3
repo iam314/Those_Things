@@ -687,6 +687,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/og-images\/og-image-oraestete.png" : {
+      "ft" : 32768,
+      "iS" : 504715,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/og-images\/og-image-oraestete.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/og-images\/og-image-pheliabarouh.png" : {
       "ft" : 32768,
       "iS" : 472119,
@@ -4086,7 +4099,7 @@
     },
     "\/img\/projects\/oraestete_thumb.png" : {
       "ft" : 32768,
-      "iS" : 779138,
+      "iS" : 356074,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/oraestete_thumb.png",
       "oF" : 0,
