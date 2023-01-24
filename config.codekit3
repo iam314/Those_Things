@@ -622,6 +622,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/og-images\/og-image-kapna.png" : {
+      "ft" : 32768,
+      "iS" : 20479,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/og-images\/og-image-kapna.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/og-images\/og-image-klett-kv.png" : {
       "ft" : 32768,
       "iS" : 18112,
@@ -2694,6 +2707,32 @@
       "oF" : 0,
       "oO" : 0,
       "oS" : 1
+    },
+    "\/img\/projects\/kapana_thumb.png" : {
+      "ft" : 32768,
+      "iS" : 19735,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/kapana_thumb.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/kapana\/kapana-identity-pages.png" : {
+      "ft" : 32768,
+      "iS" : 890452,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/kapana\/kapana-identity-pages.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/img\/projects\/klett-kv-thumb.png" : {
       "ft" : 32768,
@@ -5056,6 +5095,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/docs\/jwax.html",
+      "oF" : 0
+    },
+    "\/kapana.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/kapana.html",
       "oF" : 0
     },
     "\/klett-kv.kit" : {
