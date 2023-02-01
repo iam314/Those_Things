@@ -726,6 +726,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/og-images\/og-image-poyden.png" : {
+      "ft" : 32768,
+      "iS" : 170090,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/og-images\/og-image-poyden.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/og-images\/og-image-retail_display.jpg" : {
       "ft" : 16384,
       "iS" : 232044,
@@ -4138,7 +4151,7 @@
     },
     "\/img\/projects\/oraestete_thumb.png" : {
       "ft" : 32768,
-      "iS" : 779138,
+      "iS" : 356074,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/oraestete_thumb.png",
       "oF" : 0,
@@ -4351,6 +4364,79 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/img\/projects\/poyden_thumb.png" : {
+      "ft" : 32768,
+      "iS" : 11882,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/poyden_thumb.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/poyden\/poyden_stationary.png" : {
+      "ft" : 32768,
+      "iS" : 2124657,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/poyden\/poyden_stationary.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/poyden\/poyden_typography.png" : {
+      "ft" : 32768,
+      "iS" : 329744,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/poyden\/poyden_typography.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/poyden\/Poyden-logo_singlecolor_on_dark_bg.png" : {
+      "ft" : 32768,
+      "iS" : 6618,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/poyden\/Poyden-logo_singlecolor_on_dark_bg.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/poyden\/Poyden-logo_singlecolor_on_light_bg.png" : {
+      "ft" : 32768,
+      "iS" : 13793,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/poyden\/Poyden-logo_singlecolor_on_light_bg.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/poyden\/poyden-logo.json" : {
+      "ft" : 524288,
+      "oA" : 2,
+      "oAP" : "\/docs\/img\/projects\/poyden\/poyden-logo.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
     },
     "\/img\/projects\/retail_display_thumb.jpg" : {
       "ft" : 16384,
