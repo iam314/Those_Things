@@ -414,6 +414,19 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/img\/og-images\/og-image- outsidertalks.png" : {
+      "ft" : 32768,
+      "iS" : 10913,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/og-images\/og-image- outsidertalks.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/og-images\/og-image-314_bits.png" : {
       "ft" : 32768,
       "iS" : 16353,
@@ -4182,7 +4195,7 @@
       "oAP" : "\/docs\/img\/projects\/oraestete\/oraestete-logo-on-light.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -4231,6 +4244,144 @@
       "ft" : 524288,
       "oA" : 2,
       "oAP" : "\/docs\/img\/projects\/oraestete\/oraestete.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/img\/projects\/outsidertalks_thumb.png" : {
+      "ft" : 32768,
+      "iS" : 7104,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/outsidertalks_thumb.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/outsidertalks\/ousidertalks_logo_on_light_bg.png" : {
+      "ft" : 32768,
+      "iS" : 11079,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/outsidertalks\/ousidertalks_logo_on_light_bg.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/outsidertalks\/outsidertalks_icon.png" : {
+      "ft" : 32768,
+      "iS" : 1827,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/outsidertalks\/outsidertalks_icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/outsidertalks\/outsidertalks_logo_on-web-mockups.png" : {
+      "ft" : 32768,
+      "iS" : 466603,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/outsidertalks\/outsidertalks_logo_on-web-mockups.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/outsidertalks\/outsidertalks_logo_staked-2_on-black.png" : {
+      "ft" : 32768,
+      "iS" : 3298,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/outsidertalks\/outsidertalks_logo_staked-2_on-black.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/outsidertalks\/outsidertalks_logo_staked-2_on-light.png" : {
+      "ft" : 32768,
+      "iS" : 3391,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/outsidertalks\/outsidertalks_logo_staked-2_on-light.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/outsidertalks\/outsidertalks_logo_staked-2_on-orange.png" : {
+      "ft" : 32768,
+      "iS" : 3431,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/outsidertalks\/outsidertalks_logo_staked-2_on-orange.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/outsidertalks\/outsidertalks_logo_staked-3_on-black.png" : {
+      "ft" : 32768,
+      "iS" : 3352,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/outsidertalks\/outsidertalks_logo_staked-3_on-black.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/outsidertalks\/outsidertalks_logo_staked-3_on-light.png" : {
+      "ft" : 32768,
+      "iS" : 3447,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/outsidertalks\/outsidertalks_logo_staked-3_on-light.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/outsidertalks\/outsidertalks_logo_staked-3_on-orange.png" : {
+      "ft" : 32768,
+      "iS" : 3491,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/outsidertalks\/outsidertalks_logo_staked-3_on-orange.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/outsidertalks\/OutsiderTalks.json" : {
+      "ft" : 524288,
+      "oA" : 2,
+      "oAP" : "\/docs\/img\/projects\/outsidertalks\/OutsiderTalks.json",
       "oF" : 0,
       "oO" : 0,
       "oS" : 1
@@ -4411,7 +4562,7 @@
       "oAP" : "\/docs\/img\/projects\/poyden\/Poyden-logo_singlecolor_on_dark_bg.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -4424,7 +4575,7 @@
       "oAP" : "\/docs\/img\/projects\/poyden\/Poyden-logo_singlecolor_on_light_bg.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -4459,7 +4610,7 @@
       "oAP" : "\/docs\/img\/projects\/retail-display-blade\/box-3d.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4472,7 +4623,7 @@
       "oAP" : "\/docs\/img\/projects\/retail-display-blade\/box-diecut.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4485,7 +4636,7 @@
       "oAP" : "\/docs\/img\/projects\/retail-display-blade\/box-real.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4498,7 +4649,7 @@
       "oAP" : "\/docs\/img\/projects\/retail-display-blade\/retail-display-01.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4511,7 +4662,7 @@
       "oAP" : "\/docs\/img\/projects\/retail-display-blade\/retail-display-02.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4524,7 +4675,7 @@
       "oAP" : "\/docs\/img\/projects\/retail-display-blade\/retail-display-03.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4537,7 +4688,7 @@
       "oAP" : "\/docs\/img\/projects\/retail-display-blade\/retail-display-3d.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4550,7 +4701,7 @@
       "oAP" : "\/docs\/img\/projects\/retail-display-blade\/retail-display-04.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5239,6 +5390,14 @@
       "oAP" : "\/docs\/oraestete.html",
       "oF" : 0
     },
+    "\/outsidertalks.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/outsidertalks.html",
+      "oF" : 0
+    },
     "\/partials\/_about.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -5510,7 +5669,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "brackets_brown",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 695300828.25367701
+    "lastBuiltDate" : 700508197.46479905
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
