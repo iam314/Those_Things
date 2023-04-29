@@ -4164,7 +4164,7 @@
     },
     "\/img\/projects\/oraestete_thumb.png" : {
       "ft" : 32768,
-      "iS" : 356074,
+      "iS" : 779138,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/oraestete_thumb.png",
       "oF" : 0,
@@ -5033,6 +5033,14 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/img\/projects\/terrasse\/terrasse_lottie.json" : {
+      "ft" : 524288,
+      "oA" : 2,
+      "oAP" : "\/docs\/img\/projects\/terrasse\/terrasse_lottie.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
     },
     "\/img\/projects\/vertigo_thumb.jpg" : {
       "ft" : 16384,
