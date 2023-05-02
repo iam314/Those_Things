@@ -791,6 +791,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/og-images\/og-image-terrasse.png" : {
+      "ft" : 32768,
+      "iS" : 3896,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/og-images\/og-image-terrasse.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/og-images\/og-image-thosethings.png" : {
       "ft" : 32768,
       "iS" : 5452,
