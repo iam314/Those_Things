@@ -5125,9 +5125,22 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/img\/projects\/terrasse\/terrasse_icon_on_light.png" : {
+    "\/img\/projects\/terrasse\/terrasse_icon_on_light_old.png" : {
       "ft" : 32768,
       "iS" : 1541,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/terrasse\/terrasse_icon_on_light_old.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/terrasse\/terrasse_icon_on_light.png" : {
+      "ft" : 32768,
+      "iS" : 8657,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/terrasse\/terrasse_icon_on_light.png",
       "oF" : 0,
@@ -5138,9 +5151,22 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/img\/projects\/terrasse\/terrasse_logo.png" : {
+    "\/img\/projects\/terrasse\/terrasse_logo_old.png" : {
       "ft" : 32768,
       "iS" : 11495,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/terrasse\/terrasse_logo_old.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/terrasse\/terrasse_logo.png" : {
+      "ft" : 32768,
+      "iS" : 35488,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/terrasse\/terrasse_logo.png",
       "oF" : 0,
@@ -5151,6 +5177,14 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/projects\/terrasse\/terrasse_lottie_old.json" : {
+      "ft" : 524288,
+      "oA" : 2,
+      "oAP" : "\/docs\/img\/projects\/terrasse\/terrasse_lottie_old.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
     "\/img\/projects\/terrasse\/terrasse_lottie.json" : {
       "ft" : 524288,
       "oA" : 2,
@@ -5159,9 +5193,22 @@
       "oO" : 0,
       "oS" : 1
     },
-    "\/img\/projects\/terrasse\/terrasse_wordmark.png" : {
+    "\/img\/projects\/terrasse\/terrasse_wordmark_old.png" : {
       "ft" : 32768,
       "iS" : 10072,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/terrasse\/terrasse_wordmark_old.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/terrasse\/terrasse_wordmark.png" : {
+      "ft" : 32768,
+      "iS" : 34127,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/terrasse\/terrasse_wordmark.png",
       "oF" : 0,
@@ -5172,9 +5219,22 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/img\/projects\/terrasse\/terrassee_icon_on_dark.png" : {
+    "\/img\/projects\/terrasse\/terrassee_icon_on_dark_old.png" : {
       "ft" : 32768,
       "iS" : 1994,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/terrasse\/terrassee_icon_on_dark_old.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/terrasse\/terrassee_icon_on_dark.png" : {
+      "ft" : 32768,
+      "iS" : 8602,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/terrasse\/terrassee_icon_on_dark.png",
       "oF" : 0,
@@ -5828,7 +5888,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "brackets_brown",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 705856907.94619596
+    "lastBuiltDate" : 705858272.72209096
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
