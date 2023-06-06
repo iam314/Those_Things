@@ -843,6 +843,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/og-images\/og-image-workship.png" : {
+      "ft" : 32768,
+      "iS" : 5370,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/og-images\/og-image-workship.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/projects\/09\/09_cover.png" : {
       "ft" : 32768,
       "iS" : 1411880,
@@ -5427,6 +5440,131 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/projects\/workship\/workship_icon_black_on_green.png" : {
+      "ft" : 32768,
+      "iS" : 591,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/workship\/workship_icon_black_on_green.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/workship\/Workship_icon_black_on_white.png" : {
+      "ft" : 32768,
+      "iS" : 581,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/workship\/Workship_icon_black_on_white.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/workship\/workship_icon_green_on_white.png" : {
+      "ft" : 32768,
+      "iS" : 593,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/workship\/workship_icon_green_on_white.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/workship\/workship_icon_white_on_black.png" : {
+      "ft" : 32768,
+      "iS" : 587,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/workship\/workship_icon_white_on_black.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/workship\/workship_logo_and_slogan.png" : {
+      "ft" : 32768,
+      "iS" : 12612,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/workship\/workship_logo_and_slogan.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/workship\/workship_logo_black_on_white.png" : {
+      "ft" : 32768,
+      "iS" : 2873,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/workship\/workship_logo_black_on_white.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/workship\/workship_logo_on_grid.png" : {
+      "ft" : 32768,
+      "iS" : 14062,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/workship\/workship_logo_on_grid.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/workship\/workship_logo_white_on_black.png" : {
+      "ft" : 32768,
+      "iS" : 2928,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/workship\/workship_logo_white_on_black.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/workship\/workship_pattern.png" : {
+      "ft" : 32768,
+      "iS" : 19425,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/workship\/workship_pattern.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/workship\/workship.json" : {
+      "ft" : 524288,
+      "oA" : 2,
+      "oAP" : "\/docs\/img\/projects\/workship\/workship.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
     "\/img\/slider\/314_typeface_slider_sm.png" : {
       "ft" : 32768,
       "iS" : 3009,
@@ -5873,6 +6011,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/docs\/work.html",
+      "oF" : 0
+    },
+    "\/workship.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/workship.html",
       "oF" : 0
     }
   },
