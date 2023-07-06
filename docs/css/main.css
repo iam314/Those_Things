@@ -864,10 +864,30 @@ footer ul.secondary_nav li a {
   transition: all 300ms ease-in-out;
 }
 
-a.links:hover {
+.readmore-btn, .contract-btn {
+  font-family: "Rubik", "sans-serif";
+  font-weight: 300;
+  font-size: 1em;
+  padding: 0;
+  background-color: transparent;
+  color: #949494;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-decoration: none;
+  border: 0;
+  border-bottom: 1px dotted #949494;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+a.links:hover, .readmore-btn:hover, .contract-btn:hover {
   text-decoration: none;
   color: #FF1D25;
   border-bottom: 1px dotted #FF1D25;
+}
+
+.is-hidden {
+  display: none;
 }
 
 .negative_margin {
