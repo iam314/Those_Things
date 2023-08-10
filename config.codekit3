@@ -5690,6 +5690,14 @@
       "oAP" : "\/docs\/index.html",
       "oF" : 0
     },
+    "\/js\/jwax.code-workspace" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/js\/jwax.code-workspace",
+      "oF" : 0
+    },
     "\/js\/main.js" : {
       "bF" : 0,
       "ft" : 64,
