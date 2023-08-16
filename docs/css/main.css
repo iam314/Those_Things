@@ -1196,9 +1196,6 @@ ul.clientslist li {
 .filterbuttons-wrapper > .btn {
   margin-left: 0.75rem;
 }
-.filterbuttons-wrapper > .btn:last-child {
-  margin-left: 0;
-}
 
 .fileter_label_wrapper {
   align-self: flex-start;
