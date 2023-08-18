@@ -5086,11 +5086,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/img\/projects\/terrasse-thumb.gif" : {
+    "\/img\/projects\/terrasse_thumb.gif" : {
       "ft" : 4194304,
       "iS" : 1142604,
       "oA" : 0,
-      "oAP" : "\/docs\/img\/projects\/terrasse-thumb.gif",
+      "oAP" : "\/docs\/img\/projects\/terrasse_thumb.gif",
       "oF" : 0,
       "opt" : 1,
       "ou" : "lpckwebp-none",
