@@ -437,6 +437,9 @@ template {
   width: 100%;
   cursor: pointer;
   padding-bottom: 1rem;
+  -webkit-transition: opacity 0.2s cubic-bezier(0.59, 0.01, 0.28, 1);
+  -o-transition: opacity 0.2s cubic-bezier(0.59, 0.01, 0.28, 1);
+  transition: opacity 0.2s cubic-bezier(0.59, 0.01, 0.28, 1);
 }
 
 .grid-projects li a {
@@ -453,6 +456,10 @@ template {
 
 .grid-projects li a:hover {
   color: #FF1D25;
+}
+
+.grid-projects li a img:hover {
+  opacity: 0.85;
 }
 
 @media screen and (max-width: 1147px) {
