@@ -12,12 +12,12 @@ function closeNav() {
 }
 
 // THIS FOR THE SLIDER
-  $(document).on('ready', function() {
-    $(".lazy").slick({
-      lazyLoad: 'ondemand', // ondemand progressive anticipated
-      infinite: true
-    });
-  });
+  // $(document).on('ready', function() {
+  //   $(".lazy").slick({
+  //     lazyLoad: 'ondemand', // ondemand progressive anticipated
+  //     infinite: true
+  //   });
+  // });
 
 // THIS IS FOR THE EXPANDABLE TEXT FOR PROJECTS
 $('.readmore-btn').on('click', function() {

@@ -536,123 +536,6 @@ template {
   height: 100%;
 }
 
-.slider {
-  width: 100%;
-  min-height: 100vh;
-  margin: -4rem auto 0 auto;
-}
-
-.slick-slide {
-  margin: 0;
-}
-
-.slick-slide img {
-  width: 100%;
-}
-
-.slick-prev:before,
-.slick-next:before {
-  color: #161616;
-}
-
-.slick-slide {
-  transition: all ease-in-out 0.3s;
-  opacity: 0.2;
-}
-
-.slick-active {
-  opacity: 0.5;
-}
-
-.slick-current {
-  opacity: 1;
-}
-
-.slidesinner {
-  display: flex !important;
-  align-items: flex-end;
-}
-
-.slider_link, .slider_text {
-  font-weight: 700;
-  font-size: 1.75rem;
-  line-height: 1.2;
-  color: #161616;
-  text-decoration: none;
-  display: block;
-  padding-bottom: 8px;
-}
-
-.slider_text {
-  font-weight: 300;
-  font-size: 1.25rem;
-  margin-bottom: 1rem;
-}
-
-.slidercouter {
-  font-weight: 400;
-  font-size: 1.25rem;
-  position: absolute;
-  right: 6%;
-  bottom: 0;
-  margin-bottom: 1.625rem;
-}
-
-.slide1 {
-  background: url(../img/slider/314_typeface_slider.png) no-repeat center;
-  background-size: cover;
-}
-
-.slide2 {
-  background: url(../img/slider/sito_studio_website.png) no-repeat center;
-  background-size: cover;
-}
-
-.slide3 {
-  background: url(../img/slider/ph_cover.jpg) no-repeat center;
-  background-size: cover;
-}
-
-.slide4 {
-  background: url(../img/slider/logo_folio.png) no-repeat center;
-  background-size: cover;
-}
-
-@media screen and (max-width: 1010px) {
-  .slider {
-    margin: -74px auto 0 auto;
-  }
-  .slider_text {
-    display: block;
-  }
-}
-@media screen and (max-width: 767px) {
-  .slide1 {
-    background: url(../img/slider/314_typeface_slider_sm.png) no-repeat center;
-    background-size: cover;
-  }
-  .slide2 {
-    background: url(../img/slider/sito_studio_website_sm.png) no-repeat center;
-    background-size: cover;
-  }
-  .slide3 {
-    background: url(../img/slider/ph_cover.jpg) no-repeat center;
-    background-size: cover;
-  }
-  .slide4 {
-    background: url(../img/slider/logo_folio_sm.png) no-repeat center;
-    background-size: cover;
-  }
-  .slider_link, .slider_text {
-    font-size: 1.25rem;
-  }
-  .slider_text {
-    font-size: 1rem;
-  }
-  .slidercouter {
-    font-size: 0.75rem;
-  }
-}
 html {
   font-size: 16px;
 }
@@ -1295,6 +1178,7 @@ ul.clientslist li {
   padding-top: 25%;
   /* Place content 60px from the top */
   transition: 0.2s;
+  transition-timing-function: ease-in-out;
   /* 0.5 second transition effect to slide in the sidenav */
 }
 

@@ -154,7 +154,7 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/docs\/css\/slider.css",
       "oF" : 0,
       "oS" : 0,
@@ -5889,6 +5889,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/partials\/_projects.html",
+      "oF" : 0
+    },
+    "\/partials\/_showreel.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/docs\/partials\/_showreel.html",
       "oF" : 0
     },
     "\/partials\/_slides.html" : {
