@@ -115,9 +115,10 @@ nav ul li a, .footer_navigation ul li a {
 	color: $color-black;
 	letter-spacing: 0.03rem;
   text-decoration: none;
-  -webkit-transition: opacity .4s cubic-bezier(.59,.01,.28,1);
-  -o-transition: opacity .4s cubic-bezier(.59,.01,.28,1);
-  transition: opacity .4s cubic-bezier(.59,.01,.28,1);
+  // -webkit-transition: opacity .4s cubic-bezier(.59,.01,.28,1);
+  // -o-transition: opacity .4s cubic-bezier(.59,.01,.28,1);
+  // transition: opacity .4s cubic-bezier(.59,.01,.28,1);
+  transition: all 100ms ease-in-out;
 }
 
 nav ul li a:hover {

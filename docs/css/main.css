@@ -640,9 +640,7 @@ nav ul li a, .footer_navigation ul li a {
   color: #161616;
   letter-spacing: 0.03rem;
   text-decoration: none;
-  -webkit-transition: opacity 0.4s cubic-bezier(0.59, 0.01, 0.28, 1);
-  -o-transition: opacity 0.4s cubic-bezier(0.59, 0.01, 0.28, 1);
-  transition: opacity 0.4s cubic-bezier(0.59, 0.01, 0.28, 1);
+  transition: all 100ms ease-in-out;
 }
 
 nav ul li a:hover {
