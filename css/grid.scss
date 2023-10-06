@@ -125,16 +125,14 @@
 	display: block;
 	width: 100%;
 	cursor: pointer;
-	padding-bottom: 1rem;
-  -webkit-transition: opacity .2s cubic-bezier(.59,.01,.28,1);
-  -o-transition: opacity .2s cubic-bezier(.59,.01,.28,1);
-  transition: opacity .2s cubic-bezier(.59,.01,.28,1);
+	// padding-bottom: 1rem;
+  transition: all 100ms ease-in-out;
 }
 
 .grid-projects li a {
 	font-weight: 400;
 	font-size: 1.25rem;
-	line-height: 1;
+	line-height: 2;
 	color: $color-black;
 	text-decoration: none;
 	display: inline-block;
@@ -147,7 +145,8 @@
 	color: $color-red;
 }
 .grid-projects li a img:hover {
-  opacity: .85;
+  // opacity: .85;
+  border-radius: 2rem;
 }
 
 @media screen and (max-width: 1147px) {

@@ -277,6 +277,7 @@ a.links:hover, .readmore-btn:hover, .contract-btn:hover {
 }
 
 .contactbtn:hover {
+  border-radius: 2rem;
   background-color: gold;
 }
 
@@ -376,10 +377,11 @@ select {
   padding: 18px 36px;
   margin: 0;
   text-rendering: optimizeLegibility;
-  transition: all 100ms ease-in-out;
+  // transition: all 100ms ease-in-out;
 }
 .submit:hover {
-  background-color: lighten(gold, 20%);
+  // background-color: lighten(gold, 20%);
+  border-radius: .8rem !important;
 }
 
 #status {
@@ -578,6 +580,7 @@ ul.clientslist {
   background-color: $color-white;
   cursor: pointer;
   padding: 0;
+  transition: all 100ms ease-in-out;
 }
 
 .btn:hover {
