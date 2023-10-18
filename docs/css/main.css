@@ -436,16 +436,13 @@ template {
   display: block;
   width: 100%;
   cursor: pointer;
-  padding-bottom: 1rem;
-  -webkit-transition: opacity 0.2s cubic-bezier(0.59, 0.01, 0.28, 1);
-  -o-transition: opacity 0.2s cubic-bezier(0.59, 0.01, 0.28, 1);
-  transition: opacity 0.2s cubic-bezier(0.59, 0.01, 0.28, 1);
+  transition: all 100ms ease-in-out;
 }
 
 .grid-projects li a {
   font-weight: 400;
   font-size: 1.25rem;
-  line-height: 1;
+  line-height: 2;
   color: #161616;
   text-decoration: none;
   display: inline-block;
@@ -459,7 +456,7 @@ template {
 }
 
 .grid-projects li a img:hover {
-  opacity: 0.85;
+  border-radius: 2rem;
 }
 
 @media screen and (max-width: 1147px) {
@@ -524,6 +521,7 @@ template {
   height: 0;
   overflow: hidden;
   max-width: 100%;
+  background-color: #F5F5F5;
 }
 
 .video iframe,
@@ -642,9 +640,7 @@ nav ul li a, .footer_navigation ul li a {
   color: #161616;
   letter-spacing: 0.03rem;
   text-decoration: none;
-  -webkit-transition: opacity 0.4s cubic-bezier(0.59, 0.01, 0.28, 1);
-  -o-transition: opacity 0.4s cubic-bezier(0.59, 0.01, 0.28, 1);
-  transition: opacity 0.4s cubic-bezier(0.59, 0.01, 0.28, 1);
+  transition: all 100ms ease-in-out;
 }
 
 nav ul li a:hover {
@@ -805,6 +801,7 @@ a.links:hover, .readmore-btn:hover, .contract-btn:hover {
 }
 
 .contactbtn:hover {
+  border-radius: 2rem;
   background-color: gold;
 }
 
@@ -910,7 +907,7 @@ select {
 }
 
 .submit:hover {
-  background-color: #ffe766;
+  border-radius: 0.8rem !important;
 }
 
 #status {
@@ -1119,6 +1116,7 @@ ul.clientslist li {
   background-color: #ffffff;
   cursor: pointer;
   padding: 0;
+  transition: all 100ms ease-in-out;
 }
 
 .btn:hover {
