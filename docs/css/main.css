@@ -566,10 +566,12 @@ body {
 ::-webkit-scrollbar-thumb {
   background: gold;
   border-radius: 2px;
+  transition: all 100ms ease-in-out;
 }
 
 ::-webkit-scrollbar-thumb:hover {
   background: #f5ce00;
+  border-radius: 8px;
 }
 
 ::-webkit-scrollbar:horizontal {
