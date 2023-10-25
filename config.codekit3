@@ -5843,14 +5843,6 @@
       "oAP" : "\/docs\/partials\/_footer.html",
       "oF" : 0
     },
-    "\/partials\/_header-logos.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/docs\/partials\/_header-logos.html",
-      "oF" : 0
-    },
     "\/partials\/_header.kit" : {
       "cB" : 0,
       "ft" : 2048,
