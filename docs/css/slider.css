@@ -1,6 +1,6 @@
 .slider {
   width: 100%;
-  min-height:100vh;
+  min-height: 100vh;
   margin: -4rem auto 0 auto;
 }
 
@@ -18,12 +18,12 @@
 }
 
 .slick-slide {
-  transition: all ease-in-out .3s;
-  opacity: .2;
+  transition: all ease-in-out 0.3s;
+  opacity: 0.2;
 }
 
 .slick-active {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .slick-current {
@@ -60,14 +60,25 @@
   margin-bottom: 1.625rem;
 }
 
-.slide1 {background:url(../img/slider/314_typeface_slider.png) no-repeat center;
-background-size: cover;}
-.slide2 {background:url(../img/slider/sito_studio_website.png) no-repeat center;
-background-size: cover;}
-.slide3 {background:url(../img/slider/ph_cover.jpg) no-repeat center;
-background-size: cover;}
-.slide4 {background:url(../img/slider/logo_folio.png) no-repeat center;
-background-size: cover;}
+.slide1 {
+  background: url(../img/slider/314_typeface_slider.png) no-repeat center;
+  background-size: cover;
+}
+
+.slide2 {
+  background: url(../img/slider/sito_studio_website.png) no-repeat center;
+  background-size: cover;
+}
+
+.slide3 {
+  background: url(../img/slider/ph_cover.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.slide4 {
+  background: url(../img/slider/logo_folio.png) no-repeat center;
+  background-size: cover;
+}
 
 @media screen and (max-width: 1010px) {
   .slider {
@@ -77,17 +88,23 @@ background-size: cover;}
     display: block;
   }
 }
-
 @media screen and (max-width: 767px) {
-  .slide1 {background:url(../img/slider/314_typeface_slider_sm.png) no-repeat center;
-  background-size: cover;}
-  .slide2 {background:url(../img/slider/sito_studio_website_sm.png) no-repeat center;
-  background-size: cover;}
-  .slide3 {background:url(../img/slider/ph_cover.jpg) no-repeat center;
-  background-size: cover;}
-  .slide4 {background:url(../img/slider/logo_folio_sm.png) no-repeat center;
-  background-size: cover;}
-
+  .slide1 {
+    background: url(../img/slider/314_typeface_slider_sm.png) no-repeat center;
+    background-size: cover;
+  }
+  .slide2 {
+    background: url(../img/slider/sito_studio_website_sm.png) no-repeat center;
+    background-size: cover;
+  }
+  .slide3 {
+    background: url(../img/slider/ph_cover.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .slide4 {
+    background: url(../img/slider/logo_folio_sm.png) no-repeat center;
+    background-size: cover;
+  }
   .slider_link, .slider_text {
     font-size: 1.25rem;
   }

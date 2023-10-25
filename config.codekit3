@@ -5931,6 +5931,14 @@
       "oAP" : "\/docs\/ruth.html",
       "oF" : 0
     },
+    "\/sitemap.xml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/sitemap.xml",
+      "oF" : 0
+    },
     "\/sitostudio.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -6098,7 +6106,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "brackets_brown",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 714044949.16644394
+    "lastBuiltDate" : 719929020.32593203
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
