@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  font-family: 'Rubik', 'sans-serif';
+  font-family: 'Rubik', sans-serif;
   background-color: $color-white;
   line-height: 1;
   box-sizing: border-box;
@@ -207,7 +207,6 @@ footer ul.secondary_nav {
 }
 
 .copyright {
-  font-family: 'Rubik', 'sans-serif';
   font-weight: 300;
   font-size: 0.75rem;
   color: $color-black;
@@ -220,7 +219,6 @@ footer ul.secondary_nav {
 
 // Links
 .links, a.links:visited{
-	font-family: 'Rubik', 'sans-serif';
 	font-weight: 300;
 	font-size: 1em;
   color: $color-darkgray;
@@ -232,7 +230,6 @@ footer ul.secondary_nav {
 }
 
 .readmore-btn, .contract-btn {
-  font-family: 'Rubik', 'sans-serif';
 	font-weight: 300;
 	font-size: 1em;
   padding: 0;
@@ -368,7 +365,6 @@ select {
 }
 
 .submit{
-  font-family: 'Rubik', sans-serif;
   font-weight: 500;
   background-color: gold;
   cursor: pointer;
@@ -392,7 +388,6 @@ select {
   margin: 0 auto;
 }
 #status.success {
-  font-family: 'Rubik', sans-serif;
   font-weight: 300;
   font-size: 3.6em;
   line-height: 105%;
@@ -404,7 +399,6 @@ select {
 }
 
 #status.error {
-  font-family: 'Rubik', sans-serif;
   font-weight: 300;
   font-size: 2.1em;
   color: $color-darkgray;
