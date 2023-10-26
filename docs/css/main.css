@@ -1143,12 +1143,16 @@ ul.clientslist li {
   cursor: pointer;
 }
 
+.hamburgerblck {
+  color: #161616;
+}
+
 .hamburger {
   color: #ffffff;
 }
 
-.hamburgerblck {
-  color: #161616;
+.color-white {
+  color: #ffffff;
 }
 
 /* The side navigation menu */

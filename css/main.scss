@@ -608,11 +608,17 @@ ul.clientslist {
   right: 0;
   cursor: pointer;
 }
+
+.hamburgerblck {
+  color: $color-black;
+}
+
 .hamburger {  
   color: $color-white;
 }
-.hamburgerblck {
-  color: $color-black;
+//this one is a duplicate so I can overate the color
+.color-white {
+  color: $color-white;
 }
 
 /* The side navigation menu */
