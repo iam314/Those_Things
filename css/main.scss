@@ -13,7 +13,7 @@ html {
 
 body {
   font-family: 'Rubik', sans-serif;
-  background-color: $color-white;
+  background-color: var(--tt-color-white);
   line-height: 1;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
