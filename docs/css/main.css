@@ -592,6 +592,11 @@ body {
   border-radius: 8px;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 .site-wrapper {
   display: flex;
   min-height: 100vh;
@@ -1013,12 +1018,6 @@ ul.clientslist li {
 
 .color-white {
   color: #ffffff;
-}
-
-.img-responsive {
-  display: block;
-  width: 100%;
-  height: auto;
 }
 
 .backgound-lightgray {
