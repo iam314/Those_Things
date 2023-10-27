@@ -5720,13 +5720,38 @@
       "oAP" : "\/docs\/index.html",
       "oF" : 0
     },
-    "\/js\/jwax.code-workspace" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
+    "\/js\/expand.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/docs\/js\/jwax.code-workspace",
-      "oF" : 0
+      "oAP" : "\/docs\/js\/expand-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/filters.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/docs\/js\/filters-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/form.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/docs\/js\/form-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/js\/main.js" : {
       "bF" : 0,
@@ -5735,6 +5760,28 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/docs\/js\/main-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/menu.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/docs\/js\/menu-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/slider.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/docs\/js\/slider-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -6098,7 +6145,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "brackets_brown",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 719929020.32593203
+    "lastBuiltDate" : 720089111.01324201
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
