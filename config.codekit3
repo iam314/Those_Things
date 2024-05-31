@@ -7,7 +7,7 @@
       "uuidString" : "5BE020EB-B2C9-4598-A63A-4C7A24888233"
     }
   ],
-  "creatorBuild" : "34513",
+  "creatorBuild" : "34564",
   "files" : {
     "\/314bits.kit" : {
       "cB" : 0,
@@ -5496,6 +5496,39 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/projects\/workship_thumb.webp" : {
+      "ft" : 8388608,
+      "iS" : 10672,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/workship_thumb.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/img\/projects\/workship\/workship_casestudy_elements.webp" : {
+      "ft" : 8388608,
+      "iS" : 261106,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/workship\/workship_casestudy_elements.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/img\/projects\/workship\/Workship_color_palette.webp" : {
+      "ft" : 8388608,
+      "iS" : 42970,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/workship\/Workship_color_palette.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/img\/projects\/workship\/workship_icon_black_on_green.png" : {
       "ft" : 32768,
       "iS" : 591,
@@ -5574,6 +5607,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/projects\/workship\/workship_logo_black_on_white.webp" : {
+      "ft" : 8388608,
+      "iS" : 11172,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/workship\/workship_logo_black_on_white.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/img\/projects\/workship\/workship_logo_on_grid.png" : {
       "ft" : 32768,
       "iS" : 14062,
@@ -5611,6 +5655,17 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/workship\/Workship_symbol_and_slogan copy.webp" : {
+      "ft" : 8388608,
+      "iS" : 11548,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/workship\/Workship_symbol_and_slogan copy.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/img\/projects\/workship\/workship.json" : {
@@ -6971,9 +7026,6 @@
       "no-new-native-nonconstructor" : {
         "active" : 0
       },
-      "no-new-object" : {
-        "active" : 0
-      },
       "no-new-symbol" : {
         "active" : 1
       },
@@ -6985,6 +7037,9 @@
       },
       "no-obj-calls" : {
         "active" : 1
+      },
+      "no-object-constructor" : {
+        "active" : 0
       },
       "no-octal" : {
         "active" : 1
