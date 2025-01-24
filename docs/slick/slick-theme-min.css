@@ -21,7 +21,6 @@
     width: 20vw;
     height: 35vh;
     padding: 0;
-    -webkit-transform: translate(0, -50%);
     transform: translate(0, -50%);
 
     cursor: pointer;
