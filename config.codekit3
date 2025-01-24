@@ -238,6 +238,14 @@
       "oAP" : "\/docs\/herrdonald.html",
       "oF" : 0
     },
+    "\/hhhh.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/hhhh.html",
+      "oF" : 0
+    },
     "\/huichol.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -626,6 +634,19 @@
       "iS" : 90052,
       "oA" : 0,
       "oAP" : "\/docs\/img\/og-images\/og-image-herrdonald.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/og-images\/og-image-hhhh.png" : {
+      "ft" : 32768,
+      "iS" : 8612,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/og-images\/og-image-hhhh.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -2659,6 +2680,51 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/img\/projects\/hhhh_thumb.webp" : {
+      "ft" : 8388608,
+      "iS" : 13534,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/hhhh_thumb.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/img\/projects\/hhhh\/hhhh-presentation_part1.png" : {
+      "ft" : 32768,
+      "iS" : 582776,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/hhhh\/hhhh-presentation_part1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/hhhh\/hhhh-presentation_part2.png" : {
+      "ft" : 32768,
+      "iS" : 1607016,
+      "oA" : 0,
+      "oAP" : "\/docs\/img\/projects\/hhhh\/hhhh-presentation_part2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/projects\/hhhh\/hhhh-title-sequence.json" : {
+      "ft" : 524288,
+      "oA" : 2,
+      "oAP" : "\/docs\/img\/projects\/hhhh\/hhhh-title-sequence.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
     },
     "\/img\/projects\/huichol_thumb.png" : {
       "ft" : 32768,
