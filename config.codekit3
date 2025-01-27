@@ -644,7 +644,7 @@
     },
     "\/img\/og-images\/og-image-hhhh.png" : {
       "ft" : 32768,
-      "iS" : 8612,
+      "iS" : 8954,
       "oA" : 0,
       "oAP" : "\/docs\/img\/og-images\/og-image-hhhh.png",
       "oF" : 0,
@@ -2683,7 +2683,7 @@
     },
     "\/img\/projects\/hhhh_thumb.webp" : {
       "ft" : 8388608,
-      "iS" : 13534,
+      "iS" : 14308,
       "oA" : 0,
       "oAP" : "\/docs\/img\/projects\/hhhh_thumb.webp",
       "oF" : 0,
@@ -5572,7 +5572,7 @@
       "oAP" : "\/docs\/img\/projects\/workship\/workship_casestudy_elements.webp",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -5722,7 +5722,7 @@
       "oAP" : "\/docs\/img\/projects\/workship\/Workship_symbol_and_slogan copy.webp",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -6258,7 +6258,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "brackets_brown",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 720089111.01324201
+    "lastBuiltDate" : 759425910.52811503
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
